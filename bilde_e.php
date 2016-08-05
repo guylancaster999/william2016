@@ -1,21 +1,20 @@
 <?php 
 require "funcz/functionz.php";
-print head("de","Sketches");
+print head("en","Sketches");
 session_start();
 $gpics='{"gallery":[ 
-	{"flag":"P","grpTtl":"Sketches by Gosia Kulczyk","picLarge":"1.png","picSmall":"1_tn.png","picTtl":"Picture%201"},	
-	{"flag":"P","grpTtl":"Sketches by Gosia Kulczyk","picLarge":"2.jpg","picSmall":"2_tn.jpg","picTtl":"Picture%202"},	
-	{"flag":"P","grpTtl":"Sketches by Gosia Kulczyk","picLarge":"4.jpg","picSmall":"4_tn.jpg","picTtl":"Picture%203"},	
-	{"flag":"P","grpTtl":"Sketches by Gosia Kulczyk","picLarge":"6.jpg","picSmall":"6_tn.jpg","picTtl":"Picture%204"},	
-	{"flag":"P","grpTtl":"Sketches by Gosia Kulczyk","picLarge":"7.png","picSmall":"7_tn.jpg","picTtl":"Picture%205"},	
-	{"flag":"P","grpTtl":"Sketches by Gosia Kulczyk","picLarge":"8.jpg","picSmall":"8_tn.jpg","picTtl":"Picture%206"},	
-	{"flag":"P","grpTtl":"Sketches by Gosia Kulczyk","picLarge":"3.jpg","picSmall":"3_tn.jpg","picTtl":"Picture%207"},	
-	{"flag":"P","grpTtl":"Sketches by Gosia Kulczyk","picLarge":"5.jpg","picSmall":"5_tn.jpg","picTtl":"Picture%208"}
+	{"flag":"P","grpTtl":"Sketches%20by%20Gosia%20Kulczyk","picLarge":"1.png","picSmall":"1_tn.png","picTtl":"Picture%201"},	
+	{"flag":"P","grpTtl":"Sketches%20by%20Gosia%20Kulczyk","picLarge":"2.jpg","picSmall":"2_tn.jpg","picTtl":"Picture%202"},	
+	{"flag":"P","grpTtl":"Sketches%20by%20Gosia%20Kulczyk","picLarge":"4.jpg","picSmall":"4_tn.jpg","picTtl":"Picture%203"},	
+	{"flag":"P","grpTtl":"Sketches%20by%20Gosia%20Kulczyk","picLarge":"6.jpg","picSmall":"6_tn.jpg","picTtl":"Picture%204"},	
+	{"flag":"P","grpTtl":"Sketches%20by%20Gosia%20Kulczyk","picLarge":"7.png","picSmall":"7_tn.jpg","picTtl":"Picture%205"},	
+	{"flag":"P","grpTtl":"Sketches%20by%20Gosia%20Kulczyk","picLarge":"8.jpg","picSmall":"8_tn.jpg","picTtl":"Picture%206"},	
+	{"flag":"P","grpTtl":"Sketches%20by%20Gosia%20Kulczyk","picLarge":"3.jpg","picSmall":"3_tn.jpg","picTtl":"Picture%207"},	
+	{"flag":"P","grpTtl":"Sketches%20by%20Gosia%20Kulczyk","picLarge":"5.jpg","picSmall":"5_tn.jpg","picTtl":"Picture%208"}
 	]}';
 $_SESSION["gpics"]	=$gpics;	
 $x 					= json_decode($gpics,true);
 $sz					= count($x["gallery"]);
-	
 ?>
 <body>
     <div id="wrapper">
@@ -36,13 +35,14 @@ $sz					= count($x["gallery"]);
 					<tr>
 					<? 
 					$colCtr=0;
-				    for ($i=0;$i<$sz;$i++)
+					
+				    for ($i=0; $i<$sz; $i++)
 					{ 	
 						if ($colCtr>=4)
 						{
-								$colCtr=0;
-								print "</tr>
-								<tr>";
+							$colCtr=0;
+							print "</tr>
+							<tr>";
 						}
 						$colCtr++;
 						print "<td>";

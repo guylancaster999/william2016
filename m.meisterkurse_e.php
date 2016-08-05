@@ -1,4 +1,4 @@
-<?php 
+<?php
 require "funcz/m.functionz.php";
 print head("en","Master Class","masterclasses_e.php","Y");
 ?>
@@ -9,66 +9,93 @@ print head("en","Master Class","masterclasses_e.php","Y");
    </div><h2>Piano Master Classes</h2>
 		<div data-role="main" class="ui-content">
            <div class="row">
-             <div class="col-lg-12"> 
-        		<h2>17. International <a title="Peter Feuchtwanger" href="http://peter-feuchtwanger.de">Peter Feuchtwanger</a> Piano Masterclass.</h2>
-				29th August &ndash;&nbsp;3rd September 2016	 <br/>
-With Manfred Seewann. More details to follow.			 
-			<hr/>
-		<h2>16th International <a title="Peter Feuchtwanger" href="http://peter-feuchtwanger.de/english-version">Peter Feuchtwanger</a> Piano Masterclass</h2>
-                   </div>
-             </div>
-            <div class="row">
-                 <div class="col-lg-12">         
-					<h3>With William Cuthbertson  </h3>
-					<?php photorightlinked("Peter_Feuchtwanger_250.jpg","Peter  Feuchtwanger:photo Stefan Blido, Wertheim","http://de.wikipedia.org/wiki/Peter_Feuchtwanger");?>
-					<h3>At Waldkirch Music School and Elztal Museum</h3>
-					<h4> 31.August – 5.September 2015</h4>
-					<a title="Peter Feuchtwanger" href="http://peter-feuchtwanger.de/english-version"><strong>Peter Feuchtwanger</strong></a> was born in Munich, Germany. He studied piano with Gerti Rainer (a pupil of Emil von Sauer), Max Egger, Edwin Fischer and Walter Gieseking, composition with Hans Heimler (a pupil of Alban Berg, Heinrich Schenker and Felix Weingartner) and Lennox Berkeley and also Indian and Arabic music and philosophy with Nazir Jairazbhoy and Dr. Arnold Bake. His encounter with the Rumanian pianist, Clara Haskil was the most decisive musical influence in his life. He has also researched into Belcanto, the technique used in the golden age of singing. Peter Feuchtwanger is a member of the jury of many international piano competitions and Vice President of EPTA UK (European Piano Teachers'Association). He is Professor and Vice president of the Internationaler Akademie für musikalische Bildung e.V. and has been a visiting Professor at the Mozarteum in Salzburg. He has been giving master classes throughout the world since 1967. Peter Feuchtwanger lives and works in London.
+             <div class="col-lg-12">
+               <h2>17. International <a title="Peter Feuchtwanger" href="http://peter-feuchtwanger.de">Peter Feuchtwanger</a> Piano Masterclass.</H2>
+             29th August &ndash;&nbsp;3rd September 2016	<br/>
+             With William Cuthbertson, Manfred Seewann and Matina Barufke.
+             <br/><br/>
+<DIV  class="box0">
+<?php photorightlinked("Peter_Feuchtwanger_250.jpg","Peter  Feuchtwanger:photo Stefan Blido, Wertheim","http://de.wikipedia.org/wiki/Peter_Feuchtwanger");?>
+<a title="Peter Feuchtwanger" href="http://peter-feuchtwanger.de/english-version"><strong>Peter Feuchtwanger</strong></a>, who died recently, was born in Munich, Germany.
+ He studied piano with Gerti Rainer 
+(a pupil of <A href="https://en.wikipedia.org/wiki/Emil_von_Sauer" target = "_blank">Emil von Sauer</a>), 
+Max Egger, <a href="https://de.wikipedia.org/wiki/Edwin_Fischer" target = "_blank">Edwin Fischer</a> and <A href="https://en.wikipedia.org/wiki/Walter_Gieseking" target = "_blank">Walter Gieseking</a>, 
+composition with <a href="http://gedenkbuch.univie.ac.at/index.php?id=435&no_cache=1&L=2&person_single_id=26513&person_name=&person_geburtstag_tag=not_selected&person_geburtstag_monat=not_selected&person_geburtstag_jahr=not_selected&person_fakultaet=not_selected&person_kategorie=not_selected&person_volltextsuche=&search_person.x=1&result_page=50" target="_blank">Hans Heimler</a> 
+(a pupil of <A href="https://en.wikipedia.org/wiki/Alban_Berg" target = "_blank">Alban Berg</a>, 
+<a href="https://en.wikipedia.org/wiki/Heinrich_Schenker" target = "_blank">Heinrich Schenker</a> 
+and <A href="https://en.wikipedia.org/wiki/Felix_Weingartner" target = "_blank">Felix Weingartner</a>) 
+and <A href="https://en.wikipedia.org/wiki/Lennox_Berkeley" target = "_blank">Lennox Berkeley</a> 
+and also Indian and Arabic music and philosophy 
+with <A href="https://en.wikipedia.org/wiki/Nazir_Jairazbhoy" target = "_blank">Nazir Jairazbhoy</a> 
+and Dr. Arnold Bake. 
+His encounter with the Rumanian pianist, <A href="https://en.wikipedia.org/wiki/Clara_Haskil" target = "_blank">Clara Haskil</a> was the most decisive musical influence in his life. 
+He has also researched into <A href="https://de.wikipedia.org/wiki/Belcanto" target = "_blank">Belcanto</a>, the technique used in the golden age of singing. 
+Peter Feuchtwanger was a member of the jury of many international piano competitions and Vice President of 
+<a href="http://www.epta-uk.org/" target = "_blank">EPTA UK</a> (European Piano Teachers' Association). 
+He was Professor and Vice president of the <a href="http://www.musik-bildung.de/" title="Internationaler Akademie für musikalische Bildung" target = "_blank">Internationaler Akademie für musikalische Bildung e.V.</a> 
+and has been a visiting Professor at the <a href="https://www.moz.ac.at/en/" target = "_blank">Mozarteum</a> in Salzburg. 
+He gave master classes throughout the world since 1967.  </DIV>
+ <br/>
+ The masterclass  includes:
+              <ul>
+              <li><?php photoright("Manfred-Seewann.jpg","Manfred-Seewann_250.jpg","Masterclasses%202016",
+              "ManfredSeewann", "masterclasses_e.php","en");?>
+              Manfred Seewann, joint editor of the official book on Peter Feuchtwanger's exercises, will assist in teaching these exercises on the course. He studied with Karl Wingler, Erik Then-Bergh, Gitti Pirner and Peter Feuchtwanger and has often been an assistant on Professor Feuchtwanger's masterclasses. He regularly gives conserts in Germany and in other European countries.
+              <br/>
+              <br/>
+              Each day Manfred Seewann and William Cuthbertson will work with the course participants on these technical exercises for curing playing-related disorders in pianists, which are also designed for learning a functionally natural behaviour in piano playing.
+              <br/> <br clear="all"/>
+              <br/> <br clear="all"/>
+              </li>
+              <li><?php photoright("MartinaBarufke.jpg","MartinaBarufke_250.jpg","Masterclasses%202015","Martina%20Barufke", "masterclasses_e.php","en");?>
+              Lessons in <a href="http://www.alexandertechnique.com/">F.M. Alexander technique</a> with Matina Barufke, who lives in  Waldkirch and has been teaching the Alexander Technique since 1990.
+              She studied  with Yahuda Kupperman, Elisa und Eckart Ruschmann in Freiburg. She has also  studied further with Israeli, American and German Alexander teachers.
+              In  addition, she is qualified in Spiraldynamik and has experience in Grindler therapy  and Ideokinese.
+              <br class="brclear"/>
+              <br class="brclear"/>
+              </li>
+ 					<li>  August 31st 7.30pm
+						&ndash;
+					Instead of the concert by the guest artists Sanja Stefanovic and Sophia Grech, there will be, as suggested by Mrs. Stefanovic, a memorial concert for Peter Feuchtwanger on August 31st. Many of Prof.Feuchtwanger’s former pupils have agreed to come and perform. Details follow.
+			<br class="brclear"/> 
 					<br/>
-					<br/>
-	 				<?php photorightnolink("stefanbildo1.jpg","Stefan%20Bildo");?>
-					The masterclass classes include:
-					<ul>
-					<li>Daily Masterclasses with William Cuthbertson. <B>Maximum number of active participants: 15</b><br/>
-					<br/>
-					</li>
-					<li>Daily : Peter Feuchtwanger's exercises  for healing physiological playing disorders and for learning a functional and natural playing technique with <a href="http://www.blido.de/">Stefan Blido</a>
-					<br/>
-					<br clear="all"/> 
-					  <br/>
-					</li>
-					<li><?php photoright("MartinaBarufke.jpg","MartinaBarufke_250.jpg","Masterclasses%202015","Martina%20Barufke", "m.meisterkurse_e.php","en");?>  
-					Lessons in <a href="http://www.alexandertechnique.com/">F.M. Alexander technique</a> with Matina Barufke, who lives in  Waldkirch and has been teaching the Alexander Technique since 1990. 
-					She studied  with Yahuda Kupperman, Elisa und Eckart Ruschmann in Freiburg. She has also  studied further with Israeli, American and German Alexander teachers. 
-					In  addition, she is qualified in Spiraldynamik and has experience in Grindler therapy  and Ideokinese. <br/> <br/></li>
-					<li>Closing recital by course participants.</li>
-					</ul>
-					<ul> 
-					<li>This master class is suitable for pianists with a wide range of abilities, from the competent amateur to the professional pianist with concert experience. 
-					Pupils taking entrance examinations, university students and piano teachers are all welcome. 
-					Those suffering from discomfort or pain arising from the wrong approach to technique will find the master class particularly beneficial.
-					 <br class="brclear"/> <br class="brclear"/> <br class="brclear"/>
-					 </li>
-					<li><?php photoright("Jean-Jacques2005.jpg","Jean-Jacques2005_240.jpg","Masterclasses%202015","JEAN%20-%20JACQUES%20DÜNKI","m.meisterkurse_e.php","en");?>
-					<strong>Performance by JEAN - JACQUES DÜNKI - Pianist and Composer</strong>
-					<br/>
-					Jean-Jacques Dünki was born in Aarau (Switzerland) in 1948. After school and early musical training he studied the piano in Basel, Berlin, Paris, Baltimore, New York and London. In 1981 he was awarded the Schönberg Prize in Rotterdam. He leads a busy life as a concert pianist and teacher at the Music Academy of Basel. His numerous recordings include music from Reger, Zemlinsky, Schreker, Webern and Berg. Jean-Jacques Dünki is a member of the new music ensemble &bdquo;opera nova&ldquo; in Zürich. As a composer, he is self-taught and his works, especially for keyboard and chamber music ensembles, are now being increasingly performed. <br/> <br/></li>
-					<li>Please email <a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a> if you would like more information.<br/>
-					<br/>
-					</li>
-					<li>Click <a href="doc/EnglishBrochure2-2015Feb05.doc">here</a> for 2015 brochure
-					<br/>
-					<br/>
-					</li>
-					<li>Click <a href="doc/EnglishBrochure2015Feb05.doc">here</a> for 2015 Application form
-					<br/>
-					<br/>
-					</li>  
-					</ul>
+			</li>
+              <li>Closing recital by course participants.
+              <br/><br/>
+              </li>
+             </ul>
+              Further details:
+              <ul>
+              <li>This master class is suitable for pianists with a wide range of abilities, from the competent amateur to the professional pianist with concert experience.
+              Pupils taking entrance examinations, university students and piano teachers are all welcome.
+              Those suffering from discomfort or pain arising from the  approach to technique will find the master class particularly beneficial.
+              <br class="brclear"/>
+              <br class="brclear"/>
+              </li>
+              <li>
+              <?php photoright("waldkirchmusicschule.jpg","waldkirchmusicschule_240.jpg","Masterclasses%202015","Waldkirch-Music-School","masterclasses_e.php","en");?>
+              The Master Classes will take place in the <a href="http://www.fv-musikschule-waldkirch.de/">Waldkirch Music School</a>, Schlettstadtallee 9, 79183 Waldkirch
+              , where practice rooms are also available.
+              The Waldkirch Music School is the oldest municipal music school in Germany.
+              Click <a href="https://www.google.co.uk/maps/@48.0939927,7.9565182,17z" target="_blank">here</a> for a google map.
+              <br />
+              <br class="brclear"/>
+              </li>
+              <li>Please email <a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a> with any questions.
+             <br/>
+             <br/>
+             </li>
+             <li>Click <A href="doc/MaterclassBrochure2016English.doc" title="masterclass 2016 brochure English">here</a> for 2016 brochure
+             and <a href="doc/MasterclassApplication2016English.doc" title="English 2016 Masterclass Application Form" >here</a> for 2016 application form.
+             <br>
+             <br>
+             </li>
+           
+             </ul>
 				</div>
 	  <div data-role="footer">
-	  <?php print foot();?>   
+	  <?php print foot();?>
 	  </div>
-</div> 
+</div>
 </body>
 </html>

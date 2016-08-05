@@ -22,10 +22,7 @@ function head($lan="de",$scrnTtl="Home",$url="",$mbl="N")
    	<meta name="author" content="Guy Lancaster" />
    	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
    	<link rel="icon" href="favicon.ico" type="image/x-icon" />';
-    if (strlen($url)>0)
-	{
-		$ret.='<link rel="canonical" href="http://cuthbertson.de/'.$url.'" >';
-	}
+    if (strlen($url)>0)	$ret.='<link rel="canonical" href="http://cuthbertson.de/'.$url.'" >';
 	switch ($lan)
 	{
 	   case "de":
@@ -39,7 +36,6 @@ function head($lan="de",$scrnTtl="Home",$url="",$mbl="N")
 		$ret.='<meta name="keywords" content=" 肖邦，贝多芬,钢琴,作曲家,教师, Piano, Klavier, Chopin, Beethoven, William, Cuthbertson, Waldkirch, Konzerte,'.$scrn.' " />';
 		$ret.='<meta name="description" content="William Cuthbertson - Classical Pianist, Composer, Teacher,'.$scrn.' " />';
 		break;
-		
 		default:
 		$ret.='<title>William Cuthbertson - Classical Pianist - '.$scrn.'</title>';   
 		$ret.='<meta name="keywords" content="Piano, Chopin, Beethoven, William, Cuthbertson, Waldkirch, Concerts,'.$scrn.' " />';    
@@ -282,7 +278,6 @@ function  photoright($pic,$pic_tn,$album, $photoTtl, $fromUrl, $lan)
   $ret.='</a>'; 
   print $ret; 
 }
-
 function top($lang,$ttl1,$ttl2)
 {
 	$ret='<h1>William Cuthbertson</h1>';
@@ -317,8 +312,4 @@ function foot()
  </script>';
 return $ret;
 }
- ?>
- 
- 
- 
- 
+ ?> 

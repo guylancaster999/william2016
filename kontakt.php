@@ -19,24 +19,30 @@ print head("de","Kontakt ");
                 <div class="col-sm-6">
                     <table class="table">
 						<tr>
-						<td  ><strong>Post</strong></td>
+						<td><strong>Post</strong></td>
 						<td>:</td>
-						<td  >William Cuthbertson<br/>
+						<td>William Cuthbertson<br/>
 						Theodor-Heuss-Str.16<br/>
 						79183 Waldkirch<br/>
 						Baden-Württemberg<br/>
 						Deutschland</td>
 						</tr>
 						<tr>
-  						<td  ><strong>Tel.</strong></td>
-  						<td>:</td>
-  						<td><a href="tel:+497681409260">0 76 81 40 92 60</a></td>
-            </tr>
+							<td><strong>Tel.</strong></td>
+							<td>:</td>
+							<td><a href="tel:+497681409260">0 76 81 40 92 60</a></td>
+						</tr>
 						<tr>
-  						<td><strong>E-Mail</strong></td>
-  						<td>:</td>
-  						<td><a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a></td>
-            </tr>
+							<td><strong>E-Mail</strong></td>
+							<td>:</td>
+							<td><a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a></td>
+						</tr>
+						<tr>
+							<td><strong>E-Mail (website)</strong></td>
+							<td>:</td>
+							<td><a href="mailto:guylancaster@hotmail.com">guylancaster@hotmail.com</a></td>
+						</tr>
+
 					</table>
             </div>
             <div class="col-sm-6">

@@ -15,48 +15,61 @@ print head("de","Presse");
                       <h2>Presse</h2> 
                 </div>
              </div>
-            <div class="row">
-                 <div class="col-lg-12">         
-				<h3>Grandios nachgespürt</h3>
-				<?php photorightlinked("21april2015_240.jpg","Grandios%20nachgespürt","http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html"); ?>
-				Matinee mit William Cuthbertson / Preludes von Skrjabin und Chopin bildeten Spannungsbogen. <BR/>
-				<a HREF="http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html">Badischer Zeitung 21. April 2015 </a> 
-				<br/>	
-				<br class="brclear"/>		
-				<hr/>
-				<h3>Meisterkurses 2015 - Immer schön aus dem Handgelenk heraus</h3>
-				<?php photorightlinked("bz2015masterclass_240.jpg","Meisterkurze 2015","http://www.badische-zeitung.de/waldkirch/immer-schoen-aus-dem-handgelenk-heraus--110973866.html"); ?>
-				<br/>
-				Abschlusskonzert des Feuchtwanger - Meisterkurses im Elztalmuseum zeigt die Ergebnisse einer Woche intensiver Arbeit am Klavier.
-				<br/>	 
-				<a href="http://www.badische-zeitung.de/waldkirch/immer-schoen-aus-dem-handgelenk-heraus--110973866.html">Badische Zeitung 8/9.2015</a>
-				<br/>
-				<br class="brclear">
-				<hr/>
-				<h3>Barrierefreier Hörgenuss - Benefizkonzert mit Klassik und Chansons zugunsten der Renovierung des Gemeindezentrums.</h3>
-				<?php photoright("bz2015-1.jpg","bz2015-1_240.jpg","Press","Chopin Piano Concerto","presse.php","de");?>
-				Ein Streichquartett – Carina Kaltenbach-Schonhardt und Nicole Friedrich (Geige), Katharina Weeber (Bratsche) und Carolina Berghorn (Cello) – übernimmt den Orchesterpart des Chopin-Klavierkonzerts e-moll, das William Cuthbertson (Klavier) als Solist darbietet. 
-				<br/>
-				<a href="http://www.badische-zeitung.de/waldkirch/barrierefreier-hoergenuss--111835927.html">Badische Zeitung  23. September 2015</a>
-				<hr/>
-				<br  class="brclear"/>
-				<br  class="brclear"/><?php  photoright("kulturwoche2014.jpg","kulturwoche2014_240.jpg", "Press","KulturWoche2014","presse.php","de");?>
-				<h3>Waldkircher Kulturwoche 2014 widmet sich dem Thema Zeit</h3>
-				Waldkirch hat bereits einige interessante und erfolgreiche Kulturwochen erlebt. Dieses Jahr ist es wieder so weit. Künstler jeglicher Genre sind aufgefordert, sich mit dem Thema "Zeit" auseinander zu setzen.
-				<br/>
-				<a href="http://www.badische-zeitung.de/waldkirch/waldkircher-kulturwoche-widmet-sich-dem-thema-zeit--86146692.html">Badische Zeitung 12. Juni 2014</a>
-				<BR class="brclear"/>
-				<hr/>
-				<h3>Waldkircher  Kulturwochen 2014 - Von Liebeslust und Liebesleid </h3>
-				<?php  photoright("22october2014.jpg", "22october2014_240.jpg", "Presse","Frauke%20Hofmann%20(Mezzosopran)%20+%20Pianist%20Wlliam%20Cuthbertson","presse.php","de");?>
-				Mit Frauke Hofmann (Mezzosopran) + Pianist Wlliam Cuthbertson 
-				<br/>
-				<a href="http://www.badische-zeitung.de/waldkirch/von-liebeslust-und-liebesleid">Badishe Zeitung 22 October 2014</a> 
-				<br class="brclear"/> 
-				<br  class="brclear"/>
-				 <hr/>
-				<h3>Sie reisen weit, um im Meisterkurs zu lernen</h3>   
-				<?php photoright("peter.feuchtwanger_teaching.jpg","peterfeuchwanger-photo-badishezeitung_240.jpg","Presse","Peter%20Feuchtwanger:Photo%20Karig","presse.php","de" );?>
+		<div class="row">
+            <div class="col-lg-12">
+		<?php photoright("Fr08Juli2016.jpg","Fr08Juli2016_240.jpg","Press","Chopin Schuman Beethoven, Foto: G. Zahn",
+		"presse_e.php","de");?>
+		 <h3>Konzert mit William Cuthbertson im Elztalmuseum.</h3>
+		  Die Sommer-Matinee mit Pianist William Cuthbertson umfasste Werke von Beethoven, Chopin und Schumann. Auf seine unaufdringliche Art arbeitete Cuthbertson die Melodien gut heraus. Das Publikum war begeistert.
+		<br/>
+		 <br/>
+		<a href="http://www.badische-zeitung.de/waldkirch/stuermischer-applaus--124551693.html">Badische Zeitung, Friday 8th, July 2016</a>
+	 </div>
+	 </div>
+     <div class="row">
+           <div class="col-lg-12">         
+			<h3>Grandios nachgespürt</h3>
+			<?php photorightlinked("21april2015_240.jpg","Grandios%20nachgespürt","http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html");?>
+			Matinee mit William Cuthbertson / Preludes von Skrjabin und Chopin bildeten Spannungsbogen. 
+			<br/>
+			<a href="http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html">Badischer Zeitung 21. April 2015</a> 
+			<br/>	
+			<br class="brclear"/>		
+			<hr/>
+			<h3>Meisterkurses 2015 - Immer schön aus dem Handgelenk heraus</h3>
+			<?php photorightlinked("bz2015masterclass_240.jpg","Meisterkurze 2015","http://www.badische-zeitung.de/waldkirch/immer-schoen-aus-dem-handgelenk-heraus--110973866.html"); ?>
+			<br/>
+			Abschlusskonzert des Feuchtwanger - Meisterkurses im Elztalmuseum zeigt die Ergebnisse einer Woche intensiver Arbeit am Klavier.
+			<br/>	 
+			<a href="http://www.badische-zeitung.de/waldkirch/immer-schoen-aus-dem-handgelenk-heraus--110973866.html">Badische Zeitung 8/9.2015</a>
+			<br/>
+			<br class="brclear">
+			<hr/>
+			<h3>Barrierefreier Hörgenuss - Benefizkonzert mit Klassik und Chansons zugunsten der Renovierung des Gemeindezentrums.</h3>
+			<?php photoright("bz2015-1.jpg","bz2015-1_240.jpg","Press","Chopin Piano Concerto","presse.php","de");?>
+			Ein Streichquartett – Carina Kaltenbach-Schonhardt und Nicole Friedrich (Geige), Katharina Weeber (Bratsche) und Carolina Berghorn (Cello) – übernimmt den Orchesterpart des Chopin-Klavierkonzerts e-moll, das William Cuthbertson (Klavier) als Solist darbietet. 
+			<br/>
+			<a href="http://www.badische-zeitung.de/waldkirch/barrierefreier-hoergenuss--111835927.html">Badische Zeitung  23. September 2015</a>
+			<hr/>
+			<br  class="brclear"/>
+			<br  class="brclear"/>
+			<?php  photoright("kulturwoche2014.jpg","kulturwoche2014_240.jpg", "Press","KulturWoche2014","presse.php","de");?>
+			<h3>Waldkircher Kulturwoche 2014 widmet sich dem Thema Zeit</h3>
+			Waldkirch hat bereits einige interessante und erfolgreiche Kulturwochen erlebt. Dieses Jahr ist es wieder so weit. Künstler jeglicher Genre sind aufgefordert, sich mit dem Thema "Zeit" auseinander zu setzen.
+			<br/>
+			<a href="http://www.badische-zeitung.de/waldkirch/waldkircher-kulturwoche-widmet-sich-dem-thema-zeit--86146692.html">Badische Zeitung 12. Juni 2014</a>
+			<br class="brclear"/>
+			<hr/>
+			<h3>Waldkircher  Kulturwochen 2014 - Von Liebeslust und Liebesleid </h3>
+			<?php  photoright("22october2014.jpg", "22october2014_240.jpg", "Presse","Frauke%20Hofmann%20(Mezzosopran)%20+%20Pianist%20Wlliam%20Cuthbertson","presse.php","de");?>
+			Mit Frauke Hofmann (Mezzosopran) + Pianist Wlliam Cuthbertson 
+			<br/>
+			<a href="http://www.badische-zeitung.de/waldkirch/von-liebeslust-und-liebesleid">Badishe Zeitung 22 October 2014</a> 
+			<br class="brclear"/> 
+			<br  class="brclear"/>
+			 <hr/>
+			<h3>Sie reisen weit, um im Meisterkurs zu lernen</h3>   
+			<?php photoright("peter.feuchtwanger_teaching.jpg","peterfeuchwanger-photo-badishezeitung_240.jpg","Presse","Peter%20Feuchtwanger:Photo%20Karig","presse.php","de" );?>
 				Pianisten aus aller Welt beschäftigen sich bei Peter Feuchtwanger und William Cuthbertson in Waldkirch mit dem Klavierspiel.<br/>
 				<a href="http://www.badische-zeitung.de/waldkirch/sie-reisen-weit-um-im-meisterkurs-zu-lernen--86083242.php" >Badische Zeitung, 11 jun 2014</a>
 				<br/>

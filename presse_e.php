@@ -16,15 +16,33 @@ print head("en","Press");
                 </div>
              </div>
              <div class="row">
+                <div class="col-lg-12">
+			<?php photoright("Fr08Juli2016.jpg","Fr08Juli2016_240.jpg","Press","Chopin Schuman Beethoven, Foto: G. Zahn",
+			"presse_e.php","en");?>
+			<h3>Concert at  the Eltzal Museum</h3>
+			The summer matinee with pianist William Cuthbertson included works by Beethoven, Chopin and Schumann.
+			 In his unobtrusive way, Cuthbertson worked out the melodies well.
+			 The audience was enthusiastic.
+			<br/>
+			 <br/>
+			<a href="http://www.badische-zeitung.de/waldkirch/stuermischer-applaus--124551693.html">
+				Badische Zeitung, Friday 8th, July 2016
+			</a>
+			 </div>
+			 </div>
+             <div class="row">
                 <div class="col-lg-12">         
-                <h3>Terrific Concert</h3>
-				<?php photorightlinked("21april2015_240.jpg","Grandios%20nachgespürt","http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html"); ?>
-				Matinee with William Cuthbertson / Preludes by Chopin and Scriabin.
-				<br/><br/>
-				<a HREF="http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html">Badische  Zeitung</a>
+					<h3>Terrific Concert</h3>
+					<?php photorightlinked("21april2015_240.jpg","Grandios%20nachgespürt","http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html");?>
+					Matinee with William Cuthbertson / Preludes by Chopin and Scriabin.
+					<br/>
+					<br/>
+					<a href="http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html">
+						Badische  Zeitung
+					</a>
 				21. April 2015 
 				<br class="brclear">
-				<HR/>
+				<hr/>
 				<h3>Accessible listening:Charity Concert with classical music and songs for the renovation of the community center.</h3>
 				<?php photoright("bz2015-1.jpg","bz2015-1_240.jpg","Press","Chopin Piano Concerto","presse_e.php","en");?>
 				The programme included a string Quartet with Carina Kaltenbach-Schonhardt and Nicole Friedrich (violin), Katharina Weeber (Viola) and Carolina Mountain Horn (cello). Also the Chopin Piano Concerto in E minor, with William Cuthbertson (piano) as soloist. 

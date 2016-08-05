@@ -214,10 +214,19 @@ img {
   text-align: center;
 }
 .pic {
-  padding-right: 14px;
-  padding-left: 14px;
+ 	 border-radius: 8px;
+  padding-right:	14px;
+  padding-left: 	14px;
+  padding-top: 		4px;
+  padding-bottom:	4px;
 }
-.piccenter {
+
+.rgp 
+{
+	padding: 	6px;
+}
+.piccenter 
+{
   padding-left: 10px;
   width: 90%;
   display: block;
@@ -270,8 +279,27 @@ img {
 .tblTop {
   width: 100%;
 }
-.box
+.box0
 {
 	border: 1px solid gray;
 	padding:10px;
+	margin:6px;
+  }
+.box
+{
+	text-align:center;
+	border: 1px solid gray;
+	padding:10px;
+	margin:6px;
+	font-weight:bold;
+	font-size:16pt;
  }
+ .boldTxt,.boldtxt
+ {
+	 font-weight:bolder;
+ } 
+ .rowBorder
+ {
+	 padding-top:6px;
+ 	 padding-bottom:6px;
+}

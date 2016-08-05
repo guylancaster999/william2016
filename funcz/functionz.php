@@ -126,11 +126,31 @@ $ret.='</div>';
 $ret.="<form action='search.php' method='post'>
 <input type='hidden' name='lan' id='lan' value='".$lan."'/>
 <input type='text' id='s' name='s' size='10' class='searchbox'  required /></form>
-<br/>";
-print $ret;
+<br/>
+<div style='text-align:center'>";
+switch($lan)
+{
+	case "de":
+	   $ret.='<form action="http://cuthbertson.de/m.index.php">
+			<input type="submit" value="Mobile"/>
+		</form>';
+	break;
+	case "en":
+		   $ret.='<form action="http://cuthbertson.de/m.index_e.php">
+				<input type="submit" value="Mobile"/>
+		</form>';
+	break;
+	default:	
+	$ret.='<form action="http://cuthbertson.de/m.index.php">
+		<input type="submit" value="Mobile"/>
+		</form>';
+    }
+	
+	$ret.="</div>";
+ 	print $ret;   
 	return;
 }
-function head($lan="de",$scrnTtl="",$url="")
+function head($lan="de",$scrn="",$url="")
 {
 $ret= '<!DOCTYPE html>';
    switch ($lan)
@@ -151,34 +171,30 @@ $ret.='<meta charset="utf-8" />
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
    <link href="css/simple-sidebar.css" rel="stylesheet"/>';
- 
-	$ret.='<meta name="author" content="Guy Lancaster" />
+ $ret.='<meta name="author" content="Guy Lancaster" />
    	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
    	<link rel="icon" href="favicon.ico" type="image/x-icon" />
    <link rel="stylesheet" href="css/simple-sidebar.css"/>';
  
- if (strlen($url)>0)
-	{
-		$ret.='<link rel="alternate" media="only screen and (max-width: 640px)" href="http://cuthbertson.de/m.'.$url.'" />';
-	}
-	switch ($lan)
+ if ((strlen($url)>0)&&($lan !="ch"))$ret.='<link rel="alternate" media="only screen and (max-width: 640px)" href="http://cuthbertson.de/m.'.$url.'" />';
+
+ switch ($lan)
 	{
 	   case "de":
 		$ret.='<title>William Cuthbertson klassischer Pianist - '.$scrn.'</title>';
-		$ret.='<meta name="keywords" content="Piano, Klavier, Chopin, Beethoven, William, Cuthbertson, Waldkirch, Konzerte,'.$scrn.' " />';
-		$ret.='<meta name="description" content="William Cuthbertson - Pianist, Komponist, Lehrer, Composer, Teacher,'.$scrn.' " />';
+		$ret.='<meta name="keywords" content="'.$scrn.',Piano, Klavier, Chopin, Beethoven, William, Cuthbertson, Waldkirch, Konzerte" />';
+		$ret.='<meta name="description" content="'.$scrn.', William Cuthbertson - Pianist, Komponist, Lehrer, Composer, Teacher" />';
 		break;
 		case "ch":
 		$ret.='<title>William Cuthbertson Classical Pianist - '.$scrn.'</title>';
 		$ret.='<meta name="keywords" content=" 肖邦，贝多芬,   钢琴,  作曲家,  教师, Piano, Klavier, Chopin, Beethoven, William, Cuthbertson, Waldkirch, Konzerte,'.$scrn.' " />';
-		$ret.='<meta name="description" content="William Cuthbertson - Classical Pianist, Composer, Teacher,'.$scrn.' " />';
+		$ret.='<meta name="description" content="'.$scrn.', William Cuthbertson - Classical Pianist, Composer, Teacher" />';
 		break;
 		default:
-		$ret.='<title>William Cuthbertson - Classical Pianist - '.$scrn.'</title>';
-		$ret.='<meta name="keywords" content="Piano, Chopin, Beethoven, William, Cuthbertson, Waldkirch, Concerts,'.$scrn.' " />';
-		$ret.='<meta name="description" content="William Cuthbertson - Pianist, Accompanyist, Composer, Teacher,'.$scrn.' " />';
-    }
-	$ret.="<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,700' rel='stylesheet' type='text/css'/>";
+		$ret.='<title>'.$scrn.' - William Cuthbertson - Classical Pianist</title>';
+		$ret.='<meta name="keywords" content="'.$scrn.',Piano, Chopin, Beethoven, William, Cuthbertson, Waldkirch, Concerts " />';
+		$ret.='<meta name="description" content="'.$scrn.' - William Cuthbertson - Pianist, Accompanyist, Composer, Teacher " />';
+    }	$ret.="<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,700' rel='stylesheet' type='text/css'/>";
 	$ret.="<script> 
 			$(document).ready(function(){
 				$('#topButton').animate({left: '550px'},'slow');
@@ -202,7 +218,7 @@ function  linkedPhoto($txt,$pic,$album,$fromUrl,$lan)
 }
 function exp_title($ttl,$lan="en")
 {
-	$ret=' title="'.removeSp($ttl).' - ';
+	$ret=' title="'.$ttl.' - ';
     switch ($lan)
    	{
 		case "de":
@@ -218,7 +234,7 @@ function exp_title($ttl,$lan="en")
    	$ret.='" ';
 	return $ret;
 }
- function displayPic($i,$fromUrl,$lan)
+function displayPic($i,$fromUrl,$lan)
 {
 	$gpics		= $_SESSION["gpics"];
 	$x 			= json_decode($gpics,true);
@@ -226,20 +242,21 @@ function exp_title($ttl,$lan="en")
 	$y 			= $x["gallery"][$i];
 	$picSmall	= $y["picSmall"];
 	$picLarge	= $y["picLarge"];
-	$picTtl		= $y["picTtl"];
-	$grpTtl		= $y["grpTtl"];
+	$picTtl		= removeSp($y["picTtl"]);
+	$grpTtl		= removeSp($y["grpTtl"]);
 	$photoTtl	= removeSp($photoTtl);
     $ret		 ='<a href="fotoLarge.php';
     $ret		.='?lan='.$lan;
-    $ret.='&amp;album='.$grpTtl;
-    $ret.='&amp;photoPtr='.$i ;
-   $ret.='&amp;fromUrl='.$fromUrl;
-   $ret.='" ';
-   $ret.=exp_title($picTtl,$lan);
-   $ret.='>';
-   $ret.= '<img src="img/'.$picSmall.'" alt="'.$picTtl.'" class="img-responsive img-rounded" />';
-   $ret.='</a>';
-  print $ret;
+    $ret		.='&amp;album='.removeSp($grpTtl);
+    $ret		.='&amp;photoPtr='.$i ;
+    $ret		.='&amp;fromUrl='. $fromUrl;
+    $ret		.='" ';
+    $ret.=exp_title($picTtl,$lan);
+    $ret.='>';
+    $ret.= '<img src="img/'.$picSmall.'" alt="'.$picTtl.'" class="img-responsive img-rounded" />';
+    $ret.='</a>';
+    print $ret;
+	return;
 }
 function  photo($pic,$pic_tn,$album,$photoTtl,$fromUrl,$lan,$cls="")
 {
@@ -267,7 +284,6 @@ function  photorightlinked($pic,$ttl,$url)
      $ret.= '</a>';
 	 print $ret;
 }
-
 function  photocenter($pic,$ttl)
 {
 	 $ttl=removeSp($ttl);

@@ -11,13 +11,23 @@ print head("ch","视频");
             <div class="container-fluid"> 
 			    <?php topRight(); ?>
                 <div class="row">
-                  <div class="col-lg-12"> 
+                  <div class="col-lg-12">  
                       <h2>视频</h2> 
                  </div>
              </div>
               <div class="row">
-                 <div class="col-lg-12">   
-                   <iframe src="http://www.youtube.com/embed/s9yxdd37QuU" width="500" height="300"></iframe>
+                 <div class="col-lg-11"> 
+</div>
+                 <div class="col-lg-11"> 
+				           	William Cuthbertson performs at Balakhna, Nizhny Novgorod, Russia (TV News 31/5/16)  
+				</div>
+				</div>
+							 <div class="row">
+								<div class="col-lg-12">    
+
+							 <iframe src="http://www.youtube.com/embed/dOqKpMH53b8" width="600"></iframe>
+				<br/>					 
+				<br/>	    <iframe src="http://www.youtube.com/embed/s9yxdd37QuU" width="500" height="300"></iframe>
 					<br/>
 					William Cuthbertson plays Nocturnes Op.15 by Frédérick Chopin, Gutshof Güntert, Sulzburg. September 2013
 					<br class="brclear"/>

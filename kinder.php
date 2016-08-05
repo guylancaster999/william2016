@@ -3,9 +3,10 @@ require "funcz/functionz.php";
 session_start();
 $gpics=
 	'{"gallery":[ 
-	{"flag":"P","picLarge":"Vorspiel1.jpg","picSmall":"Vorspiel1_240.jpg","picTtl":"Foto1 - Kind am Klavier"},		{"flag":"P","picLarge":"Vorspiel2.jpg","picSmall":"Vorspiel2_240.jpg","picTtl":"Foto2 - Kind am Klavier und Kind mit Violine"},		{"flag":"P","picLarge":"Vorspiel3.jpg","picSmall":"Vorspiel3_240.jpg","picTtl":"Foto3 - Kind am Klavier"},	
-	{"flag":"P","picLarge":"Abrsm1-1.jpg","picSmall":"Abrsm1-1_240.jpg","picTtl":"Foto4 - Kind am Klavier mit Zertifikat"},
-	{"flag":"P","picLarge":"Abrsm2-1.jpg","picSmall":"Abrsm2-1_240.jpg","picTtl":"Foto5 - Kind am Klavier mit Zertifikat"}
+	{"flag":"P","picLarge":"Vorspiel1.jpg","picSmall":"Vorspiel1_240.jpg","picTtl":"Foto1 - Kind am Klavier"},	
+	{"flag":"P","picLarge":"Vorspiel2.jpg","picSmall":"Vorspiel2_240.jpg","picTtl":"Foto2 - Kind am Klavier und Kind mit Violine"},
+	{"flag":"P","picLarge":"Vorspiel3.jpg","picSmall":"Vorspiel3_240.jpg","picTtl":"Foto3 - Kind am Klavier"},	
+	{"flag":"P","picLarge":"Abrsm1-1.jpg","picSmall":"Abrsm1-1_240.jpg","picTtl":"Foto4 - Kind am Klavier mit Zertifikat"} 
 	]}';
 	$_SESSION["gpics"]	=$gpics;	
 $x 					= json_decode($gpics,true);

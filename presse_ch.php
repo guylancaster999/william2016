@@ -15,6 +15,23 @@ print head("ch","媒体评价");
                       <h2>媒体评价</h2> 
                 </div>
              </div>
+			              <div class="row">
+                <div class="col-lg-12">
+<?php photoright("Fr08Juli2016.jpg","Fr08Juli2016_240.jpg","Press","Chopin Schuman Beethoven, Foto: G. Zahn",
+"presse_e.php","en");?>
+ <b>
+<h3 align="center">Concert at  the Eltzal Museum</h3>
+</a></b>
+
+ The summer matinee with pianist William Cuthbertson included works by Beethoven, Chopin and Schumann.
+ In his unobtrusive way, Cuthbertson worked out the melodies well.
+ The audience was enthusiastic.
+<br/>
+ <br/>
+<A href="http://www.badische-zeitung.de/waldkirch/stuermischer-applaus--124551693.html">Badische Zeitung, Friday 8th, July 2016</a>
+<hr/>
+			 </div>
+			 </div>
              <div class="row">
                  <div class="col-lg-12">                 
                     <h3>了不起的音乐会</h3>

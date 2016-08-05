@@ -10,27 +10,140 @@ print head("en","Concerts","concert_e.php","Y");
 	<div data-role="main" class="ui-content">
 			<table>
 				<tr> 		
+				<th colspan="3" class="year">2017</th>
+			</tr>
+			<tr>
+			<td><b>Sat 9th,<br/>Sun 10th September<br/>
+			5pm</b></td>
+			<td colspan="2"><img src="img/elfenau.jpg" align="right" alt="Elfenau Park">Concert at <a href="http://www.elfenaupark.ch/">Elfenau Park</a>, Bern, Switzerland.
+			<ul>
+			<li>J.S.Bach Goldberg Variations</li>
+			</ul>
+			</td>
+			</tr><tr> 		
 				<th colspan="3" class="year">2016</th>
 				</tr>
 				<tr>
 					<td><strong>Friday 11th March</strong></td>
-					<td  colspan='2'>Concert, At <a href="http://www.rehaklinik-sonneneck.de">Haus Sonneneck</a>, Kanderner Strasse 18, 79410 Badenweiler, Breisgau-Hochschwarzwald, Baden-Württemberg, Germany Germany <br/>Details to follow.</td>
+					<td  colspan='2'><b>Concert at <a href="http://www.rehaklinik-sonneneck.de">Haus Sonneneck</a></b>
+					<br/>Kanderner Strasse 18, 79410 Badenweiler, Breisgau-Hochschwarzwald, Baden-Württemberg, Germany. 
+					<ul>
+						<li>F.Schubert, Impromptu G flat major Op.90 No.3, Impromptu B flat major Op.142 No.3</li>
+						<li>A.Scrjabin, Sonata No.2  Op.19</li>
+						<li>F.Chopin, Sonata No.2 B flat minor Op.35</li>
+					</ul>
+					</td>
 				</tr>
 				<tr>
 					<td><strong>Sunday 20th March </strong></td>
-					<td  colspan='2'>Concert, Sigriswil, Switzerland <br/>Details to follow</td>
+					<td  colspan='2'><a href="http://www.stbeatus.ch/"><img src="img/stbeatus.jpg" alt="Stiftung St.Beatus"   align="right" /></a><b>Concert, Stiftung Beatus, Sigriswil, Switzerland </b>
+					<ul>
+						<li>A.Scriabin Sonata Nr.2 Op.19</li>
+						<li>S.Rachmaninoff Prelude in D major Op.23 No.4</li>
+						<li>F.Schubert Impromptu G flat major Op.90 No.3</li>
+						<li>F.Chopin Sonata Nr.2 in B flat minor Op. 35</li>
+					</ul>
+					</td>
 				</tr>
-						<tr>
-						<td><strong>Wednesday 25th May<br/>6pm</strong></td>
-						<td colspan='2'>
-						<?php  photorightlinked("Balakhna_240.jpg","Balakhna Museum für Geschichte und Kunst","http://balamus.ru");?>
+				<tr>
+					<td><strong>Wednesday 25th May<br/>6pm</strong></td>
+					<td colspan='2'>
+						<?php  photorightlinked("russiaconcert_240.jpg","Balakhna Museum für Geschichte und Kunst","http://balamus.ru");?>
 						<b>Concert In the <a href="http://balamus.ru">Balakhna Museum of History and Art</a>, Nizhny Novgorod, Russia. </b> 
-						<br/>
-						Programme to be announced.
+						<ul>
+						<li>F.Chopin   Sonata Nr.2 in B flat minor	Op. 35</li>
+						<li>S.Rachmaninoff	Polka de W.R.</li>	
+						<li>F.Schubert  Impromptu Ges-Dur 	Op.90 Nr.3, Impromptu B-Dur	Op.142 Nr.3</li>
+						<li>A.Skrjabin Sonata No.2	Op.19 </li>
+						</ul>
 						</td>
 						</tr>
-						<tr> 		
-						<th colspan='3' class="year">2015</th></tr>
+						<tr>
+						<td><b>Sunday<br/> July 3rd<br/> 11 a.m.</b></td>
+						<td colspan="2"><?php photorightnolink("etzal_240.jpg","Etzal Museum");?>
+						<b>Concert at the Elztalmuseum, Waldkirch </b>
+						<ul>
+							<li>L.van Beethoven Sonata E flat major Op.31 No.3</li>
+							<li>F.Chopin 3 Mazurkas Op.59</li>
+							<li>R.Schumann Études Symphoniques Op.13</li>
+						</ul>
+						</td>
+					</tr>
+					<tr>
+						<td><b>Sunday 10th Juli <br/>11 am</b></td>
+						<td colspan='2'><IMG SRC="img/duo.jpg" alt="William Cuthbertson, Carina Kaltenbach" align="right" class="img-responsive img-rounded"/>
+						<b>Duo recital  Piano and Violin</b><br/><a href="http://www.friedrich-husemann-klinik.de/"><b>Friedrich-Husemann Klinik</b></a>,Friedrich-Husemann-Weg 8, 79256 Buchenbach, Freiburg, Germany
+						<Br/>
+						William Cuthbertson—piano,   Carina Kaltenbach-Schonhardt-violin	
+						<UL>
+							<li>L.van Beethoven 1st mov. Sonata for violin und piano No. 5  F major, Op. 24</LI>
+							<li>F.Schubert, Impromptu G flat major Op.90 No.3   (piano)</LI>
+							<li>Cesar Franck,    Sonata for violin und piano A major</LI>
+							<li>Antonin Dvorak,  Humoresque</LI>
+							<li>William Cuthbertson,   Butterfly Bounce Nr.1</LI>
+							<li>Fritz Kreisler, Schön Rosmarin</LI>
+						</UL>
+					</td>
+				</tr>
+			 
+			 <tr>
+		<td><b>August 31st <br/>17.30 uhr</b></td>
+			  <td colspan='2'>
+			  <?php photorightlinked("pianos.png","pianos","http://www.lepthien.de/");?>
+			  <b>G.Rossini's "Semiramide" Overture, arr. Czerny, für 16 Pianisten auf 8 Klaviere
+		</b>
+					 <br/>
+					 <A href="http://www.lepthien.de/">Pianohaus Lepthien</a>  in Freiburg. Eintritt free. 
+				Transport nach Waldkirch - Email <a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a> einen Platz zu reservieren.</li>		      	
+		</td>
+ 		</tr>
+		<tr>
+		<td><b>August 31st<br/>19.30 uhr</b></td>
+		<td colspan='2'><?php photorightnolink("Peter_Feuchtwanger_250.jpg","Peter_Feuchtwanger");?>
+		<b>Ein Gedenkkonzert für Peter Feuchtwanger</b>.
+		<br/>Es spielen etwa 20 ehemalige Studenten von Peter Feuchtwanger. 
+		Unter anderen werden Werke von Feuchtwanger gespielt. 
+
+ <Ul>
+						<Li>Joseph Haydn, Adagio in F major Hob XII 9 -  <a href="http://susanne-von-laun.de">Susanne von Laun</a></li>
+						<Li>Franz Xaver Mozart, Andantino A Major FXWM 41</li>
+						<Li>Peter Feuchtwanger, variations - <a href="https://www.facebook.com/lennart.speer">Lennart Speer</a></li>
+						<Li>Franz Schubert, Waltz D 779 No.1 (1823), No.2 Ländler D366 No.3,4 - Agnes Joshi </li>
+						<Li>Jean Sibelius, The Fir, Op.75 No.5</LI>
+						<LI>Peter Feuchtwanger, Tariqa No.2 - <a href="https://www.youtube.com/watch?v=-OONZvd7X6k">Christian Löschke</a></LI>
+						<LI>J.S. Bach, Andante from Piano Concerto in F minor BWV 1056 - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></LI>
+						<Li>Friedrich Kuhlau, Rondo C Major on Themes from Mozart's "Don Giovanni" </li>
+						<Li>Peter Feuchtwanger, Study in the Eastern Idiom Op.3 (Macedonian and Bosnian) - <a href="http://www.masako-kamikawa.com/">Masako Kamikawa</a></li>
+						<Li>Elisabeth Jacquet de La Guerre Prelude-Allemande-Menuet-Gavotte from the Suite in A minor - Anna Roth</LI>
+						<LI>Felix Mendelssohn, Bartholdy Fantasia in F sharp minor Op.28 Con motto Agitato, Allegro con moto, Presto - Manfred Seewann</LI>
+						<LI>Ina Birk, Soniyage -  <a href="http://www.ina-birk-klavier.de/">Ina Birk</a></LI>
+						<LI>Giacinto Scelsi, Rotativa - <A href="https://en.wikipedia.org/wiki/Marianne_Schroeder">Marianne Schroeder</a> </LI>
+						<LI>Frederik Chopin, Nocturne in C sharp minor, Op.post - Nina Attorf</LI>
+						<LI>Louis Moreau Gottschalk, La Gallina Op.53, Ojos Criollos, Dance Cubaine Op.37 - <a href="http://www.blido.de/">Stefan &amp; Fedra Blido</a></LI>
+						<LI>Laura Netzel, Concert Etude - <a href="https://femalecomposers.wordpress.com/">Claudia Meinardus-Brehm</a></LI>
+						<LI>Franz Liszt, Joyful and Leidvoll - 
+						<LI>Franz Liszt, Freudvoll und Leidvoll - <a href="http://www.mezzo-soprano-sophia-grech.co.uk/">Sophia Grech</a>, mezzosoprano und <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic</a>,
+ Klavier</LI>			<LI>Benjamin Vanden Heuvel from "4 Short Piano Pieces" No.3,4 "Dirge and American Suite", with its own improvisation - Sanja Stefanovic</LI>
+						<LI>César Cui, Causerie - William Cuthbertson </LI>
+						<LI>Franz Liszt, Consolation No.3 in  D-flat major  - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
+						<LI>L. M. Gottschalk, Souvenirs d'Andalousie </ LI>
+						<LI>Manuel de Falla, "Fire Dance" from "The Love Spell" - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
+						<LI>Shura Cherkassky, Prelude Pathétique</LI>
+						<LI>Ludwig van Beethoven, 6 Bagatelles Op.126, No.1,2,3 - <a href="https://de.wikipedia.org/wiki/Jean-Jacques_D%C3%BCnki">Jean 
+						Jaques Dünki</a></LI>
+						<LI>Robert Schumann, In the Evening</LI>
+						<LI>Adolph von Henselt, Lullaby</LI>
+						<LI>Franz Schubert, arr.Leopold Godowsky, Lullaby</LI>
+						<LI>David Saperton, Zephyr</LI>
+						<LI>Harry Burleigh, arr.Dr. Calvin Taylor, Deep River... </LI>
+						<li>Franz Schubert, Polonaise D599 No.1,2 - <a href="https://de.wikipedia.org/wiki/Paul_Cibis">Paul Cibis</a> und <a href="https://de.wikipedia.org/wiki/Sophie-Mayuko_Vetter">Mayuko Vetter</a>
+ </li> 
+					</UL>		Eintritt: 12&euro; / 10&euro; ermässigt / 9&euro; Kinder.	
+			Barocksaal des Elztalmuseums in Waldkirch. 
+			</td>
+		</tr>
+			 <tr> 		
+					<th colspan='3' class="year">2015</th></tr>
 						<tr>
 						<td  ><strong>Friday, March 13, 8.30pm</strong></td> 
 						<td>&nbsp;</td>
@@ -65,8 +178,9 @@ print head("en","Concerts","concert_e.php","Y");
 						<tr>
 						<td><strong>Sunday 19th September<br/>7.30pm</strong></td>
 						<td>&nbsp;</td>
-						<td><?php  photorightlinked("KatholischesGemeindezentrumWaldkirch_240.jpg","Katholisches Gemeindezentrum Waldkirch","https://www.facebook.com/events/953685681346569");?>
-						<a href="https://www.facebook.com/events/953685681346569/">Benefit Concert donated for the renovation of the community center</A><br/>
+						<td><?php  photorightlinked("KatholischesGemeindezentrumWaldkirch_240.jpg","Katholisches Gemeindezentrum Waldkirch","");?>
+						Benefit Concert donated for the renovation of the community center
+						<br/>
 						With:<ul>
 						<li>William Cuthbertson (Piano)</li>
 						<li>Heinz Vogel (Piano)</li>
@@ -85,7 +199,9 @@ print head("en","Concerts","concert_e.php","Y");
 						<tr>
 						<td><b>Mon 5th October<br/>8pm</b></td>
 						<td>&nbsp;</td>
-						<td><?php photoright("Skrjabin_Alexander.jpg","Skrjabin_Alexander_240.jpg","konzerte","Skriabin Alexander.jpg","m.concert_e.php","de");?><a href="https://www.facebook.com/events/1666079620271391/"><b>The musician Alexander Scriabin (1871-1915) Concert and lecture</b></a><br/> Catholic community center , Church Square 7, Waldkirch. At the Piano: William Cuthberson, Waldkirch; 
+						<td><?php photoright("Skrjabin_Alexander.jpg","Skrjabin_Alexander_240.jpg","konzerte","Skriabin Alexander.jpg","m.concert_e.php","de");?>
+						<b>The musician Alexander Scriabin (1871-1915) Concert and lecture</b>
+						<br/> Catholic community center , Church Square 7, Waldkirch. At the Piano: William Cuthberson, Waldkirch; 
 						Introduction: Dr. Ulrich Ruh, a journalist from Elzach. Music: inter alia, Sonata No.5 and 6.
 						Entry 3 Euros</td>
 						</tr>
@@ -128,7 +244,7 @@ print head("en","Concerts","concert_e.php","Y");
 							<td><b>Sunday 27th December<br/>7.30pm</b></td>
 							<TD></TD>
 							<td><?php photorightnolink("martinwilliam_240.jpg","Martin Lunz+William%20Cuthbertson");?>
-							<a href="https://www.facebook.com/events/548766628633166/">Poetry and Piano</a><br/>
+							Poetry and Piano<br/>
 							Hymne an die Nacht by Novalis plus Piano Pieces by Chopin, Skrjabin and Schumann.
 							With Martin Lunz (Spoken Word) and William Cuthbertson (Piano).
 							At <a href="http://www.rehaklinik-sonneneck.de">Haus Sonneneck</a>, Kanderner Strasse 18, 79410 Badenweiler, Breisgau-Hochschwarzwald, Baden-Württemberg, Germany. Tickets &euro;12.</td>
@@ -204,17 +320,17 @@ print head("en","Concerts","concert_e.php","Y");
 						<td><strong>Sun 1st June<br/>3pm</strong></td>
 						<td></td>
 						<td  ><?php photorightnolink("CorinaKaltenbach_240.jpg","Carina Kaltenbach");?>
-						<strong>Reading from <a href="https://www.facebook.com/events/405564799585463/" title="Bulgarian Impressions">Bulgarian Impressions</a> - an adventurous journey through an unknown country - Helmut Matt</strong><br/> 
+						<strong>Reading from Bulgarian Impressions - an adventurous journey through an unknown country - Helmut Matt</strong><br/> 
 						Live Music with William Cuthbertson and Carina Kaltenbach: Dvorak Humoresque, Tchaikovski Sérénade melancolique and 2 Bulgarian Folk Songs, champagne reception.
 						<br/>
 						Reiseb&uuml;ro am Markt/Fiore, Lange Straße 65,Waldkirch, Germany. <br/>
 						Admission free, donations for the musicians are welcome</td>
 					</tr>
 					<tr>
-						<td  ><strong>Tue 24th June<br/> 8pm</strong> </td>
+						<td><strong>Tue 24th June<br/> 8pm</strong> </td>
 						<td></td>
 						<td><?php photorightlinked("benefitconcert_240.jpg","Mozart to Bob Dylan","https://www.facebook.com/#!/events/532745816825705");?>
-						<a href="https://www.facebook.com/#!/events/532745816825705/"  title="Mozart to Bob Dylan"><strong>Mozart to Bob Dylan</strong></a>
+						<strong>Mozart to Bob Dylan</strong>
 						<br/>
 						Waldkirch musicians sing and play music from "Mozart to Bob Dylan" for victims of the fire disaster in Valparaiso with Wolfgang Brommer, William Cuthbertson, Stephan Ronkov, Frauke Hofmann, Carina Kaltenbach, Manuel Torres, Adrian Oswalt and Markus Trenkle.
 						<br/>
@@ -241,8 +357,9 @@ print head("en","Concerts","concert_e.php","Y");
 						<td><strong>Sunday 20th July<br/>
 						2pm</strong></td>
 						<td></td>
-						<td  ><?php photorightlinked("openair2014_240.jpg","Open Air Concert","https://www.facebook.com/events/418229254981777/");?>
-						<A href="https://www.facebook.com/events/418229254981777/"><strong>Open Air Concert with the  Waldkircher Tanzrythmiker (Dance Rhythm Orchestra)</strong></a> <br/>
+						<td  ><?php photorightlinked("openair2014_240.jpg","Open Air Concert","");?>
+						<strong>Open Air Concert with the  Waldkircher Tanzrythmiker (Dance Rhythm Orchestra)</strong>
+						<br/>
 						At Stadtrainsee, Waldkirch. The Orchestra will play dance music from the 1930s to the 60s.</td>
 					</tr>
 					<tr>
@@ -250,7 +367,7 @@ print head("en","Concerts","concert_e.php","Y");
 						8pm</strong></td>
 						<td></td>
 						<td> <?php photorightlinked( "WilhelmBuschAbend_240.jpg" ,"Wilhelm%20Busch%20Evening","https://www.facebook.com/events/747215315337186");?>
-						<a href="https://www.facebook.com/events/747215315337186"><strong>Wilhelm Busch Evening with William Cuthbertson and Martin Lunz</strong></a>
+						<strong>Wilhelm Busch Evening with William Cuthbertson and Martin Lunz</strong>
 						<br/>
 						Zeltkultur, (the circus tent in the school yard), Elzach, Germany. Advance tickets: bookstore Merkle. Entry: 8/7&euro;.
 						</td>
@@ -329,8 +446,8 @@ print head("en","Concerts","concert_e.php","Y");
 						<td  ><strong>October 10th <br/> 
 						8pm </strong></td>
 						<td></td>
-						<td><?php photorightlinked("poemsandpiano_200.jpg","poems and piano","https://www.facebook.com/events/574251399303080");?>
-						<a href="https://www.facebook.com/events/574251399303080">Poems und piano</a>
+						<td><?php photorightlinked("poemsandpiano_200.jpg","poems and piano","");?>
+						<b>Poems und piano</b>
 						<br/>
 						Poems by Wilhelm Busch. Music by William Cuthbertson. Entry free, collection.
 						<br/>
@@ -341,7 +458,7 @@ print head("en","Concerts","concert_e.php","Y");
 						<td><strong>October 12th <br/>
 						 7pm</strong></td>
 						<td></td>
-						<td><a href="https://www.facebook.com/events/574251399303080">Poems und piano</a>
+						<td><b>Poems und piano</b>
 						<br/>
 						Poems by Wilhelm Busch<br/>
 						Music by William Cuthbertson,
@@ -351,9 +468,10 @@ print head("en","Concerts","concert_e.php","Y");
 					<tr>
 						<td><strong>Wed 6th November <br/>8pm</strong></td>
 						<td></td>
-						<td><a href="https://www.facebook.com/events/233043576858233/">Lecture on Wagner and Verdi (Ecumenical Educational Institute)</a>
+						<td>Lecture on Wagner and Verdi (Ecumenical Educational Institute)
 						<br/>
-						Dr. Ulrich Ruh (Herder Korespondenz) <br />
+						Dr. Ulrich Ruh (Herder Korespondenz) 
+						<br />
 						 William Cuthbertson plays to Liszt / Wagner Isolde's Love Death and Liszt / Verdi Rigoletto. 
 						 <br/>
 						 Catholic Community Centre, Church Square 7,Waldkirch Baden-Württemberg.

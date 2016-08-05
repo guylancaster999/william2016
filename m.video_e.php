@@ -8,8 +8,12 @@ print head("en","video","video.php","Y");
        <?php print top("en","Video","Video");?>
    </div>
   <div data-role="main" class="ui-content">
-       <div class="row">
-                <div class="col-lg-12">         
+      	      	William Cuthbertson in Balakhna, Nizhny Novgorod, Russia (TV News 31/5/16)  
+<br/>
+<br/>
+					 <iframe src="http://www.youtube.com/embed/dOqKpMH53b8" height="300" width="500"></iframe>
+<br/>
+<br/>				
          <iframe src="http://www.youtube.com/embed/s9yxdd37QuU" width="500" height="300"></iframe>
 					<br/>
 					William Cuthbertson plays Nocturnes Op.15 by Frédérick Chopin, Gutshof Güntert, Sulzburg. September 2013

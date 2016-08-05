@@ -36,6 +36,10 @@ print head("ch","联系");
 						<td  ><strong>E-Mail</strong>&nbsp;&nbsp;</td>
 						<td>:</td>
 						<td  ><a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a></td>
+						</tr><tr>
+							<td><strong>E-Mail (website)</strong></td>
+							<td>:</td>
+							<td><a href="mailto:guylancaster@hotmail.com">guylancaster@hotmail.com</a></td>
 						</tr>
 						</table>
                 <?php  print foot();				?>

@@ -1,21 +1,20 @@
 <?php 
 require "funcz/functionz.php";
 print head("de","Fotos");
-session_start();
+session_start(); 
 $gpics='{"gallery":[ 
-	{"flag":"P","grpTtl":"Skizzen – von Gosia Kulczyk","picLarge":"1.png","picSmall":"1_tn.png","picTtl":"Bild%201"},	
-	{"flag":"P","grpTtl":"Skizzen – von Gosia Kulczyk","picLarge":"2.jpg","picSmall":"2_tn.jpg","picTtl":"Bild%202"},	
-	{"flag":"P","grpTtl":"Skizzen – von Gosia Kulczyk","picLarge":"4.jpg","picSmall":"4_tn.jpg","picTtl":"Bild%203"},	
-	{"flag":"P","grpTtl":"Skizzen – von Gosia Kulczyk","picLarge":"6.jpg","picSmall":"6_tn.jpg","picTtl":"Bild%204"},	
-	{"flag":"P","grpTtl":"Skizzen – von Gosia Kulczyk","picLarge":"7.png","picSmall":"7_tn.jpg","picTtl":"Bild%205"},	
-	{"flag":"P","grpTtl":"Skizzen – von Gosia Kulczyk","picLarge":"8.jpg","picSmall":"8_tn.jpg","picTtl":"Bild%206"},	
-	{"flag":"P","grpTtl":"Skizzen – von Gosia Kulczyk","picLarge":"3.jpg","picSmall":"3_tn.jpg","picTtl":"Bild%207"},	
-	{"flag":"P","grpTtl":"Skizzen – von Gosia Kulczyk","picLarge":"5.jpg","picSmall":"5_tn.jpg","picTtl":"Bild%208"}
-	]}';
+{"flag":"P","grpTtl":"Skizzen–von%20Gosia%20Kulczyk","picLarge":"1.png","picSmall":"1_tn.png","picTtl":"Bild%201"},	
+{"flag":"P","grpTtl":"Skizzen–von%20Gosia%20Kulczyk","picLarge":"2.jpg","picSmall":"2_tn.jpg","picTtl":"Bild%202"},	
+{"flag":"P","grpTtl":"Skizzen–von%20Gosia%20Kulczyk","picLarge":"4.jpg","picSmall":"4_tn.jpg","picTtl":"Bild%203"},	
+{"flag":"P","grpTtl":"Skizzen–von%20Gosia%20Kulczyk","picLarge":"6.jpg","picSmall":"6_tn.jpg","picTtl":"Bild%204"},	
+{"flag":"P","grpTtl":"Skizzen–von%20Gosia%20Kulczyk","picLarge":"7.png","picSmall":"7_tn.jpg","picTtl":"Bild%205"},	
+{"flag":"P","grpTtl":"Skizzen–von%20Gosia%20Kulczyk","picLarge":"8.jpg","picSmall":"8_tn.jpg","picTtl":"Bild%206"},	
+{"flag":"P","grpTtl":"Skizzen–von%20Gosia%20Kulczyk","picLarge":"3.jpg","picSmall":"3_tn.jpg","picTtl":"Bild%207"},	
+{"flag":"P","grpTtl":"Skizzen–von%20Gosia%20Kulczyk","picLarge":"5.jpg","picSmall":"5_tn.jpg","picTtl":"Bild%208"}
+]}';
 $_SESSION["gpics"]	=$gpics;	
 $x 					= json_decode($gpics,true);
 $sz					= count($x["gallery"]);
-	
 ?>
 <body>
     <div id="wrapper">

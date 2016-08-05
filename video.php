@@ -12,9 +12,23 @@ print head("de","Video");
              <?php topRight();?>
                 <div class="row">
                 <div class="col-lg-12"> 
-                      <h2>Video</h2> 
+                      <h2>Video</h2>    
                 </div>
-             </div><div class="row">
+				      	William Cuthbertson in Balakhna, Nizhny Novgorod, Russia (TV News 31/5/16)  
+				</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-1">
+						&nbsp;
+					</div>					
+					<div class="col-lg-11">    
+					 <iframe src="http://www.youtube.com/embed/dOqKpMH53b8" height="300" width="500"></iframe>
+					<br/>					 
+				</div>
+				
+				</div>
+				
+				<div class="row">
                 <div class="col-lg-1">
 					&nbsp;           
 				</DIV>     

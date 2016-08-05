@@ -14,35 +14,102 @@ print head("en","Program"); ?>
                       <h2>Programme</h2>
                    </div>
              </div>
-			 	   <div class="row">
+			     <div class="row">
+                 <div class="col-lg-12 col-12 col-sm-12 year">2017</div>
+			</div>
+			    <div class="row">
+                 <div class="col-lg-8 col-8 col-sm-8">
+				       <table class="tbl">
+						<tr>
+							<td>Johann Sebastian Bach &nbsp;&nbsp;</td>
+						   <td>Goldberg Variations</td>
+						   </tr>
+						   </table>
+						   <br/><br/>
+						   More to follow...
+			   </div>
+			   <div class="col-lg-4 col-4 col-sm-4">
+					<?php photorightlinked("klavier.jpg","Bechstein Piano Repair","http://bechstein.com/");?>
+					</div>
+			</div>
+			 
+		  <div class="row">
                  <div class="col-lg-12 col-12 col-sm-12 year">2016</div>
 			</div>	 
             <div class="row">
-                 <div class="col-lg-8 col-8 col-sm-8">
+                 <div class="col-lg-8 col-md-8 col-8 col-sm-8">
                      <table class="tbl">
 						<tr>
-							<td>L Van Beethoven&nbsp;&nbsp;&nbsp;</td>
-							<td>Sonate Es-Sharp Opus 31 Number.3</td>
+							<td>Ludwig Van Beethoven&nbsp;&nbsp;&nbsp;</td>
+							<td>Sonata E-Sharp Opus 31 No.3</td>
 						</tr>
 						<tr>
-							<td>F. Chopin</td>
+							<td>&nbsp;</td> 
+							<td>Sonata for violin und piano No.5 F major Op.24</td>
+						</tr>
+			
+						<tr>
+							<td>Frederic Chopin</td>
 							<td>3 Mazurkas Op.59</td>
 						</tr>
 						<tr>
-							<td rowspan="2">F. Liszt</td>
+							<td>&nbsp;</td>
+							<td>Sonata No.2 B flat minor Op.35</td>
+						</tr>
+						<tr>
+							<td>César Cui</td>
+							<td>Causerie</td>
+						</tr>
+						<tr>
+							<td>William Cuthbertson</td>
+							<td>Butterfly Bounce No.1</td>
+						</tr>
+						<tr>
+							<td>Anton Dvorak</td>
+							<td>Humoresque</td>
+						</tr>
+						<tr>
+							 <td>Cesar Franck</td>
+							<td>Sonata for violin and piano A major</td>
+						</tr>
+						<tr>
+							<td>Fritz Kreisler</td>
+							<td>Sch&ouml;n Rosmarin</td>
+						</tr>
+						<tr>
+							<td>Franz Liszt</td>
 							<td>Sonnetto 104 del Petrarca</td>
 						</tr>
 						<tr>
-							<td>Les Jeux d'eaux à la Villa d'Este</td>
+							<td>&nbsp;</td>
+							 <td>Les Jeux d'eaux à la Villa d'Este</td>
 						</tr>
 						<tr>
-							<td>R.Schumann</td>
+							<td>Sergei Rachmaninoff&nbsp;&nbsp;</td>
+							<td>Prelude in D major Op.23 No.4</td>
+						</tr>						<tr>
+						<td>Gioachino Rossini</td>
+							<td>Semiramide Overture, arr. Czerny, for 16 pianists on 8 pianos</td>
+							</tr>
+							<tr>
+
+						<tr>
+						<td>Alexander Scriabin</td>
+						<td>Sonata Nr.2 Op.19</td>
+						</tr>
+					 	<tr>
+							<td>Franz Schubert</td>
+							<td>Impromptu G flat major Op.90 No.3</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>Impromptu B flat major Op.142 No.3</td>
+						</tr>
+						<tr>
+							<td>Robert Schumann</td>
 							<TD>Etudes Symphoniques Op.13</td>
 						</tr>
-						<tr>
-							<td colspan='2'>More to follow...</td>
-						</tr>
-				</table>
+ 				</table>
 				</div>
 				 <div class="col-lg-4 col-4 col-sm-4">
 						<?php photorightnolink ("m.spinett.jpg","Spinnet");?>
@@ -55,11 +122,11 @@ print head("en","Program"); ?>
                  <div class="col-lg-8 col-8 col-sm-8">
                      <table class="tbl">
 						<tr>
-							<td>L. van Beethoven </td>
-							<td>Sonata E flat major "Les Adieux" Op.81a</td>
+							<td>Ludwig van Beethoven&nbsp;&nbsp;&nbsp;</td>
+							<td>Sonata E flat major &quot;Les Adieux&quot; Op.81a</td>
 						</tr> 
 						<tr>
-							<td>F.Chopin</td>
+							<td>Frederic Chopin</td>
 							<td>24 Preludes Op.28</td>
 						</tr>
 						<tr>
@@ -67,19 +134,19 @@ print head("en","Program"); ?>
 							<td>Tarantella A flat major Op.43</td>
 						</tr>
 						<tr>
-							<td>M.Glinka</td>
-							<td>"The Lark"  arr. M.Balakirew</td>
+							<td>Mikhail Glinka</td>
+							<td>&quot;The Lark&quot;  arr. M.Balakirew</td>
 						</tr>
 						<tr>
-							<td>E.Granados </td>
-							<td>The Maiden and the Nightingale ( Goyescas)</td>
+							<td>Enrique Granados </td>
+							<td>The Maiden and the Nightingale (Goyescas)</td>
 						</tr>
 						<tr>
-							<td>F.Liszt</td>
-							<td> Verdi Rigoletto Fantasy </td>
+							<td>Franz Liszt</td>
+							<td>Verdi Rigoletto Fantasy </td>
 						</tr>
 						<tr>
-							<td  >S.Rachmaninoff</td>
+							<td>Sergei Rachmaninoff</td>
 							<td>Etude E flat major Op.33 Nr.7</td>
 						</tr>
 						<tr>
@@ -111,16 +178,16 @@ print head("en","Program"); ?>
 							<td>Prelude C minor Op.23 Nr.7</TD>
 						</TR>
 						<tr>
-							<td>A Scriabin </td> 
+							<td>Alexander Scriabin </td> 
 							<td>Etude E major Op.8 Nr. 5</td>
 						</tr>
 						<tr>
-							<td  >&nbsp;</td>
-							<td  >Etude G sharp minor Op.8 Nr.9</td>
+							<td>&nbsp;</td>
+							<td>Etude G sharp minor Op.8 Nr.9</td>
 						</tr>
 						<tr>
-							<td  > </td>
-							<td  >Etude B flat minor Op.8 Nr.11</td>
+							<td>&nbsp;</td>
+							<td>Etude B flat minor Op.8 Nr.11</td>
 						</tr>
 						<tr>
 							<td  > </td>
@@ -148,11 +215,11 @@ print head("en","Program"); ?>
 						</tr>
 						<tr>
 						<td > </td>
-						<td >Sonate Nr.2 Op.19</td>
+						<td >Sonata Nr.2 Op.19</td>
 						</tr>
 						<tr>
-							<td> </td>
-							<td  >Sonata No.4, No 6</td>
+							<td>&nbsp;</td>
+							<td>Sonata No.4, No 6</td>
 						</tr>
 					</table>
 				</div>
@@ -166,38 +233,37 @@ print head("en","Program"); ?>
 					<div class="col-lg-8 col-8 col-sm-8">
 						<table class="tbl">
 							<tr>
-								 <td  >L.van Beethoven&nbsp;</td>
+								 <td  >Ludwig van Beethoven&nbsp;</td>
 								 <td  >Sonata in E-flat major   Op.81a &quot;Les Adieux&quot;  </td>
 							  </tr>
 							  <tr>
-								  <td  >F.Chopin</td>
+								  <td  >Frederic Chopin</td>
 								  <td  >Berceuse in D-flat major   Op.57</td>
 							 </tr>
 							 <tr>
-								 <td  ></td>
-								  <td  >Tarantella in A-flat major   Op.43  </td>
+								 <td >&nbsp;</td>
+								  <td>Tarantella in A-flat major   Op.43  </td>
 							 </tr>
 							 <tr>
-								  <td  > F.Liszt   </td>
-								  <td  >Verdi Rigoletto  Paraphrase   </td>
+								  <td> Franz Liszt</td>
+								  <td>Verdi Rigoletto  Paraphrase   </td>
 							 </tr>
 							 <tr>
-								  <td  >M.Glinka</td>
+								  <td  >Mikhail Glinka</td>
 								  <td  >&quot;The Lark&quot;   , arr. by   M.Balakirew  </td>
 							 </tr>
 							 <tr>
-								  <td  >E.Granados  </td>
+								  <td  >Enrique Granados  </td>
 								  <td  >&quot;The Maiden and  the Nightingale&quot; (Goyescas)</td>
 							 </tr>
 							 <tr>
-								  <td  > J.Brahms    </td>
-								  <td  >Paganini Variations   Book 1   Op.35   </td>
+								  <td>Johannes Brahms&nbsp;</td>
+								  <td>Paganini Variations   Book 1   Op.35   </td>
 							 </tr> 
 						 </table>
 					</div>
 					<div class="col-lg-4 col-4 col-sm-4">
 						<?php photorightnolink("m.piano2014.jpg","Piano");?>
-						</a>
 					</div>  
 				</div>
 				<div class="row">
@@ -207,18 +273,17 @@ print head("en","Program"); ?>
                  <div class="col-lg-8 col-8 col-sm-8">
                      <table class="tbl">
 						<tr>
-							<td>F. Schubert&nbsp;&nbsp;</td>
+							<td>Franz Schubert&nbsp;&nbsp;&nbsp;&nbsp;</td>
 							<td> Sonata in B flat major D 960</td>
 						</tr>
 						<tr>
-							<td>J.Brahms</td>
-							<td  >Pieces (6) for piano Op.118</td>
+							<td>Johannes Brahms&nbsp;&nbsp;&nbsp;&nbsp;</td>
+							<td>Pieces (6) for piano Op.118</td>
 						</tr> 
 					</table>
 				</div>
 				<div class="col-lg-4 col-4 col-sm-4">
 					<?php photorightnolink("clavichord1.jpg","Clavichord");?>
-					</a>
 				</div>
 			</div>
 		</div>
@@ -229,22 +294,21 @@ print head("en","Program"); ?>
              <div class="col-lg-8 col-8 col-sm-8">
                 <table class="tbl">
 					<tr>
-						<td>L. van Beethoven&nbsp;&nbsp; </td>
-						<td  > Sonata in B-Flat Major  Op.106  &quot;Hammerklavier&quot;</td>
+						<td>Ludwig van Beethoven&nbsp;&nbsp; </td>
+						<td>Sonata in B-Flat Major  Op.106  &quot;Hammerklavier&quot;</td>
 					</tr>
 					<tr>
 						<td>Claude Debussy</td>
 						<td>A selection of  pieces </td>
 					</tr>
 					<tr>
-						<td  >Mili Balakirew    </td>
-						<td  >Islamei &ndash; Oriental Fantasy</td>
+						<td>Mili Balakirew    </td>
+						<td>Islamei &ndash; Oriental Fantasy</td>
 					</tr>
 				</table>
 			</div>
 			<div class="col-lg-4 col-4 col-sm-4">
 				<?php photorightnolink("piano2.jpg","Upright Piano");?>
-				</a>
 			</div>
 		</div>
 	</div>
@@ -255,8 +319,6 @@ print head("en","Program"); ?>
       </div> <!--row-->
 		</div> <!-- container -->
         </div>   <!-- /#page-content-wrapper -->
-    </div>  <!-- /#wrapper -->
-	
-	<?php  print endPage();?>
+   	<?php  print endPage();?>
 	</body>
 </html>

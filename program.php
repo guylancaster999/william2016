@@ -15,8 +15,22 @@
                     <h2>Program</h2>
                  </div>
                </div>
-			   <div class="row">
-                 <div class="col-lg-12 col-12 col-sm-12 year">2016</div>
+		   <div class="row">
+                 <div class="col-lg-12 col-12 col-sm-12 year">2017</div>
+			</div>	 
+            <div class="row">
+                 <div class="col-lg-8 col-8 col-sm-8">
+               Johann Sebastian Bach &nbsp;&nbsp;Goldberg Variationen
+			   <br/>
+			   <br/>
+			   Mehr zu folgen...
+			   </div>
+			   <div class="col-lg-4 col-4 col-sm-4">
+				<?php photorightlinked("klavier.jpg","Bechstein Piano Repair","http://bechstein.com/");?>
+				</div>
+			</div>
+		<div class="row">
+            <div class="col-lg-12 col-12 col-sm-12 year">2016</div>
 			</div>	 
             <div class="row">
                  <div class="col-lg-8 col-8 col-sm-8">
@@ -25,25 +39,70 @@
 							<td>Ludwig van Beethoven&nbsp;&nbsp;&nbsp;&nbsp;</td>
 							<td>Sonate Es-Dur Op.31 Nr.3</td>
 						</tr>
+						<tr> 
+							<td>&nbsp;</td>
+							<td>Sonata fur violin und piano No.5 Fmajor Op.24</td>
+						</tr>
 						<tr>
-							<td>Frederic Chopin</td>
+							<td>Fre&eacute;d&eacute;ric Chopin</td>
 							<td>3 Mazurken Op.59</td>
 						</tr>
 						<tr>
-							<td rowspan="2">Franz Liszt</td>
+							<td></td>
+							<td>Sonate Nr.2 b-Moll Op. 35</td>
+						</tr>
+						<tr>
+							<td>César Cui</td>
+							<td>Causerie</td>
+						</tr>
+ 						<tr>
+							<td>William Cuthbertson</td>
+							<td>Butterfly Bounce No.1</td>
+						</tr>
+						<tr>
+							<td>Antonin Dvorak</td>
+							<td>Humoresque</td>
+						</tr>
+						<tr>
+							 <td>Cesar Franck</td>
+							<td>Sonata for violin and piano A major</td>
+						</tr>
+						<tr>
+							<td>Fritz Kreisler</td>
+							<td>Sch&ouml;n Rosmarin</td>
+						</tr>
+						<tr>
+							<td rowspan="2">F Liszt</td>
 							<td>Sonnetto 104 del Petrarca</td>
 						</tr>
 						<tr>
 							<td>Les Jeux d'eaux à la Villa d'Este</td>
 						</tr>
 						<tr>
-							<td>Robert Schumann</td>
+							<td>Sergei Rachmaninow</td>
+							<td>Prelude D-Dur Op.23 Nr.4</td>
+						</tr>
+						<tr>
+						<td>Gioachino Rossini</td>
+							<td>"Semiramide" Overture, arr. Czerny, für 16 Pianisten auf 8 Klaviere</td>
+							</tr>
+							<tr>
+						<td>FranzSchubert</td>
+							<td>Impromptu Ges-Dur Op.90 Nr.3</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>Impromptu B flat major Op.142 No.3</td>
+						</tr>
+						<tr>
+							<td>R Schumann</td>
 							<TD>Etudes Symphoniques Op.13</td>
 						</tr>
 						<tr>
-							<td colspan='2'>Weitere werden folgen...</td>
+							<td>A.Skrjabin</td>
+							<td>Sonate Nr.2 Op.19</td>
 						</tr>
-						</table>
+ 						</table>
 					</div>
 					<div class="col-lg-4 col-4 col-sm-4">
 					<?php photorightnolink ("m.Grandpiano.jpg","GrandPiano");?>
@@ -57,11 +116,11 @@
                  <div class="col-lg-8 col-8 col-sm-8">
                      <table class="tbl">
 						<tr>
-							<td>Ludwig van Beethoven&nbsp;&nbsp;</td>
+							<td>Ludwig van Beethoven&nbsp;&nbsp;&nbsp;</td>
 							<td >Sonate Es-Dur Op.81a &quot;Les Adieux&quot;</td>
 					</tr> 
 					<tr>
-					<td >Frederic Chopin</td>
+					<td >Fr&eacute;d&eacute;ric Chopin</td>
 					<td >24 Preludes Op.28</td>
 					</tr>
 					<tr>
@@ -95,7 +154,7 @@
 					<td>Prelude C-Moll Op.23 Nr.7</td>
 					</tr>
 					 <tr>
-					<td >Alexander Scriabin </td>
+					<td>Alexander Scriabin</td>
 					<td>Etude E-Dur Op.8 Nr. 5</td>
 					</tr>
 					<tr>
@@ -154,7 +213,7 @@
                  <div class="col-lg-8 col-8 col-sm-8">
                      <table class="tbl">
 					  <tr>
-					  <td >Ludwig van Beethoven&nbsp;&nbsp;</td>
+					  <td >Ludwig van Beethoven&nbsp;&nbsp;&nbsp;&nbsp;</td>
 					  <td > Sonate Es-Dur Op.81a &quot;Les Adieux&quot; </td>
 					  </tr>
 					<tr><td >Frederic Chopin</td>

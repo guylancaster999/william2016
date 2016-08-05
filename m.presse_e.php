@@ -8,6 +8,22 @@ print head("en","press","presse_e.php","Y");
        <?php print top("en","Press","Press");?>
   </div>
   <div data-role="main" class="ui-content">
+  
+  <?php photoright("Fr08Juli2016.jpg","Fr08Juli2016_240.jpg","Press","Chopin Schuman Beethoven, Foto: G. Zahn",
+"presse_e.php","de");?>
+<h3 align="center">Concert with William Cuthbertson at the Elztal Museum.</h3>
+The summer matinee with pianist William Cuthbertson included works by Beethoven, Chopin and Schumann.
+In his unobtrusive way, Cuthbertson worked out the melodies well.
+The audience was enthusiastic.
+<br clear="all"/>
+<br/>
+<a href="http://www.badische-zeitung.de/waldkirch/stuermischer-applaus--124551693.html">Badische Zeitung, Friday 8th, July 2016</a>
+<br clear="all"/>
+<br clear="all"/>
+			<br clear="all"/><hr/>
+
+  
+  
 				        <h3>Terrific Concert</h3>
 				<?php photorightlinked("21april2015_240.jpg","Grandios%20nachgespürt","http://www.badische-zeitung.de/waldkirch/grandios-nachgespuert--103664731.html"); ?>
 				Matinee with William Cuthbertson / Preludes by Chopin and Scriabin.

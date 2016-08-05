@@ -4,12 +4,13 @@ session_start();
 $lan		= $_REQUEST["lan"];
 $photoPtr	= $_REQUEST["photoPtr"];
 $fromUrl	= $_REQUEST["fromUrl"];
-$gpics		= $_SESSION["gpics"];	
+$gpics		= $_SESSION["gpics"];
+$picCtr		= $_REQUEST["picCtr"];
 $x 			= json_decode($gpics,true);
- $sz			= count($x["gallery"]);
+$sz			= count($x["gallery"]);
 $y 			= $x["gallery"][$photoPtr]; 
 $picLarge	= $y["picLarge"];
-$grpTtl 	= $y["grpTtl"];
+$grpTtl 	= str_replace( "%20"," ",$y["grpTtl"]);
 $picTtl		= str_replace( "%20"," ",$y["picTtl"]);
 $prevFlag	= "T";
 $prevPtr	= $photoPtr;
@@ -25,10 +26,12 @@ if($prevFlag=="P")
 {
   $prevArrow='<a href="fotoLarge.php';
   $prevArrow.='?lan='.$lan;
-   $prevArrow.='&amp;photoPtr='.$prevPtr;
+  $prevArrow.='&amp;photoPtr='.$prevPtr;
   $prevArrow.='&amp;fromUrl='.$fromUrl.'" ';
-  switch ($lan)
-  {case "de":$prevArrow.=' title="Zurück" ';
+ 
+switch ($lan)
+  {
+    case "de":$prevArrow.=' title="Zurück" ';
 	break;
 	case "ch":$prevArrow.=' title="以前" ';
 	break; 
@@ -41,6 +44,7 @@ if($prevFlag=="P")
 $nextFlag	="T";
 $nextPtr	=$photoPtr;
 $nextArrrow="";
+
 while ($nextPtr<$sz && $nextFlag=="T")
 {
 	$nextPtr++;
