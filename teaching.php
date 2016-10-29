@@ -12,13 +12,13 @@ print head("de","Unterricht");
 			    <?php topRight();?>
                 <div class="row">
                  <div class="col-lg-12"> 
-                      <h2 >Klavierunterricht, Coaching und Begleitung</h2>
+                      <h2>Klavierunterricht, Coaching und Begleitung</h2>
                    </div>
              </div>
             <div class="row">
                  <div class="col-lg-12">         
                      <?php photo("foto3.JPG","foto3_240.jpg","Unterricht",
-					 "William%20Cuthbertson%20mit%20student%20am%20MeisterKurz","teaching.php","de","picturerightfs");?>
+					 "William%20Cuthbertson%20mit%20student%20am%20Peter Feuchtwanger MeisterKurz","teaching.php","de","picturerightfs");?>
 					<ul>
 						<li>Verfügt über einen weitreichenden Erfahrungsschatz im Bereich Klavierunterricht mit Schüler und Schülerinnen alle Altersstufen. 
 						<br/><br/>
@@ -34,7 +34,8 @@ print head("de","Unterricht");
 						<li>Vermittelt eine natürliche und individuelle Klaviertechnik – Unterrichtet die Klavierübungen von Prof. Peter Feuchtwanger.
 						<br/><br class="brclear"/>
 						</li>
-						<li><?php photo("Alban6.JPG","Alban6_240.JPG","Unterricht","William%20Cuthbertson%20accompanying%20Alban","teaching.php","de","picturerightfs");?>
+<li><?php photo("Alban6.JPG","Alban6_240.JPG","Unterricht",
+"William (Klavier) begleitet Alban (Waldhorn)","teaching.php","de","picturerightfs");?>
 						Durch die Analyse des musikalischen Sinns, Strukturen und Intentionen der einzelnen Werke und die Überlegung wie diese auf die Hörer wirken, hilft William Cuthbertson  seinen Schülern die Stücke zu gestalten und einen schönen Klang  zu erzeugen.
 						<br/><br/></li>
 					</ul>

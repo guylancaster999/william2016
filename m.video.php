@@ -7,12 +7,12 @@ print head("de","video","video.php","Y");
   <div data-role="header">
        <?php print top("de","Video","Video");?>
    </div>
-  <div data-role="main" class="ui-content">
+  <div data-role="main" class="ui-content" style="text-align: center;">
   
- 		      	William Cuthbertson in Balakhna, Nizhny Novgorod, Russia (TV News 31/5/16)  
+ 	    	William Cuthbertson in Balakhna, Nizhny Novgorod, Russia (TV News 31/5/16)  
 <br/>
 <br/>
-					 <iframe src="http://www.youtube.com/embed/dOqKpMH53b8" height="300" width="500"></iframe>
+<iframe src="http://www.youtube.com/embed/dOqKpMH53b8" height="300" width="500"></iframe>
 <br/>
 <br/>
 				   <iframe src="http://www.youtube.com/embed/0QRIk34l4mI" width="500" height="300"></iframe>

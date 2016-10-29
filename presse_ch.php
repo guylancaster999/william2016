@@ -75,7 +75,17 @@ print head("ch","媒体评价");
 				<h3>《2014年新年音乐会》巴登日报2014/1/28：威廉•卡思伯森和中国高姓钢琴师共同演奏巴哈和中国的摇篮曲：<br />				舞步般得轻巧结合挽诗的忧伤：威廉•卡思伯森和中国大提琴师高未末共同演奏巴哈和一首中国摇篮曲。点击这里了解更多：<a href="http://www.badische-zeitung.de/waldkirch/taenzerische-leichtigkeit-und-elegische-momente--80093094.php" >这里</a>
 				<br class="brclear" />				
 				<HR/>
-					<h3>令人兴奋的音景 - 音乐会威廉卡思伯森（钢琴）和Sun益气（小提琴）2012。</h3>
+				<?php photoright("14thMasterclass.jpg","14thMasterclass_120.jpg","Press", 
+				"14. Meisterkurs :Photo Eberhard Weiss, Badische%20Zeitung","presse_ch.php","en");?> 
+ 				<h3><strong>2013 Masterclass</strong></h3>
+				<BR/>
+				The 14th Masterclass with Professor Peter Feuchtwanger concluded with an outstanding concert in the Baroque Hall of the Elztal museum,
+				where Japanese Masako Kamikawa played Chopin's Rondo in E flat major with brilliance and expression.
+				<BR/>
+				<BR/>
+				<a href="http://www.badische-zeitung.de/waldkirch/meisterspiel-mit-eigenem-stil--72357409.html">Badische Zeitung 2013</a>
+				<hr/>			
+				<h3>令人兴奋的音景 - 音乐会威廉卡思伯森（钢琴）和Sun益气（小提琴）2012。</h3>
 					<?php photoright("yikisun.jpg","yikisun_240.jpg","Press","William%20Cuthbertson und Sun Yiqi, Photo: Ilona Hüge,Badische-zeitung","presse_e.php","de" );?>
 					HERBOLZHEIM.  The evening in the gatehouse was sold out. No wonder, since the performers were Sun Yiqi (violin) and William Cuthbertson (piano).
 					<br/>

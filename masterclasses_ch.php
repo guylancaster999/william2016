@@ -65,6 +65,8 @@ Manfred Seewann和William Cuthbertson 将会参与每日大师班。旨在改善
 此次大师班适合各个演奏水平的钢琴演奏者。无论是高阶的业余演奏者，拥有演奏会经验的职业演奏师，要参加入学考的及已在学的音乐院学生，还是在职音乐老师，我们都非常欢迎您来参加。此外，本次的大师班特别适用于因不正确学习方法而无法突破的学习者，
 <br/>
 如您有任何疑问，请联系威廉卡•思伯森：w.cuthbertson@gmx.de  
+
+
 <ul>
 		<li><A href="doc/ChinesischeBroschure2016.pdf">请点 这里 以得到此次2016年大师班的宣传单 </A>
 		<br/>
@@ -75,6 +77,7 @@ Manfred Seewann和William Cuthbertson 将会参与每日大师班。旨在改善
 		<br/>
 		</li>
 		</ul> 
+					
                 <?php    print foot();				?>
                     </div>
                 </div>

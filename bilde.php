@@ -30,29 +30,15 @@ $sz					= count($x["gallery"]);
                 </div>
              </div>
             <div class="row">
-                <div class="col-lg-12 col-sm-12 col-12">         
-					<table class="table">
-					<tr>
 					<? 
-					$colCtr=0;
-					
 					for ($i=0;$i<$sz;$i++)
 					{ 	
-						if ($colCtr>=4)
-						{
-								$colCtr = 0;
-								print "</tr>
-								<tr>";
-						}
-						$colCtr++;
-						print "<td>";
+						print '<div class="col-lg-2 col-md-3 col-sm-4 bordered">';
 						displayPic($i,"bilde.php","de");
-						print "</td>";
-						print "<td>&nbsp;</td>";
+						print "</div>";
 					}
 					?>
-				</tr>
-			</table>			
+			</div>			
 				<br/>
 				<div class="alpha" >Klicken Sie auf die Fotografien in voller Größe zu sehen</div>
 				<?php print foot();?>

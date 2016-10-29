@@ -29,21 +29,20 @@ print head("de","Kontakt ");
 						</tr>
 						<tr>
 							<td><strong>Tel.</strong></td>
-							<td>:</td>
+							<td> : </td>
 							<td><a href="tel:+497681409260">0 76 81 40 92 60</a></td>
 						</tr>
 						<tr>
 							<td><strong>E-Mail</strong></td>
-							<td>:</td>
+							<td> : </td>
 							<td><a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a></td>
 						</tr>
 						<tr>
 							<td><strong>E-Mail (website)</strong></td>
-							<td>:</td>
+							<td> : </td>
 							<td><a href="mailto:guylancaster@hotmail.com">guylancaster@hotmail.com</a></td>
 						</tr>
-
-					</table>
+								 </table>
             </div>
             <div class="col-sm-6">
                 <?php photorightnolink("FotoChopinKonzertSept2010_350.jpg","William Cuthbertson - Chopin Konzert Sept 2010");?>

@@ -17,8 +17,7 @@ print head("ch","钢琴课程，辅导和伴奏");
              </div>
            <div class="row">
                  <div class="col-lg-12">     
-                  <?php  photorightnolink("foto3_240.jpg","William Cuthbertson");?>
-						<ul>
+            			<ul>
 						<li>威廉•卡思伯森对于钢琴课程拥有丰富的授课经验，并熟悉适合各年龄段的学生的教学方法。
 						</li>
 						<li>提供初学者到专业演奏家的训练
@@ -32,7 +31,21 @@ print head("ch","钢琴课程，辅导和伴奏");
 						<li>通过对各音乐作品的意义，结构和的目的，以及对聆听者所产生的效果来进行分析，协助学生的塑造动人的个人音乐风格。
 						</li>
 						</ul>
-											 
+					</div>
+					</div>
+           <div class="row">
+                 <div class="col-lg-6">     
+					<?php photocenterfs("foto3.JPG","foto3_240.jpg","Teaching",
+			"William Cuthbertson teaching students at Peter Feuchtwanger Masterclass","teaching_ch.php","picturecenter");?>
+				 </div>
+				 <div class="col-lg-6">     
+			      <?php photocenterfs("Alban6.JPG","Alban6_240.JPG","Teaching",
+				   "William%20Cuthbertson (Piano) accompanies Alban (French Horn)","teaching_ch.php","picturecenter");?>
+              </div>
+			  </div>
+           <div class="row">
+                 <div class="col-lg-12">     
+		  
 						<?php print foot(); ?>
                     </div>
                 </div>

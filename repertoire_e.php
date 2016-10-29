@@ -33,6 +33,7 @@ print head("en","Program"); ?>
 			   <a href="http://en.wikipedia.org/wiki/Johann_Sebastian_Bach"><h3>Johann Sebastian Bach</h3></A>
  			<ul>
 				<li>Partita No.1 B flat major</li>
+				<li>Partita No 2 c-Minor BWV 826</li>
 				<li>Partita No.6 E minor</li>
 				<li>Preludes and fugues from the Well-Tempered Clavier Book 1: C major, C minor, C# major, C sharp minor, D major, D minor, E-flat, E-flat minor, E major, F minor, G major, B-flat, B-flat minor.</li>
 				<li>Preludes and fugues from the Well-Tempered Clavier Book 2: D major, D minor, E-flat, F minor, F sharp minor, G major, A-flat major</li>
@@ -444,19 +445,17 @@ print head("en","Program"); ?>
                  <div class="col-sm-9 col-9">
 					<a href="http://en.wikipedia.org/wiki/Maurice_Ravel"><h3>Maurice Ravel</h3></a>
 								<ul>
-								  <li>Valses nobles et sentimentales</li>
-								  <li>Sonatine</li>
 								  <li>Alborado del grazioso</li>
 								  <li>Jeux d'eau</li>
-								</ul>
+								  <li>Pavane pur une infante défunte</li>
+								  <li>Sonatine</li>
+								  <li>Valses nobles et sentimentales</li>
+								  </ul>
 					</div>
                  <div class="col-sm-3 col-3">
 					<?php  photorightnolink("m.Maurice_Ravel.jpg","Maurice%20Ravel-Photo:Wikipedia"); ?>
 				</div>
 			</div>
-
-
-
 			 <div class="row rowBorder">
                  <div class="col-sm-9 col-9">
 					<a href="https://en.wikipedia.org/wiki/Gioachino_Rossini"><h3>Gioachino Rossini</h3></a>
@@ -468,7 +467,6 @@ print head("en","Program"); ?>
 					<?php  photorightnolink("Gioacchino_Rossini.jpg","Gioachino_Rossini-Photo:Wikipedia"); ?>
 				</div>
 			</div>
-
 			<div class="row rowBorder">
                  <div class="col-sm-9 col-9">
 					<a href="http://en.wikipedia.org/wiki/Franz_Schubert"><h3>Franz Schubert</h3></a>

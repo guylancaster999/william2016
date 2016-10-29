@@ -10,139 +10,29 @@ print head("ch","链接");
           <div id="page-content-wrapper">
             <div class="container-fluid"> 
 			    <?php topRight("links_e.php","links.php","links_ch.php"); ?>
-                <div class="row">
+                <div class="row  rowBorder">
                   <div class="col-lg-12"> 
                       <h2>链接</h2> 
                   </div>
                </div>
-            	<div class="row">
-                 <div class="col-lg-3">         
-                   <img src="img/alexandertechnique.png" alt="Alexander Technique" height="160" class="pic img-rounded" >
-				  </div>
-				 <div class="col-lg-9">         
-					<a href="http://www.alexandertechnique.com/">Alexandertechnik</a> 
-					</div>
-				</div>
-
-				<div class="row">
-                 <div class="col-lg-3">         
-					<img src="img/wikipedia.png" alt="Wikipedia" height="160" class="pic img-rounded" />
-				</div>
-				 <div class="col-lg-9">         
-				<a href="http://en.wikipedia.org/wiki/Alexander_technique">Alexandertechnik (wikipedia)</a>
-				</div>
-             </div>
-			<div class="row">
-                 <div class="col-lg-3">         
-					<img src="img/abrsm.jpg" height="160" class="pic img-rounded" >
-				</div>
-				 <div class="col-lg-9">         
-					<a href="http://de.abrsm.org/en/home">Associated Board of the Royal Schools of Music (ABRSM)</a> 
-					- Prufüngen
-				</div>
-				</div>
-              	<div class="row">
-                    <div class="col-lg-3">         
-                        <img src="img/eltzalmuseum.gif" height="160" class="pic img-rounded" >
-					</div>
-                <div class="col-lg-9">         
- 					<a href="http://www.elztalmuseum.de/">Elztal Museum</a>
-					</div>
-                	</div>
-       	           	<div class="row">
-                      <div class="col-lg-3">         
-							<img src="img/epta.png" alt="EPTA"  class="pic img-rounded"  height="160"/>
-					</div>
-					  <div class="col-lg-9">         
-					    <a href="http://epta-europe.org">European Piano Teachers' Association</a>
-					</div>
-                	</div>
-       	           	<div class="row">
-                      <div class="col-lg-3">         
-							<img src="img/klappe11.jpg" height="160"  class="pic img-rounded" >
-						</div>
-					  <div class="col-lg-9">         
-							<a href="http://www.klappe11.de/">Kommunales Kino Klappe 11</a>
-						</div>
-					</div>
-       	           	<div class="row">
-                      <div class="col-lg-3">         
-						<img src="img/musicschulewaldkirch.jpg" height="160"  class="pic img-rounded" >
-						</div>
-					  <div class="col-lg-9">         
-						<a href="http://www.fv-musikschule-waldkirch.de/">Musikschule Waldkirch</a>
-				</div>
-					 </div>
-      	           	<div class="row">
-                      <div class="col-lg-3">         
-						<img src="img/pf.png" height="160"  class="pic img-rounded" />
-						</div>
-					  <div class="col-lg-9">         
-						<a href="http://www.peter-feuchtwanger.de/">Peter Feuchtwanger</a>
-						</div>
-					</div>
-					<div class="row">
-                      <div class="col-lg-3">         
-					    <img src="img/pfclub.jpg" height="160" class="pic img-rounded" >
-						</div>
-					  <div class="col-lg-9">         
-					<a href="https://www.facebook.com/Peter-Feuchtwanger-Club-195576167160189/">Peter-Feuchtwanger-Club</a> (Facebook)
-						</div>
-						</div>
-			<div class="row">
-                      <div class="col-lg-3">         
-					  <a href="https://en.wikipedia.org/wiki/Peter_Feuchtwanger" title="Peter Feuchtwanger">
-							<img src="img/wikipedia.png" height="160" alt="Wikipedia" class="pic img-rounded" >
-						</a>
-						</div>
-					  <div class="col-lg-9">         
-						<a href="https://en.wikipedia.org/wiki/Peter_Feuchtwanger" title="Peter Feuchtwanger">
-						   Peter Feuchtwanger
-						</a> (Wikipedia)
-						</div>
-						</div>
-			<div class="row">
-                      <div class="col-lg-3">  
-							<img src="img/ram.png" alt="Royal Academy of Music"  class="pic img-rounded"  height="160"/>
-					</div>
-					  <div class="col-lg-9">  
-						<a href="http://www.ram.ac.uk/">Royal Academy of Music</a> 
-						</div>
-						</div>
-					<div class="row">
-						<div class="col-lg-3">  
-							<img src="img/blido.jpg" alt="Stefan Blido" height="160"  class="pic img-rounded" />
-					</div>
-					  <div class="col-lg-9">  
-						<a href="http://www.blido.de/" title="Stefan Blido">Stefan Blido</a>
-						</div>
-						</div>
-					<div class="row">
-						<div class="col-lg-3">  
-							<img src="img/kulturwoche.jpg" height="160"  class="pic img-rounded" >
-						</div>
-						<div class="col-lg-9">  
-                           <a href="http://kulturwoche-waldkirch.de/">Waldkirche Kulturwochen</a> 
-						</div>
-						</div>
-					<div class="row">
-						<div class="col-lg-3">  
-							<img src="img/wo.jpg" height="160" class="pic img-rounded" >
-						</div>
-						<div class="col-lg-9">  
-                        	<a href="http://www.waldkircher-orgelstiftung.de/">Waldkircher Orgelstiftung</a> 
-						</div>
-						</div>
-					<div class="row">
-						<div class="col-lg-3">  
-							<img src="img/fb.jpg" height="160" class="pic img-rounded" >
-						</div>
-						<div class="col-lg-9">  
-							<a href="https://www.facebook.com/william.cuthbertson.12">William Cuthbertson Facebook</a>
-						</div>
-						</div>
-					</div>
-					<div class="row">
+           	 <?php
+			 alink("alexandertechnique.png","Alexander Technique","http://www.alexandertechnique.com/");
+			 alink("wikipedia_ch.png","Alexander Technique (Wikipedia)","https://zh.wikipedia.org/wiki/%E4%BA%9E%E6%AD%B7%E5%B1%B1%E5%A4%A7%E6%8A%80%E5%B7%A7");
+			 alink("abrsm.jpg","Associated Board of the Royal Schools of Music (ABRSM)-Examinations","http://cn.abrsm.org/en/home");
+			 alink("eltzalmuseum.gif","Elztal Museum, Waldkirch","http://www.elztalmuseum.de/");
+			 alink("epta.png","European Piano Teachers Association","http://epta-europe.org");
+			 alink("klappe11.jpg", "Klappe 11 Cinema and Arts Festival,Waldkirch","http://www.klappe11.de/");
+			 alink("musicschulewaldkirch.jpg","Waldkirch Music School","http://www.fv-musikschule-waldkirch.de/");
+			 alink("pf.png","Peter Feuchtwanger - Pianist, Composer, Padagogue","http://www.peter-feuchtwanger.de/");
+			 alink("pfclub.jpg","Peter Feuchtwanger Club (Facebook)","https://www.facebook.com/Peter-Feuchtwanger-Club-195576167160189/");
+			 alink("wikipedia.png","Peter Feuchtwanger (Wikipedia)","https://en.wikipedia.org/wiki/Peter_Feuchtwanger");
+			 alink("ram.png","Royal Academy of Music","http://www.ram.ac.uk/");
+			 alink("blido.jpg","Fedra and Stefan Blido","http://www.blido.de/");
+			alink("kulturwoche.jpg","Waldkirch Culture Week" ,"http://kulturwoche-waldkirch.de/");
+			alink("wo.jpg","Waldkirch Organ Foundation","http://www.waldkircher-orgelstiftung.de/");
+			alink("fb.jpg","William Cuthbertson Facebook","https://www.facebook.com/william.cuthbertson.12");
+		?>
+					<div class="row  rowBorder">
 						<div class="col-lg-12">  
 						
                 <?php print foot();	?>

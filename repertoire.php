@@ -17,7 +17,7 @@ print head("de","Repertoire");
                </div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-						<a href="http://en.wikipedia.org/wiki/Isaac_Alb%C3%A9niz">
+						<a href="https://de.wikipedia.org/wiki/Isaac_Alb%C3%A9niz">
 							<h3>Isaac Albeniz</h3>
 						</a>
 						<ul>
@@ -31,16 +31,22 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<A href="http://en.wikipedia.org/wiki/Johann_Sebastian_Bach">
+							<A href="https://de.wikipedia.org/wiki/Johann_Sebastian_Bach">
 								<h3>Johann Sebastian Bach</h3>
 							</A>
 							<ul>
-								<li>Partita Nr.1 B-Dur, Nr.6 E-moll</li>
+								<li>Partita
+									<ul>
+									<li>Nr.1 B-Dur</li>
+									<li>Nr 2 C-Moll</li>
+									<li>Nr.6 E-moll</li>
+									</ul>
+								</li>
 								<li>Einige Präludien und Fugen aus dem Wohltemperiertes Klavier
-								<ul>
-								<li>Buch 1:C-Dur, C-Moll, Cis-Dur, Cis-Moll, D-Dur, D-Moll, Es-Dur, Es-Moll, E-Dur, F-Moll, G-Dur, B-Dur, B-Moll</li>
-								<li>Buch 2:D-Dur, D-Moll, Es-Dur, F-Moll, Fis-Moll, G-Dur, As-Dur</li>
-								</ul>
+									<ul>
+										<li>Buch 1:C-Dur, C-Moll, Cis-Dur, Cis-Moll, D-Dur, D-Moll, Es-Dur, Es-Moll, E-Dur, F-Moll, G-Dur, B-Dur, B-Moll</li>
+										<li>Buch 2:D-Dur, D-Moll, Es-Dur, F-Moll, Fis-Moll, G-Dur, As-Dur</li>
+									</ul>
 								</li>
 								<li>Goldberg Variationen BWV 988</li>
 								<li>Toccata E-Moll BWV 914</li>
@@ -53,7 +59,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Mily_Balakirev">
+							<a href="https://de.wikipedia.org/wiki/Mili_Alexejewitsch_Balakirew">
 								<h3>Mily Alexeyevich Balakirev</h3>
 							</a> 
 							<ul>	
@@ -67,7 +73,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Ludwig_van_Beethoven">
+							<a href="https://de.wikipedia.org/wiki/Ludwig_van_Beethoven">
 								<h3>Ludwig van Beethoven</h3>
 							</a>
 							<ul>
@@ -95,7 +101,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Johannes_Brahms">
+							<a href="https://de.wikipedia.org/wiki/Johannes_Brahms">
 								<h3>Johannes Brahms</h3>
 							</a>
 							<ul>
@@ -112,7 +118,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin">
+							<a href="https://de.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Chopin">
 								<h3>Fr&eacute;d&eacute;ric Chopin</h3>
 							</a>
 							<ul> 
@@ -138,7 +144,7 @@ print head("de","Repertoire");
 				</div>
 	 	<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-						<a href="https://en.wikipedia.org/wiki/C%C3%A9sar_Cui"><h3>Cesar Cui	</h3></a>
+						<a href="https://de.wikipedia.org/wiki/C%C3%A9sar_Cui"><h3>Cesar Cui	</h3></a>
 						<ul> 
 							<li>Causerie</li>
 						</ul>
@@ -161,7 +167,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Claude_Debussy">
+							<a href="https://de.wikipedia.org/wiki/Claude_Debussy">
 								<h3>Claude Debussy</h3>
 							</a>
 							<ul>
@@ -182,7 +188,7 @@ print head("de","Repertoire");
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
 						<h3>
-						<a href="https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k">
+						<a href="https://de.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k">
 						    Antonin&nbsp;Dvo&#345;&aacute;k
 							</a>
 							</h3>
@@ -196,7 +202,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<A href="http://en.wikipedia.org/wiki/John_Field_(composer)">
+							<A href="https://de.wikipedia.org/wiki/John_Field">
 								<h3>John Field</h3>
 							</A>
 							<ul>
@@ -210,7 +216,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/C%C3%A9sar_Franck">
+							<a href="https://de.wikipedia.org/wiki/C%C3%A9sar_Franck">
 								<h3>Cesar Franck</h3>
 							</a>
 							<ul>
@@ -225,7 +231,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/George_Gershwin">
+							<a href="https://de.wikipedia.org/wiki/George_Gershwin">
 								<h3>George Gershwin</h3>
 							</a>
 							<ul>
@@ -238,8 +244,8 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<A href="http://en.wikipedia.org/wiki/Mikhail_Glinka">
-								<h3>Mikhail Glinka</h3>
+							<A href="https://de.wikipedia.org/wiki/Michail_Iwanowitsch_Glinka">
+								<h3>Mikhail Iwanowitsch Glinka</h3>
 							</A>
 							<ul>
 								<li>&quot;Die Lerche&quot; M.Balakirew</li>
@@ -251,7 +257,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<A href="http://en.wikipedia.org/wiki/Enrique_Granados">
+							<A href="https://de.wikipedia.org/wiki/Enrique_Granados">
 								<h3>Enrique Granados</h3>
 							</A>
 							<ul>
@@ -264,7 +270,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Edvard_Grieg">
+							<a href="https://de.wikipedia.org/wiki/Edvard_Grieg">
 								<h3>Edvard Grieg</h3>
 							</a>
 							<ul>
@@ -274,12 +280,12 @@ print head("de","Repertoire");
 							</ul>
 					</div>
 					<div class="col-sm-3 col-md-3">
-							<?php photorightnolink("m.Edvard_Grieg.jpg","E.Grieg:%20Photo:Wikipedia");?>
+							<?php photorightlinked("m.Edvard_Grieg.jpg","E.Grieg:%20Photo:Wikipedia","https://de.wikipedia.org/wiki/Edvard_Grieg");?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Joseph_Haydn">
+							<a href="https://de.wikipedia.org/wiki/Joseph_Haydn">
 								<h3>Joseph Haydn</h3>
 							</a>
 							<ul>
@@ -288,12 +294,12 @@ print head("de","Repertoire");
 							</ul>
 					</div>
 					<div class="col-sm-3 col-md-3">
-							<?php photorightnolink("m.Joseph_Haydn.jpg","J.Haydn:%20Photo:Wikipedia");?>
+					<?php photorightlinked("m.Joseph_Haydn.jpg","J.Haydn:%20Photo:Wikipedia","https://de.wikipedia.org/wiki/Joseph_Haydn");?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="https://en.wikipedia.org/wiki/Leo%C5%A1_Jan%C3%A1%C4%8Dek">
+							<a href="https://de.wikipedia.org/wiki/Leo%C5%A1_Jan%C3%A1%C4%8Dek">
 								<h3>Leo&#353; Jan&aacute;&#269;ek</h3>
 							</a>
 							<ul>
@@ -301,13 +307,13 @@ print head("de","Repertoire");
 							</ul>
 					</div>
 					<div class="col-sm-3 col-md-3">
-							<?php photorightnolink("m.Janacek.jpg","Janacek-Photo:Wikipedia");?>
+					<?php photorightlinked("m.Janacek.jpg","Janacek-Photo:Wikipedia","https://de.wikipedia.org/wiki/Leo%C5%A1_Jan%C3%A1%C4%8Dek");?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
 				      <h3>
-						  <a href="https://en.wikipedia.org/wiki/Fritz_Kreisler">
+						  <a href="https://de.wikipedia.org/wiki/Fritz_Kreisler">
 							  Fritz Kreisler
 						  </a>
 					  </h3>
@@ -316,12 +322,12 @@ print head("de","Repertoire");
 						</ul>
 					</div>
 					<div class="col-sm-3 col-md-3">
-						<?php photorightnolink("Fritz_Kreisler.jpg","Fritz_Kreisler,Photo:Wikipedia");?>
+						<?php photorightlinked("Fritz_Kreisler.jpg","Fritz_Kreisler,Photo:Wikipedia","https://de.wikipedia.org/wiki/Fritz_Kreisler");?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Franz_Liszt">
+							<a href="https://de.wikipedia.org/wiki/Franz_Liszt">
 								<h3>Franz Liszt</h3>
 							</a>
 							<ul>
@@ -346,13 +352,13 @@ print head("de","Repertoire");
 							</ul>	
 					</div>
 					<div class="col-sm-3 col-md-3">
-							<?php  photorightnolink("m.Franz_Liszt.jpg","Franz%20List-Photo:Wikipedia");?>
+						<?php photorightlinked("m.Franz_Liszt.jpg","Franz20List-Photo:Wikipedia","https://de.wikipedia.org/wiki/Franz_Liszt");?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Anatoly_Lyadov">
-								<h3> Anatoly  Lyadov</h3>
+							<a href="https://de.wikipedia.org/wiki/Anatoli_Konstantinowitsch_Ljadow">
+								<h3>Anatoli Konstantinowitsch Ljadow</h3>
 							</a>
 							<ul>
 								<li>Variationen &Uuml;ber ein Polnisches Volkslied</li>
@@ -360,12 +366,12 @@ print head("de","Repertoire");
 							</ul>
 					</div>
 					<div class="col-sm-3 col-md-3">
-							<?php  photorightnolink("m.Anatoly_Lyadov.jpg","Anatoly%20Lyadov:%20Photo:Wikipedia");?>
+							<?php  photorightlinked("m.Anatoly_Lyadov.jpg","Anatoly%20Lyadov:%20Photo:Wikipedia","https://de.wikipedia.org/wiki/Anatoli_Konstantinowitsch_Ljadow");?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Felix_Mendelssohn">
+							<a href="https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy">
 								<h3>Felix Mendelssohn</h3>
 							</a>
 							<ul>
@@ -386,48 +392,48 @@ print head("de","Repertoire");
 							</ul>
 					</div>
 					<div class="col-sm-3 col-md-3">
-							<?php  photorightnolink("m.Mendelssohn.jpg","Felix%20Mendelssohn:%20Photo:Wikipedia"); ?>
+							<?php  photorightlinked("m.Mendelssohn.jpg","Felix%20Mendelssohn:%20Photo:Wikipedia","https://de.wikipedia.org/wiki/Felix_Mendelssohn_Bartholdy"); ?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-											<a href="http://en.wikipedia.org/wiki/Ignaz_Moscheles">
-								<h3>Ignaz Moscheles</h3>
-							</a>
-							<ul>
-								<li>Etuden Op.70 Nr.5, Nr.9</li>
-							</ul>
-										</div>
+						<a href="https://de.wikipedia.org/wiki/Ignaz_Moscheles">
+					<h3>Ignaz Moscheles</h3>
+					</a>
+					<ul>
+						<li>Etuden Op.70 Nr.5, Nr.9</li>
+					</ul>
+					</div>
 					<div class="col-sm-3 col-md-3">
 		<?php  photorightnolink("m.Ignaz_Moscheles.jpg","I.Moscheles:%20Photo:Wikipedia"); ?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							  <a href="http://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart">
+							  <a href="https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart">
 							<h3>Wolfgang Amadeus Mozart</h3>
 							</a>
 							<ul>
-									<li>Sonate a-moll K.V. 310</li>
-									<li>Sonate C-Dur K.V. 330</li>
-									<li>Sonate A-Dur K.V. 331</li>
-									<li>Sonate F-Dur K.V. 332</li>
-									<li>Sonate B-Dur K.V. 333</li>
-									<li>Sonate C-Dur K.V. 545</li>
-									<li>Sonate B-Dur K.V. 570</li>
-									<li>Sonate D-Dur K.V. 576</li>
-									<li>Variationen &uuml;ber &quot;Ah, vous dirai-je, Maman&quot; KV 265</li>
-									<li>Fantasie d-Moll K.V. 397</li>
+								<li>Sonate a-moll K.V. 310</li>
+								<li>Sonate C-Dur K.V. 330</li>
+								<li>Sonate A-Dur K.V. 331</li>
+								<li>Sonate F-Dur K.V. 332</li>
+								<li>Sonate B-Dur K.V. 333</li>
+								<li>Sonate C-Dur K.V. 545</li>
+								<li>Sonate B-Dur K.V. 570</li>
+								<li>Sonate D-Dur K.V. 576</li>
+								<li>Variationen &uuml;ber &quot;Ah, vous dirai-je, Maman&quot; KV 265</li>
+								<li>Fantasie d-Moll K.V. 397</li>
 							</ul>
 					</div>
 					<div class="col-sm-3 col-md-3">
-							<?php  photorightnolink("Mozart_240.jpg","W.A.Mozart:%20Photo:Wikipedia"); ?>
+							<?php photorightlinked("Mozart_240.jpg","W.A.Mozart:%20Photo:Wikipedia","https://de.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"); ?>
 					</div>
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Modest_Mussorgsky">
-								<h3>Modest Mussorgsky</h3>
+							<a href="https://de.wikipedia.org/wiki/Modest_Petrowitsch_Mussorgski">
+								<h3>Modest Petrowitsch Mussorgski</h3>
 							</a>
 							<ul>
 								<li>Bilderr einer Ausstellung</li>
@@ -439,8 +445,8 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-							<a href="http://en.wikipedia.org/wiki/Sergei_Prokofiev">
-								<h3>Sergei Prokofiev</h3>
+							<a href="https://de.wikipedia.org/wiki/Sergei_Sergejewitsch_Prokofjew">
+								<h3>Sergei Sergejewitsch Prokofjew</h3>
 							</a>
 							<ul>
 								<li>Sonate Nr.3 A-Moll Op. 28</li>
@@ -452,8 +458,8 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-						<a href="http://en.wikipedia.org/wiki/Sergei_Rachmaninoff">
-							<h3>Sergei Rachmaninov</h3>
+						<a href="https://de.wikipedia.org/wiki/Sergei_Wassiljewitsch_Rachmaninow">
+							<h3>Sergei Wassiljewitsch Rachmaninow</h3>
 						</a>
 						<ul>
 							<li>Sonate b-moll Op.36</li>
@@ -472,7 +478,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-						<a href="http://en.wikipedia.org/wiki/Maurice_Ravel">
+						<a href="https://de.wikipedia.org/wiki/Maurice_Ravel">
 							<h3>Maurice Ravel</h3>
 					</a>
 					<ul>
@@ -480,18 +486,16 @@ print head("de","Repertoire");
 						<li>Sonatine</li>
 						<li>Alborado del grazioso</li>
 						<li>Jeux d'eau</li>
+						<li>Pavane pur une infante défunte</li>
 					</ul> 
 					</div>
 					<div class="col-sm-3 col-md-3">
 					<?php  photorightnolink("m.Maurice_Ravel.jpg","Maurice_Ravel:%20Photo:Wikipedia"); ?>
 					</div>
 				</div>
-				
-				
-
-			 <div class="row rowBorder">
+				 <div class="row rowBorder">
                  <div class="col-sm-9 col-9">
-					<a href="https://en.wikipedia.org/wiki/Gioachino_Rossini"><h3>Gioachino Rossini</h3></a>
+					<a href="https://de.wikipedia.org/wiki/Gioachino_Rossini"><h3>Gioachino Rossini</h3></a>
 								<ul>
 								  <li>"Semiramide" Overture, arr. <A href="https://en.wikipedia.org/wiki/Carl_Czerny">Carl Czerny</a>, für 16 Pianisten auf 8 Klaviere </li>
 								</ul>
@@ -500,12 +504,9 @@ print head("de","Repertoire");
 					<?php  photorightnolink("Gioacchino_Rossini.jpg","Gioachino_Rossini-Photo:Wikipedia"); ?>
 				</div>
 			</div>
-
-				
-				
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-						<a href="http://en.wikipedia.org/wiki/Franz_Schubert">
+						<a href="https://de.wikipedia.org/wiki/Franz_Schubert">
 							<h3>Franz Schubert</h3>
 						</a>
 					<ul>
@@ -528,7 +529,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-					<a href="http://en.wikipedia.org/wiki/Robert_Schumann">
+					<a href="https://de.wikipedia.org/wiki/Robert_Schumann">
 						<h3>Robert Schumann</h3>
 					</a>
 					<ul>
@@ -538,7 +539,7 @@ print head("de","Repertoire");
 						<li>Op.9 Carnival</li>
 						<li>Op.13 Etudes Symphoniques</li>
 						<li>Op.15 Kinderszenen</li>
-						<li>Op.17 Fantasie C-Dur	</li>
+						<li>Op.17 Fantasie C-Dur</li>
 					</ul>
 					</div>
 					<div class="col-sm-3 col-md-3">
@@ -547,7 +548,8 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-			 <a href="http://en.wikipedia.org/wiki/Alexander_Scriabin"><h3>Alexander Scriabin </h3></a>
+			 <a href="https://de.wikipedia.org/wiki/Alexander_Nikolajewitsch_Skrjabin">
+			 <h3>Alexander Nikolajewitsch Skrjabin</h3></a>
 				<ul>
 					<li>24 Preludien Op.11</li>
 					<li>8 Etuden Op.42</li>
@@ -570,7 +572,7 @@ print head("de","Repertoire");
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
 				
-				<a href="http://en.wikipedia.org/wiki/Richard_Strauss">
+				<a href="https://de.wikipedia.org/wiki/Richard_Strauss">
 						<h3>Richard Strauss</h3>
 					</a>
 					<ul>
@@ -584,7 +586,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-					<a href="http://en.wikipedia.org/wiki/Karol_Szymanowski">
+					<a href="https://de.wikipedia.org/wiki/Karol_Szymanowski">
 						<h3>Karol Szymanowski</h3>
 					</a>
 					<ul>
@@ -597,8 +599,8 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-									<a href="http://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky">
-						<h3>Pyotr Ilyich Tchaikovsky</h3>
+					<a href="https://de.wikipedia.org/wiki/Pjotr_Iljitsch_Tschaikowski">
+						<h3>Pjotr Iljitsch Tschaikowski</h3>
 					</a>
 					<ul>
 						<li>Die Jahreszeiten Op.37</li>
@@ -611,8 +613,7 @@ print head("de","Repertoire");
 				</div>
 				<div class="row rowBorder">
 					<div class="col-sm-9 col-md-9">
-				
-						<a href="https://en.wikipedia.org/wiki/Carl_Maria_von_Weber">
+					<a href="https://de.wikipedia.org/wiki/Carl_Maria_von_Weber">
 							<h3>Carl Maria von Weber</h3>
 						</a>
 						<ul>

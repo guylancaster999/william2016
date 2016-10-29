@@ -1,46 +1,54 @@
 <?php 
 require "funcz/functionz.php";
 print head("ch","速写");
+session_start(); 
+$gpics='{"gallery":[ 
+{"flag":"P","grpTtl":"速写 -  Gosia%20Kulczyk","picLarge":"1.png","picSmall":"1_tn.png","picTtl":"Sketch 1"},	
+{"flag":"P","grpTtl":"速写 -  Gosia%20Kulczyk","picLarge":"2.jpg","picSmall":"2_tn.jpg","picTtl":"Sketch 2"},	
+{"flag":"P","grpTtl":"速写 -  Gosia Kulczyk","picLarge":"4.jpg","picSmall":"4_tn.jpg","picTtl":"Sketch 3"},	
+{"flag":"P","grpTtl":"速写 -  Gosia%20Kulczyk","picLarge":"6.jpg","picSmall":"6_tn.jpg","picTtl":"Sketch 4"},	
+{"flag":"P","grpTtl":"速写 -  Gosia%20Kulczyk","picLarge":"7.png","picSmall":"7_tn.jpg","picTtl":"Sketch 5"},	
+{"flag":"P","grpTtl":"速写 -  Gosia%20Kulczyk","picLarge":"8.jpg","picSmall":"8_tn.jpg","picTtl":"Sketch 6"},	
+{"flag":"P","grpTtl":"速写 -  Gosia%20Kulczyk","picLarge":"3.jpg","picSmall":"3_tn.jpg","picTtl":"Sketch 7"},	
+{"flag":"P","grpTtl":"速写 -  Gosia%20Kulczyk","picLarge":"5.jpg","picSmall":"5_tn.jpg","picTtl":"Sketch 8"}
+]}';
+$_SESSION["gpics"]	=$gpics;	
+$x 		= json_decode($gpics,true);
+$sz		= count($x["gallery"]);
 ?>
 <body>
     <div id="wrapper">
        <div id="sidebar-wrapper">
             <?php print menu("ch","速写","bilde_e.php","bilde.php","bilde_ch.php");	?>
-         </div>
+			</div>
           <div id="page-content-wrapper">
             <div class="container-fluid"> 
-			    <?php topRight(); ?>
+			    <?php topRight();?>
                 <div class="row">
                 <div class="col-lg-12"> 
-                      <h2>速写</h2> 
+                      <h2>速写 &ndash; Gosia Kulczyk</h2> 
                 </div>
              </div>
-              <div class="row">
-                 <div class="col-sm-12"> 
-                 <table class="table">
-					 <tr>
-				   <td><?php photo("1.png","1_tn.png","速写","速写 1","bilde_ch.php","ch");?></td>
-					<td><?php photo("2.jpg","2_tn.jpg","速写","速写 2","bilde_ch.php","ch");?></td>
-					<td><?php photo("4.jpg","4_tn.jpg","速写","速写 4","bilde_ch.php","ch");?></td>
-					<td><?php photo("3.jpg","3_tn.jpg","速写","速写 3","bilde_ch.php","ch");?></td>
-						</tr>
-						</table>
-						<table class="table">
-						<tr>
-					<td>   <?php photo("6.jpg","6_tn.jpg","速写","速写 6","bilde_ch.php","ch");?>		</td>
-					<td>   <?php photo("7.png","7_tn.jpg","速写","速写 7","bilde_ch.php","ch");?>		</td>
-					<td>   <?php photo("8.jpg","8_tn.jpg","速写","速写 8","bilde_ch.php","ch");?>			</td>
-					<td>   <?php photo("5.jpg","5_tn.jpg","速写","速写 5","bilde_ch.php","ch");?>	</td>
-						</tr> 
-					</table>   
-                <?php 
-			 	print foot();
-				?>
+            <div class="row">
+					<? 
+					
+					for ($i=0;$i<$sz;$i++)
+					{ 	
+						print '<div class="col-lg-2 col-md-3 col-sm-4 bordered">';
+						displayPic($i,"bilde_ch.php","ch");
+						print "</div>";
+					}
+					?>
+			</div>			
+				<br/>
+				<div class="alpha" >点击图片查看原图</div>
+				<?php print foot();?>
                     </div>
                 </div>
             </div>
-        </div>         <!-- /#page-content-wrapper -->
+        </div>        <!-- /#page-content-wrapper -->
     </div>    <!-- /#wrapper -->
-	<?php  print endPage();?>
- </body>
+	<?php print endPage();?>
+</body>
 </html>
+ 

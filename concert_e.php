@@ -136,42 +136,41 @@ print head("en","Concerts");
 							Wed<br/>August 31st<br/>7.30pm
 						</div>
 						<div class="col-md-8"><b>Peter Feuchtwanger Memorial concert, Part 2</b>					<br/>At the Baroque room,  Elztalmuseum, Waldkirch.
-					<Ul>
-						<Li>Joseph Haydn, Adagio in F major Hob XII 9 -  <a href="http://susanne-von-laun.de">Susanne von Laun</a></li>
-						<Li>Franz Xaver Mozart, Andantino A Major FXWM 41</li>
-						<Li>Peter Feuchtwanger, variations - <a href="https://www.facebook.com/lennart.speer">Lennart Speer</a></li>
-						<Li>Franz Schubert, Waltz D 779 No.1 (1823), No.2 Ländler D366 No.3,4 - Agnes Joshi </li>
-						<Li>Jean Sibelius, The Fir, Op.75 No.5</LI>
-						<LI>Peter Feuchtwanger, Tariqa No.2 - <a href="https://www.youtube.com/watch?v=-OONZvd7X6k">Christian Löschke</a></LI>
-						<LI>J.S. Bach, Andante from Piano Concerto in F minor BWV 1056 - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></LI>
-						<Li>Friedrich Kuhlau, Rondo C Major on Themes from Mozart's "Don Giovanni" </li>
-						<Li>Peter Feuchtwanger, Study in the Eastern Idiom Op.3 (Macedonian and Bosnian) - <a href="http://www.masako-kamikawa.com/">Masako Kamikawa</a></li>
-						<Li>Elisabeth Jacquet de La Guerre Prelude-Allemande-Menuet-Gavotte from the Suite in A minor - Anna Roth</LI>
-						<LI>Felix Mendelssohn, Bartholdy Fantasia in F sharp minor Op.28 Con motto Agitato, Allegro con moto, Presto - Manfred Seewann</LI>
-						<LI>Ina Birk, Soniyage -  <a href="http://www.ina-birk-klavier.de/">Ina Birk</a></LI>
-						<LI>Giacinto Scelsi, Rotativa - <A href="https://en.wikipedia.org/wiki/Marianne_Schroeder">Marianne Schroeder</a> </LI>
-						<LI>Frederik Chopin, Nocturne in C sharp minor, Op.post - Nina Attorf</LI>
-						<LI>Louis Moreau Gottschalk, La Gallina Op.53, Ojos Criollos, Dance Cubaine Op.37 - <a href="http://www.blido.de/">Stefan &amp; Fedra Blido</a></LI>
-						<LI>Laura Netzel, Concert Etude - <a href="https://femalecomposers.wordpress.com/">Claudia Meinardus-Brehm</a></LI>
-						<LI>Franz Liszt, Joyful and Leidvoll - 
-						<LI>Franz Liszt, Freudvoll und Leidvoll - <a href="http://www.mezzo-soprano-sophia-grech.co.uk/">Sophia Grech</a>, mezzosoprano und <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic</a>,
- Klavier</LI>			<LI>Benjamin Vanden Heuvel from "4 Short Piano Pieces" No.3,4 "Dirge and American Suite", with its own improvisation - Sanja Stefanovic</LI>
-						<LI>César Cui, Causerie - William Cuthbertson </LI>
-						<LI>Franz Liszt, Consolation No.3 in  D-flat major  - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
-						<LI>L. M. Gottschalk, Souvenirs d'Andalousie </ LI>
-						<LI>Manuel de Falla, "Fire Dance" from "The Love Spell" - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
-						<LI>Shura Cherkassky, Prelude Pathétique</LI>
-						<LI>Ludwig van Beethoven, 6 Bagatelles Op.126, No.1,2,3 - <a href="https://de.wikipedia.org/wiki/Jean-Jacques_D%C3%BCnki">Jean 
-						Jaques Dünki</a></LI>
-						<LI>Robert Schumann, In the Evening</LI>
-						<LI>Adolph von Henselt, Lullaby</LI>
-						<LI>Franz Schubert, arr.Leopold Godowsky, Lullaby</LI>
-						<LI>David Saperton, Zephyr</LI>
-						<LI>Harry Burleigh, arr.Dr. Calvin Taylor, Deep River... </LI>
-						<li>Franz Schubert, Polonaise D599 No.1,2 - <a href="https://de.wikipedia.org/wiki/Paul_Cibis">Paul Cibis</a> und <a href="https://de.wikipedia.org/wiki/Sophie-Mayuko_Vetter">Mayuko Vetter</a>
- </li> 
-					</UL>
-					Tickets: 12&euro; / 10&euro;(conc) / 9&euro;(children). 
+<ul>
+			<li>Joseph Haydn, Adagio F Major Hob. XII/9 - <a href="http://susanne-von-laun.de">Susanne von Laun</a></li> 
+			<li>Franz Xaver Mozart, Andantino A Major FXWM:41 - <a href="http://susanne-von-laun.de">Susanne von Laun</a></li>
+			<li>Joseph Haydn, Sauschneidercappriccio - Robert Bärwald </li>
+			<li>Peter Feuchtwanger, Variations - <a href="https://www.facebook.com/lennart.speer">Lennart Speer</a></li>
+			<li>Franz Schubert, Walzes D779 No.1 (1823), Nr.2 Ländler D 366 Nr.3,4 - Agnes Joshi</li>
+			<li>Jean Sibelius, The Fir, Op.75 Nr.5  - Agnes Joshi</LI>
+			<LI>Peter Feuchtwanger, Tariqa No.2 - <a href="https://www.youtube.com/watch?v=-OONZvd7X6k">Christian Löschke</a></LI>
+			<LI>J.S. Bach, Andante from Piano Concerto in F minor BWV 1056 - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></LI>
+			<li>Friedrich Kuhlau, Rondo C Major on Themes from Mozart's "Don Giovanni" - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></li>
+			<li>Peter Feuchtwanger, Study in the Eastern Idiom  Op.3 (Macedonian and Bosnian)- <a href="http://www.masako-kamikawa.com/">Masako Kamikawa</a>.</li>
+			<li>Elisabeth Jaquet de La Guerre, Prelude-Allemande-Menuet-Gavotte aus der Suite A-Moll - Anna Roth </LI>
+			<LI>Felix Mendelssohn, Bartholdy Fantasia in F sharp minor Op.28 Con motto Agitato, Allegro con Moto, Presto - Manfred Seewann </LI>
+			<LI>Ina Birk, Soniyage - <a href="http://www.ina-birk-klavier.de/">Ina Birk</a></LI>
+			<LI>Giacinto Scelsi, Rotativa - <A href="https://en.wikipedia.org/wiki/Marianne_Schroeder">Marianne Schroeder </a>.</LI>
+			<LI>Frederik Chopin, Nocturne in C sharp minor, Op.post - Nina Attorf </LI>
+			<LI>Louis Moreau Gottschalk, La Gallina Op.53, Ojos Criollos, Dance Cubaine	Op.37 - <a href="http://www.blido.de/">Stefan und Fedra Blido</a> </LI>
+			<li>Serge Bortkiewicz, Etüde Des-dur Op. 15, Nr. 8 - Klaus Cutik </li>
+			<LI>Franz Liszt, Freudvoll und Leidvoll - <a href="http://www.mezzo-soprano-sophia-grech.co.uk/">Sophia Grech</a>, mezzosoprano und <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic</a>, Klavier </LI>
+			<LI>Benjamin Vanden Heuvel, From 4 Short Piano Pieces No.3,4 Dirge and American Suite, with mprovisation - <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic </a></LI>
+			<LI>César Cui, Causerie - William Cuthbertson</LI>
+			<LI>Franz Liszt, Consolation No.3 in Des Dur - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
+			<LI>L. M. Gottschalk, Souvenirs d'Andalousie - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
+			<li>Franz Schubert, Polonaisen D599 No. 1,2 - <a href="https://de.wikipedia.org/wiki/Paul_Cibis">Paul Cibis</a> und <a href="https://de.wikipedia.org/wiki/Sophie-Mayuko_Vetter">Mayuko Vetter</a>  </li> 
+    		<LI>Manuel de Falla, Fire Dance from The Love Spell - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
+			<LI>Shura Cherkassky, Prelude Pathétique  - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
+			<LI>Ludwig van Beethoven, 6 Bagatellen Op.126, No.1,2,3 - <a href="https://de.wikipedia.org/wiki/Jean-Jacques_D%C3%BCnki">Jean Jaques Dünki</a></LI>
+		 	<LI>Robert Schumann, Evening - Andrew Kraus</LI>
+			<LI>Adolph von Henselt, Wiegenlied  - Andrew Kraus</LI>
+			<LI>Franz Schubert, arr. Leopold Godowsky, Wiegenlied - Andrew Kraus</LI>
+			<LI>David Saperton, Zephyr - Andrew Kraus</LI>
+			<LI> E.Granados - Andaluza and Allegro de Concerto - <a href="https://www.facebook.com/emma.stratton.39"> Emma Stratton</a></LI>
+		
+			</ul>		
+ 					Tickets: 12&euro; / 10&euro;(conc) / 9&euro;(children). 
 	 				</div>
 		           <div class="col-md-2">
 	              	<?php photorightnolink("Peter_Feuchtwanger_250.jpg","Peter_Feuchtwanger");?>
@@ -723,7 +722,14 @@ print head("en","Concerts");
 						29th&nbsp;October</strong></div>
 						<div class="col-md-8">
 						<a href="doc/FlyerLiszt2011992_William.pdf">Liszt Concerts</a>
-						<br/>
+						<Ul>
+						<Li> Robert Schumann Fantasie in C</Li>
+						<Li> Franz Liszt, Sonata in B Minor</Li>
+						<Li> Franz Liszt, Hungarian Rhapsody No. 4</Li>
+						<Li> Franz Liszt, Liebesträume - Three Nocturnes: No. 1 A flat major, No. 2 in E major, No. 3 A flat major</Li>
+						<li> Franz Liszt, Sonetto del Petrarca from Anne de pelerinage , Deuxième Année - Italie</Li>
+						<li> Franz Liszt, Vallée d'Obermann from Anne de pelerinage, Première Année - Suisse</li>
+					</Ul>
 						Elztalmuseum, Orgelstiung. Gemeindezentrum St.Margarethen, Waldkirch Baden-Württemberg, Germany</div>
 						</div>
 				<div class="row rgp">
@@ -738,6 +744,14 @@ print head("en","Concerts");
 				
 						<div class="col-md-8"><a href="doc/FlyerChopin.pdf">Chopin Concerts 2010</a>
 						<br/>
+						<ul>
+						<li>4 Scherzos,4 Ballades</li>
+						<li>Etudes</li>
+						<li>Impromptues, Preludes</li>
+						<li>14 Waltzes, Barcarolle,Fantasie, Berceuse</li>
+						<li>3 Sonatas</li>
+						<li>Selected Polonaises,Mazurkas and Nocturnes</li>
+						</ul>
 						Orgelstiftung, Elztalmuseum, Gemeindezentrum St. Margarethen, WaldkirchBaden-Württemberg, Germany 
 						</div>
 						</div>

@@ -8,58 +8,26 @@ print head("en","links","links_e.php","Y");
      <?php print top("en","Links","Links");?>
      </div>
   <div data-role="main" class="ui-content">
-    <?php photoright("m.Valldemosa.jpg","m.Valldemosa.jpg","Links","Neben%20Büste%20von%20Chopin,%20Valldemosa","m.links_e.php","en");?> 
-<ul>
-<li><a href="http://www.alexandertechnique.com/">Alexander technik</a> 
-<br/>
-<br/>
-</li>
-<li><a href="http://en.wikipedia.org/wiki/Alexander_technique">Alexander technik (wikipedia)</a>
-<br/>
-<br/>
-</li>
-<li><a href="http://de.abrsm.org/en/home">Associated Board of the Royal Schools of Music (ABRSM)</a> - Prufüngen<br/>
-<br/>
-</li>
-<li><a href="http://www.blido.de/" title="Stefan Blido">Stefan Blido</a>
-<br/>
-<br/>
-</li>
-<li><a href="http://www.elztalmuseum.de/">Elztal Museum</a><br/>
-<br/>
-</li>
-<li><a href="http://epta-europe.org">European Piano Teachers' Association</a>
-<br/>
-<br/>
-</li>		
-<li><a href="http://www.klappe11.de/">Kommunales Kino Klappe 11</a>
-<br/>
-<br/>
-</li> 
-<li><a href="http://www.fv-musikschule-waldkirch.de/">Musikschule Waldkirch</a>
-<br/><br/></li>
-<li><a href="http://www.peter-feuchtwanger.de/">Peter Feuchtwanger</a><br/><br/>
-</li>
-<li><A href="https://www.facebook.com/Peter-Feuchtwanger-Club-195576167160189/">Peter-Feuchtwanger-Club</a> (Facebook)
-<br/>
-<br/></li>
-<li><a href="https://en.wikipedia.org/wiki/Peter_Feuchtwanger">Peter Feuchtwanger</a> (Wikipedia)
-<br/>
-<br/>
-</li>
-<li><a href="http://www.ram.ac.uk/">Royal Academy of Music</a><br/>
-<br/>
-</li>
-<li><a href="http://kulturwoche-waldkirch.de/">Waldkirche Kulturwochen</a><br/>
- <br/>
-</li>
-<li><a href="http://www.waldkircher-orgelstiftung.de/">Waldkircher Orgelstiftung</a><br/>
-<br/>
-</li>
-<li><a href="https://www.facebook.com/william.cuthbertson.12">William Cuthbertson Facebook</a>
-</li>
-</ul>             
- </div>
+ <table cellpadding="10">
+			 <?php
+			 alink("alexandertechnique.png","Alexander Technique","http://www.alexandertechnique.com/");
+			 alink("wikipedia.png" ,"Alexander Technique (wikipedia)","http://en.wikipedia.org/wiki/Alexander_technique");
+			 alink("abrsm.jpg","Associated Board of the Royal Schools of Music (ABRSM) - Examinations","http://de.abrsm.org/en/home");
+			 alink("eltzalmuseum.gif","Elztal Museum, Waldkirch","http://www.elztalmuseum.de/");
+			 alink("epta.png","European Piano Teachers Association" ,"http://epta-europe.org");
+			 alink("klappe11.jpg", "Klappe 11 Cinema and Arts Festival, Waldkirch","http://www.klappe11.de/");
+			 alink("musicschulewaldkirch.jpg","Waldkirch Music School","http://www.fv-musikschule-waldkirch.de/");
+			 alink("pf.png","Peter Feuchtwanger - Pianist, Composer, Padagogue","http://www.peter-feuchtwanger.de/");
+			 alink("pfclub.jpg","Peter Feuchtwanger Club (Facebook)","https://www.facebook.com/Peter-Feuchtwanger-Club-195576167160189/");
+			 alink("wikipedia.png","Peter Feuchtwanger (Wikipedia)","https://en.wikipedia.org/wiki/Peter_Feuchtwanger");
+			 alink("ram.png","Royal Academy of Music","http://www.ram.ac.uk/");
+			 alink("blido.jpg","Stefan Blido","http://www.blido.de/");
+			alink("kulturwoche.jpg","Waldkirch Culture Week" ,"http://kulturwoche-waldkirch.de/");
+			alink("wo.jpg","Waldkirch Organ Foundation","http://www.waldkircher-orgelstiftung.de/");
+			alink("fb.jpg","William Cuthbertson Facebook","https://www.facebook.com/william.cuthbertson.12");
+		?>
+		</table>
+  </div>
   <div data-role="footer">
      <?php print foot();?>
   </div>

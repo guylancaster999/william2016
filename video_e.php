@@ -17,52 +17,58 @@ print head("en","Video");
              </div>
 			 
              <div class="row">
-                <div class="col-lg-1">
-				</div>				
-				 <div class="col-lg-11"> 				
-				William Cuthbertson performs at Balakhna, Nizhny Novgorod, Russia (TV News 31/5/16)  
-				</div> 
-				</div>
-							 <div class="row">
-								<div class="col-lg-1">    
-					</div>
-					<div class="col-lg-11">    
-						 <iframe src="http://www.youtube.com/embed/dOqKpMH53b8"  width="500" height="300"></iframe>
-				<br/>					 
-				<br/>					 
-         <iframe src="http://www.youtube.com/embed/s9yxdd37QuU" width="500" height="300"></iframe>
-					<br/>
-					William Cuthbertson plays Nocturnes Op.15 by Frédérick Chopin, Gutshof Güntert, Sulzburg. September 2013
-					<br class="brclear"/>
-					<br/>
-					<br>
-					<iframe src="http://www.youtube.com/embed/OJF0MTa3QH4" height="300" width="500"></iframe>
-					<br/>
-					William Cuthbertson at the Feuchtwanger Piano Festival in 2006, playing:
-					<ul class="ulsquare">
-					<li>Franz Liszt: Liebestraum No. 3 in A flat major</li>
-					<li>Frédéric Chopin: Study in A flat major Op.25 No.1</li>
-					<li>Alexander Scriabin: Study in D sharp minor Op.8 No.12</li>
-						</ul>
+                <div class="col-lg-12">
+			
+		Emma Stratton - Andaluza and Allegro de Concerto by E.Granados - am Peter Feuchtwanger Memorial Concert (2016)
+			<br/>		
+		 <iframe src="http://www.youtube.com/embed/lMpoAoFM_kQ" height="300" width="500"></iframe>
+				
+<br/>				
+<br/>				
+				
+      	William Cuthbertson in Balakhna, Nizhny Novgorod, Russia (TV News 31/5/16)  
+<br/>				
+		<iframe src="http://www.youtube.com/embed/GKys0tgJG5M" height="300" width="500"></iframe>
+					
+<br/>				
+<br/>				
+				   <iframe src="http://www.youtube.com/embed/0QRIk34l4mI" width="500" height="300"></iframe>
+<br/>				
+<br/>				
+				   <iframe src="http://www.youtube.com/embed/s9yxdd37QuU" width="500" height="300"></iframe>
+<br/>				
+<br/>				
+				William Cuthbertson plays Nocturnes by Frédérick Chopin, Gutshof Güntert, Sulzburg. September 2013
+<br/>				
+<br/>				
+	<iframe src="http://www.youtube.com/embed/OJF0MTa3QH4" height="300" width="500"></iframe>
+<br/>				
+<br/>				
+  William Cuthbertson at the Feuchtwanger Piano Festival (2006) plays:<ul>
+<li>Franz Liszt: Liebestraum No. 3 in A flat Major</li>
+<li>Frédéric Chopin: Study in  A flat Major Op.25 No.1</li>
+<li>Alexander Skrjabin: Study in Dsharp  Op.8 No.12</li>
+</ul>
+<br/>				
+<br/>				
+<iframe src="http://www.youtube.com/embed/HczH9E5nhQc" height="300" width="500"></iframe>
+<br/>				
+William Cuthbertson spielt Felix Blumenfeld, Etüde for the left hand op. 36
+<br/>				
+<br/>				
+<iframe src="http://www.youtube.com/embed/HAh3FAbdicU" width="500" height="300"></iframe>
+<br/>				
+<a href="#" title="Amaryllis Waltz von William Cuthbertson, Copyright  William Cuthbertson &copy;2012">
+<br/>				
+   <img class="img-responsive" src="img/anarylliswalz.png" alt="Amaryllis Walz von William Cuthbertson, Copyright &copy;2012 William Cuthbertson 2013"/>
+   </a>
 
-						<br/>
-					<iframe src="http://www.youtube.com/embed/HczH9E5nhQc" height="300" width="500"></iframe>
-					<br/>
-					William Cuthbertson plays Felix Blumenfeld, Etude for the Left hand op 36
-					<br/><br/>
-					 <table>
-					<tr>
-					<td>
-					<iframe src="http://www.youtube.com/embed/HAh3FAbdicU" width="500" height="300"></iframe>
-					 </td>
-					 <td>&nbsp;&nbsp;</td>
-					<td><a href="#" title="Amaryllis Waltz von William Cuthbertson, Copyright  William Cuthbertson &copy;2012">
-					   <img class="img-responsive" src="img/anarylliswalz.png" alt="Amaryllis Walz von William Cuthbertson, Copyright &copy;2012 William Cuthbertson 2013"/>
-					   </a>
-					   </td>
-					   </tr>
-				   </table>
-					<?php print foot();				?>
+
+
+			
+</div>
+</div>
+				<?php print foot();				?>
                     </div>
                 </div>
             </div>

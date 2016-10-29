@@ -20,7 +20,7 @@ print head("de","homepage");
               <div class="row">
                 <div class="col-lg-12">         
 					  <a href="<?php print $fromUrl;  ?>"><img src="img/<?php print $photoFile;?>"   
-							  class="img-responsive img-rounded picturecenter" alt="<?php print $photoTtl;?>"/></a>
+							  class="img-responsive ui-corner-all picturecenter" alt="<?php print $photoTtl;?>"/></a>
 					 <br/>
 					<br />
 					<div class="alpha">

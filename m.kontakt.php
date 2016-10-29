@@ -8,11 +8,11 @@ print head("de","kontakt","kontakt.php","Y");
        <?php print top("de","kontakt","Kontakt");?>
   </div>
   <div data-role="main" class="ui-content">
-     <table class="table">
+    <blockquote> <table class="table">
 <tr>
-<td  valign="top"><strong>Post</strong></td>
-<td valign="top">:</td>
-<td  >William Cuthbertson<br/>
+<td valign="top"><strong>Post</strong></td>
+<td valign="top"><b>&nbsp;:&nbsp;</b></td>
+<td>William Cuthbertson<br/>
 Theodor-Heuss-Str.16<br/>
 79183 Waldkirch<br/>
 Baden-Württemberg<br/>
@@ -20,13 +20,18 @@ Deutschland</td>
 </tr>
 <tr>
 <td   valign="top"><strong>Tel.</strong></td>
-<td valign="top">:</td>
+<td valign="top"><b>&nbsp;:&nbsp;</b></td>
 <td><a href="tel:+497681409260">076 81 40 92 60</a></td></tr>
 <tr>
 <td  valign="top" ><strong>E-Mail</strong></td>
-<td valign="top">:</td>
-<td  valign="top" ><a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a></td></tr>
-</table>
+<td valign="top"><b>&nbsp;:&nbsp;</b></td>
+<td  valign="top" ><a href="mailto:w.cuthbertson@gmx.de" target="_new">w.cuthbertson@gmx.de</a></td></tr>
+			<tr>
+				<td><strong>E-Mail (website)</strong></td>
+				<td><b>&nbsp;:&nbsp;</b></td>
+				<td><a href="mailto:guylancaster@hotmail.com" target="_new">guylancaster@hotmail.com</a></td>
+			</tr>
+</table></blockquote>
 <!--
 <table cellspacing="1"><tr><td>
 				<div align="center" class="alpha">Ihre Nachricht</div>

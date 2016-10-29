@@ -31,10 +31,12 @@ print head("en","Teaching");
 				William Cuthbertson provides piano accompaniment and  additional coaching for performers on other instruments, for example in  preparation for examinations and competitions.
 				</div>
 				  <div class="col-sm-4">   
-				 <?php photorightfs("foto3.JPG","foto3_240.jpg","Teaching","William%20Cuthbertson%20with%20student%20am%20Master%20Class","teaching_e.php","de","pictureright");?>
+				 <?php photorightfs("foto3.JPG","foto3_240.jpg","Teaching",
+				 "William%20Cuthbertson%20with%20student%20am%20Master%20Class","teaching_e.php","de","pictureright");?>
 					 <br class="brclear"/>
 					<br/> 
-                   <?php photorightfs("Alban6.JPG", "Alban6_240.JPG","Teaching","William%20Cuthbertson%20Accompanying%20Alban","teaching_e.php","pictureright");?>
+                   <?php photorightfs("Alban6.JPG", "Alban6_240.JPG","Teaching",
+				   "William%20Cuthbertson (Piano) accompanies Alban (French Horn)","teaching_e.php","pictureright");?>
                   </div>
                </div>
 					<div class="row">

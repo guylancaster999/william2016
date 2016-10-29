@@ -8,7 +8,8 @@ print head("en","kontakt","kontakt_e.php","Y");
        <?php print top("en","kontakt","Kontakt");?>
   </div>
   <div data-role="main" class="ui-content">
-     <table class="table">
+  <blockquote>
+  <table class="table">
       <tr>
       <td  valign="top"><strong>Post</strong></td>
       <td valign="top">:</td>
@@ -26,8 +27,14 @@ print head("en","kontakt","kontakt_e.php","Y");
       <tr>
       <td  valign="top" ><strong>E-Mail</strong></td>
       <td valign="top">:</td>
-      <td  valign="top" ><a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a></td></tr>
-      </table>
+      <td  valign="top" ><a href="mailto:w.cuthbertson@gmx.de" target="_new">w.cuthbertson@gmx.de</a></td></tr>
+			<tr>
+					<td><strong>E-Mail (website)</strong></td>
+					<td>:</td>
+					<td><a href="mailto:guylancaster@hotmail.com" target="_new">guylancaster@hotmail.com</a></td>
+				</tr>
+        </table>
+  </blockquote>
 <!--
 <table cellspacing="1"><tr><td>
 <div align="center" class="alpha">Your Message</div>

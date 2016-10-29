@@ -2,7 +2,7 @@
 function head($lan="de",$scrnTtl="Home",$url="",$mbl="N")
 {
 	$ret= '<!DOCTYPE html>';
-    switch ($lan)
+   switch ($lan)
 	{
 	   case "de":
        $ret.='<html lang="de">';
@@ -17,7 +17,8 @@ function head($lan="de",$scrnTtl="Home",$url="",$mbl="N")
 	 }
 	$ret.='<head>
   	<meta charset="utf-8"/> 
-   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="msvalidate.01" content="6E94CF0EA70F18D4781290A413CB5797" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    	<meta name="viewport" content="width=device-width, initial-scale=1" />
    	<meta name="author" content="Guy Lancaster" />
    	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" /> 
@@ -99,7 +100,6 @@ function abutton($url,$ttl)
 	$ret.= '</a></li>';
 	return $ret;
 }
-
 function menu($lan)
 {
 	switch($lan)
@@ -202,7 +202,7 @@ function  photo($pic,$pic_tn,$album,$photoTtl,$fromUrl,$lan,$cls="")
    $ret.='" ';
    $ret.=exp_title($photoTtl,$lan);
    $ret.='>';
-   $ret.= '<img src="img/'.$pic_tn.'" alt="'.$photoTtl.'" class="img-responsive  img-rounded '.$cls.'">';
+   $ret.= '<img src="img/'.$pic_tn.'" alt="'.$photoTtl.'" class="img-responsive ui-corner-all '.$cls.'">';
    $ret.='</a>';
   print $ret; 
 }
@@ -212,7 +212,7 @@ function  photorightlinked($pic,$ttl,$url)
      $ret.= '<a href="'.$url.'" ';
 	 $ret.=' title="'.$ttl.'" ';
      $ret.='>';
-	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" align="right" />';
+	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" align="right" class="ui-corner-all" />';
      $ret.= '</a>';
 	 print $ret; 
 }
@@ -224,7 +224,7 @@ function  photocenter($pic,$ttl)
 {
 	 $ttl=respace($ttl);
      $ret.= '<a href="#" title="'.$ttl.'" >';
-	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" class="picturecenter" />';
+	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" class="picturecenter ui-corner-all"/>';
      $ret.= '</a>';
 	 print $ret; 
 }
@@ -232,7 +232,7 @@ function  photorightnolink($pic,$ttl)
 {
 	 $ttl=respace($ttl);
      $ret.= '<a href="#" title="'.$ttl.'" >';
-	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" align="right"  class="picturerightfs" />';
+	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" align="right"  class="picturerightfs ui-corner-all" />';
      $ret.= '</a>';
 	 print $ret; 
 }
@@ -242,7 +242,7 @@ function  photonolink($pic,$ttl)
      $ret.='<a href="#" ';
 	 $ret.=' title="'.$ttl.'" ';
      $ret.=' >';
-	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" class="piccenter" >';
+	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" class="piccenter  ui-corner-all" >';
      $ret.= '</a>';
 	 print $ret; 
 }
@@ -258,7 +258,7 @@ function  photorightfs($pic,$pic_tn,$album, $photoTtl, $fromUrl, $lan)
   $ret.='" ';
   $ret.=exp_title($photoTtl,$lan);
   $ret.= '>';  
-  $ret.= '<img src="img/'.$pic_tn.'" align="right" class="picturerightfs" alt="'.$photoTtl.'" />';
+  $ret.= '<img src="img/'.$pic_tn.'" align="right" class="picturerightfs  ui-corner-all" alt="'.$photoTtl.'" />';
   $ret.='</a>'; 
   print $ret; 
 }
@@ -274,7 +274,7 @@ function  photoright($pic,$pic_tn,$album, $photoTtl, $fromUrl, $lan)
 	$ret.='" ';
   $ret.=exp_title($photoTtl,$lan);
   $ret.= '>';  
-  $ret.= '<img src="img/'.$pic_tn.'" align="right" class="picright img-responsive" alt="'.$photoTtl.'" />';
+  $ret.= '<img src="img/'.$pic_tn.'" align="right" class="picright img-responsive  ui-corner-all" alt="'.$photoTtl.'" />';
   $ret.='</a>'; 
   print $ret; 
 }
@@ -290,10 +290,9 @@ function foot()
 {
 	$qt="'";
 	$ret='<div align="center">
-     <a  data-ajax="false" class="top ui-btn ui-icon-arrow-u ui-btn-icon-left"
+     <a data-ajax="false" class="top ui-btn ui-icon-arrow-u ui-btn-icon-left"
 	 data-role="button" href="#top">Top of page</a>
 	 </div>
-
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
    <script type="text/javascript">
   var _gaq = _gaq || [];
@@ -311,5 +310,21 @@ function foot()
     }); 
  </script>';
 return $ret;
+}
+function alink($img, $ttl, $lnk)
+{
+print	'<tr>
+                 <td>         
+				  <a href="'.$lnk.'" title="'.$ttl.'"><img src="img/'.$img.'" alt="'.$ttl.'" ></a> 
+				</td>
+				<TD>&nbsp;</TD>
+	             <td>         
+				  <a href="'.$lnk.'"  title="'.$ttl.'">'.$ttl.'</a> 
+				</td>
+		</tr>
+		<tr>
+		   <td>&nbsp;</td>
+		</tr>';
+		return;
 }
  ?> 

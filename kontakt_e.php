@@ -36,7 +36,7 @@ print head("en","Contact");
 				<td>:</td>
 				<td  ><a href="mailto:w.cuthbertson@gmx.de">w.cuthbertson@gmx.de</a></td>
 				</tr>
-				<tr>
+ 				<tr>
 						<td><strong>E-Mail (website)</strong></td>
 						<td>:</td>
 						<td><a href="mailto:guylancaster@hotmail.com">guylancaster@hotmail.com</a></td>

@@ -10,34 +10,58 @@ print head("en","program","program.php","Y");
 	<div data-role="main" class="ui-content">
 		<table data-role="table" data-mode="columntoggle" class="ui-responsive">
 			<tr>
-				<th colspan="3"  data-priority="1"><h1>2017</h1></th>
+				<th colspan="2"  data-priority="1"><h1>2017</h1></th>
+				<TD ROWSPAN="10">
+					<A HREF="http://bechstein.com/">
+						<IMG SRC="img/klavier.jpg" alt="Bechstein Piano Repair" ALIGN="RIGHT" width="400">
+					</A>
+				</TD>
 			</tr>
-		</table>
-		<table data-role="table" data-mode="columntoggle" class="ui-responsive">
+		 <tr>
+			 <td>Johann Sebastian Bach&nbsp;&nbsp;</td>
+				<td>Goldberg Variations</td>
+			</tr>
 		<tr>
-		 <td data-priority="1">Johann Sebastian Bach </td>
-		 <td data-priority="1">Goldberg Variationen
-			 </td>
-		<td data-priority="3">
-		 <?php photorightlinked("klavier_240.jpg","Bechstein Piano Repair","http://bechstein.com/");?>
-		 </td>
-		 </tr>
-		</table>
+		<td>
+	<b>Program 2</b>
+</td>
+</tr>.			
+
+	 <tr>
+				 <td >Johann Sebastian Bach&nbsp;&nbsp;</td>
+				  <td> Partita C-Moll BWV 826</td>
+			   </tr>
+					<tr>
+					<td>Franz Schubert	</td>
+					<td>Sonate A-Dur D 664</td>
+					</tr>
+				<tr>
+					<td rowspan="3">Maurice Ravel</td>
+					<td>Pavane pur une infante défunte</td></tr>
+					<tr>
+					<td>Valses nobles et sentimentales</td>
+				</tr>
+				<tr>
+					<td>Albordo del Gracioso</td>
+					</tr>
+				</table>
+</td>
+</tr>
+
+ 		</table>
 		
 		<table data-role="table" data-mode="columntoggle" class="ui-responsive">
 		<tr>
-     		<th colspan="3" data-priority="1"><h1>2016</h1></th>
+     		<th colspan="2" data-priority="1"><h1>2016</h1></th>
+						<td data-priority="3" rowspan="8">
+				<img src="img/m.spinett.jpg" alt="Spinnet" align="right" width="400">
+			</td>
+
 		</tr>
-		</table>
-		
-		<table data-role="table" data-mode="columntoggle" class="ui-responsive">
-		<tr>
+ 		<tr>
 			<td data-priority="1">Ludwig van Beethoven&nbsp;&nbsp;&nbsp;&nbsp;</td>
 			<td data-priority="1">Sonate Es-Dur Op.31 Nr.3</td>
-			<td data-priority="3" rowspan="8">
-				<?php photorightnolink ("m.spinett.jpg","Spinnet");?>
-			</td>
-			
+
 		</tr>
 		<tr> 
 			<td  data-priority="1">&nbsp;</td>
@@ -68,10 +92,10 @@ print head("en","program","program.php","Y");
     		<td data-priority="1">Sonata for violin and piano A major</td>
 		</tr>
 		<tr>
-						<td data-priority="1">Fritz Kreisler</td>
-						<td data-priority="1">Sch&ouml;n Rosmarin</td>
-					</tr>
-					<tr>
+					<td data-priority="1">Fritz Kreisler</td>
+					<td data-priority="1">Sch&ouml;n Rosmarin</td>
+				</tr>
+				<tr>
 						<td rowspan="2" data-priority="1">F Liszt</td>
 						<td data-priority="1">Sonnetto 104 del Petrarca</td>
 						</tr>
@@ -106,20 +130,20 @@ print head("en","program","program.php","Y");
 		
 			<table data-role="table" data-mode="columntoggle" class="ui-responsive">
 				<tr>
-				<th colspan="3" data-priority="1"><h1>2015</h1></th>
-			</tr>	
-			</table>
-			<table data-role="table" data-mode="columntoggle" class="ui-responsive">
-			<tr>
-				<td data-priority="1">L.van Beethoven</td>
-				<td data-priority="1">Sonate Es-Dur Op.81a &quot;Les Adieux&quot;   </td>
-				<td	data-priority="5" rowspan="6">
+				<th colspan="2" data-priority="1"><h1>2015</h1></th>
+					<td	 data-priority="5" rowspan="6">
 					<a title="#" title="Grand Piano">
-						<img src="img/m.Grandpiano.jpg" alt="Grand Piano" width="240">
+         	<img src="img/m.Grandpiano.jpg" alt="Grand Piano" width="400" align="right">
 					</a>
 				</td>
+			</tr>	
+ 			<tr>
+				<td data-priority="1">L.van Beethoven</td>
+				<td data-priority="1">Sonate Es-Dur Op.81a &quot;Les Adieux&quot;   </td>
+
 			</tr> 
-			<tr>
+
+	<tr>
 				<td data-priority="1">F.Chopin</td>
 				<td data-priority="1">24 Preludes Op.28</td>
 			</tr>
@@ -201,19 +225,16 @@ print head("en","program","program.php","Y");
 	</table>
 	<table data-role="table" data-mode="columntoggle" class="ui-responsive">
 			<tr>
-			<th colspan="3" data-priority="1"><h1>2014</h1>
+			<th colspan="2" data-priority="1"><h1>2014</h1>
+		<td rowspan="6" valign="top" data-priority="3">
+				<a href="#" title="Piano">
+					<img src="img/m.piano2014.jpg" alt="Piano" width="400" align="right">
+				</a>
+			</td>
 		</tr>
-		</table>
-		
-		<table data-role="table" data-mode="columntoggle" class="ui-responsive">
 		<tr>
 			<td data-priority="1">L.van Beethoven&nbsp;</td>
 			<td data-priority="1">Sonate Es-Dur Op.81a &quot;Les Adieux&quot; </td>
-			<td rowspan="6" valign="top" data-priority="3">
-				<a href="#" title="Piano">
-					<img src="img/m.piano2014.jpg" alt="Piano" width="240">
-				</a>
-			</td>
 		</tr>
 		<tr>
 			<td data-priority="1">F.Chopin   </td>
@@ -251,36 +272,33 @@ print head("en","program","program.php","Y");
 			<td data-priority="1">Sonate B-Dur D 960</td>
 			<td rowspan="2" data-priority="3">
 				<a href="http://manonliuwinter.at/" title="Clavichord">
-					<img src="img/clavichord1.jpg" alt="Clavichord" width="240">
+					<img src="img/clavichord1.jpg" alt="Clavichord" width="400" align="right">
 				</a>
 			</td>
 		</tr>
 		<tr>
-			<td data-priority="1">J.Brahms</td>
-			<td data-priority="1">Klavierstücke Op.118</td>
+			<td  data-priority="1">J.Brahms</td>
+			<td  data-priority="1">Klavierstücke Op.118</td>
 		</tr>
 		</table>
 		
 		<table data-role="table" data-mode="columntoggle" class="ui-responsive">
 			<tr>
-			<th colspan="3"  data-priority="1"><h1>2012</h1><th>
-		</tr>
-		</table>
-		
-		<table data-role="table" data-mode="columntoggle" class="ui-responsive">
-			<tr>
-			<td data-priority="1">Claude Debussy&nbsp;</td>
-			<td data-priority="1">Auswahl Stücke </td>
-			<td rowspan='2' data-priority="3">
+			<th colspan="2"  data-priority="1"><h1>2012</h1><th>
+			<td rowspan='4' data-priority="3">
 				<a href="#" title="Spinnet">
-					<img src="img/m.spinett.jpg" alt="Spinnet" width="240">
+					<img src="img/m.spinett.jpg" alt="Spinnet" width="400" align="right">
 				</a>
 			</td>
 		</tr>
 		<tr>
-			<td  data-priority="1">Mili Balakirew  </td>
-			<td  data-priority="1">Islamei &ndash; Orientalische Fantasie</td>
+			<td  data-priority="1">Claude Debussy&nbsp;</td>
+			<td  data-priority="1">Auswahl Stücke </td>
 		</tr>
+		<tr>
+		<td  data-priority="1">Mili Balakirew  </td>
+		<td  data-priority="1">Islamei &ndash; Orientalische Fantasie</td>
+	</tr>
  </table>
 </div>
   <div data-role="footer">

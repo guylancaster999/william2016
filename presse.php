@@ -80,7 +80,7 @@ print head("de","Presse");
 				 <h3>Kongeniale Interpretation Chopinscher Etüden</h3>
 				Das zweite Konzert von William Cuthbertsons Reihe beeindruckte erneut durch hohe Professionalität, spritzig dargeboten.
 				<br/>
-				<A href="http://www.badische-zeitung.de/waldkirch/kongeniale-interpretation-chopinscher-etueden--29688534.html">Badische Zeitung</a>
+				<a href="http://www.badische-zeitung.de/waldkirch/kongeniale-interpretation-chopinscher-etueden--29688534.html">Badische Zeitung</a>
 				<br class="brclear"/>
 				<hr/>
 				 <h3><strong>Neujahrskonzert </strong>  2014</h3>
@@ -93,7 +93,18 @@ print head("de","Presse");
 				 <a href="http://www.badische-zeitung.de/waldkirch/taenzerische-leichtigkeit-und-elegische-momente--80093094.php">Badische Zeitung  28/1/14</a>.
 						 <br class="brclear"/>
 						<hr/>
-						<h3>Spannende Klangwelten - Sun Yiqi (Violine) und William Cuthbertson (Klavier) im Torhaus. 2012.</h3>
+				<?php photoright("14thMasterclass.jpg","14thMasterclass_120.jpg","Presse", 
+				"14. Meisterkurs :Foto: Eberhard Weiss, Badische%20Zeitung","presse.php","de");?> 
+ 				<h3><strong>2013 Meisterkurs</strong></h3>
+						<BR/>
+						Der 14. Meisterkurs mit Professor Peter Feuchtwanger schloss mit einem herausragenden Konzert im Barocksaal des Elztalmuseums.
+						<BR/>
+						Die Japanerin Masako Kamikawa spielte Chopins Rondo in Es-Dur mit Brillanz und Ausdruck.
+						<br/>
+						<BR/>
+						<a href="http://www.badische-zeitung.de/waldkirch/meisterspiel-mit-eigenem-stil--72357409.html">Badische Zeitung 2013</a>
+						<hr/>
+				<h3><strong>Spannende Klangwelten - Sun Yiqi (Violine) und William Cuthbertson (Klavier) im Torhaus. 2012.</strong></h3>
 						<?php photoright("yikisun.jpg","yikisun_240.jpg","Press","William%20Cuthbertson und Sun Yiqi, Photo: Ilona Hüge,Badische-zeitung","presse_e.php","de" );?>
 						 <br/>
 						 HERBOLZHEIM. Das klassische Konzert mit dem Húdié Duo hat beste Resonanz ausgelöst: Der Abend im Torhaus war ausverkauft. Kein Wunder, denn im Duo spielen Sun Yiqi (Violine) und William Cuthbertson (Klavier).

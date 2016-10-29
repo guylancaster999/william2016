@@ -8,34 +8,61 @@ print head("de","program","program.php","Y");
 		<?php print  top("de","Program","Program");?>
 	</div>
 	<div data-role="main" class="ui-content">
-		<table data-role="table" data-mode="columntoggle" class="ui-responsive">
-  		<tr>
-			<th   data-priority="1"  colspan="3"><h1>2017</h1></th>
+	<table data-role="table" data-mode="columntoggle" class="ui-responsive">
+			<tr>
+				<td >
+					<b>Program 1</b>
+				</td>
+				<td>
+				</td>
+				<td rowspan="8">
+					<?php photorightlinked("klavier.jpg","Bechstein Piano Repair","http://bechstein.com/");?>
+				</td>
+			</tr>	
+			<tr>
+				 <td>Johann Sebastian Bach&nbsp;&nbsp;</td>
+				<td>Goldberg Variationen</td>
+	   	</tr>
+		<tr>
+			<td><b>Program 2</b></td>
+		</tr>
+		 <tr>
+			 <td >Johann Sebastian Bach&nbsp;&nbsp;</td>
+			  <td>Partita C-Moll BWV 826</td>
+	   </tr>
+		<tr>
+				<td>Franz Schubert	</td>
+				<td>Sonate A-Dur D 664</td>
 		</tr>
 		<tr>
-		 <td  data-priority="1" >Johann Sebastian Bach </td>
-		 <td data-priority="1" >Goldberg Variationen
-			 </td>
-		<td data-priority="5" >
-			 <?php photorightlinked("klavier_240.jpg","Bechstein Piano Repair","http://bechstein.com/");?>
-		 </td>
+				<td rowspan="3">Maurice Ravel</td>
+				<td>Pavane pur une infante défunte</td>
 		</tr>
-		</table>
-        <table data-role="table" data-mode="columntoggle" class="ui-responsive">
-  				<tr>
-				<th colspan="3"  data-priority="1" ><h1>2016</h1></th>
+		<tr>
+				<td>Valses nobles et sentimentales</td>
+		</tr>
+		<tr>
+			<td>Albordo del Gracioso</td>
+		</tr>
+	</table>
+	<table data-role="table" data-mode="columntoggle" class="ui-responsive">
+		<tr>
+				<th data-priority="1" ><h1>2016</h1></th>
+				<th>
+				</th>
+				<td rowspan="8">
+					<img width="400" src="img/m.Grandpiano.jpg" alt="GrandPiano"/>
+				</td>
 			</tr>
-			</table>
-			<table data-role="table" data-mode="columntoggle" class="ui-responsive">
-  				<tr>
-						<td  data-priority="1">Ludwig van Beethoven&nbsp;&nbsp;&nbsp;&nbsp;</td>
-						<td  data-priority="1">Sonate Es-Dur Op.31 Nr.3</td>
-				</tr>
-					<tr> 
-					<td  data-priority="5">&nbsp;</td>
-							<td  data-priority="1">Sonata fur violin und piano No.5 Fmajor Op.24</td>
-						</tr>
-						<tr>
+		 	<tr>
+				<td  data-priority="1">Ludwig van Beethoven&nbsp;&nbsp;&nbsp;&nbsp;</td>
+				<td  data-priority="1">Sonate Es-Dur Op.31 Nr.3</td>
+			</tr>
+			<tr> 
+				<td  data-priority="5">&nbsp;</td>
+				<td  data-priority="1">Sonata fur violin und piano No.5 Fmajor Op.24</td>
+			</tr>
+			<tr>
 							<td  data-priority="1">César Cui</td>
 							<td  data-priority="1">"Causerie"</td>
 						</tr>
@@ -94,21 +121,20 @@ print head("de","program","program.php","Y");
 							<td  data-priority="1">A.Skrjabin</td>
 							<td  data-priority="1">Sonate Nr.2 Op.19</td>
 						</tr>
- 						</table>
-						<table data-role="table" data-mode="columntoggle" class="ui-responsive">
-  						<th colspan="3"><h1>2015</h1></th>
+			</table>
+<!-- 2015------------------------------------------------------------------ -->
+			<table data-role="table" data-mode="columntoggle" class="ui-responsive">
+  						<th colspan="2"><h1>2015</h1></th>
+						<th rowspan="10">
+							<a href="http://www.lepthien.de/" title="Klavier Neumeyer">
+								<img align="right" width="400" src="img/piano6.jpg" alt="Klavier Neumeyer">
+							</a>
+						</th>
 					</tr>
-					</table>
-					<table data-role="table" data-mode="columntoggle" class="ui-responsive">
-  		
+		
 			 <tr>
 				<td  data-priority="1">L. van Beethoven&nbsp;</td>
 				<td  data-priority="1">Sonate Es-Dur Op.81a &quot;Les Adieux&quot;   </td>
-				<td date-priority="5" rowspan="14">
-					<a title="#" title="Grand Piano">
-						<img src="img/piano2.jpg" alt="Upright Piano" width="240">
-					</a>
-				</td>
 			</tr> 
 			<tr>
 				<td  data-priority="1">F.Chopin</td>
@@ -194,18 +220,19 @@ print head("de","program","program.php","Y");
 				<td  data-priority="1">Sonate Nr.2 Op.19</td>
 			</tr>
 			</table>
+
 			<table data-role="table" data-mode="columntoggle" class="ui-responsive">
   			<tr>
-				<th colspan="3" date-priority="1"><h1>2014</h1></tr>
-			<tr>
+				<th colspan="3" date-priority="1"><h1>2014</h1>
+				<td date-priority="5" rowspan="14">
+					<a title="#" title="Grand Piano">
+						<img src="img/piano2.jpg" alt="Upright Piano" width="400" align="right">
+					</a>
+				</td>
+			</tr>
 			<tr>
 				<td  data-priority="1">L.van Beethoven&nbsp;&nbsp;</td>
 				<td  data-priority="1"> Sonate Es-Dur Op.81a &quot;Les Adieux&quot; </td>
-				<td rowspan="6" valign="top">
-					<a href="#" title="Piano">
-						<img src="img/m.piano2014.jpg" alt="Piano" width="240">
-					</a>
-				</td>
 				</tr>
 				<tr>
 				<td  data-priority="1">F:Chopin   </td>
@@ -240,7 +267,7 @@ print head("de","program","program.php","Y");
 				<td  data-priority="1">Sonate B-Dur D 960</td>
 				 <td date-priority="3" rowspan="2">
 				  <a href="http://manonliuwinter.at/" title="Clavichord">
-					<img src="img/clavichord1.jpg" alt="Clavichord" width="240"></a>
+					<img src="img/clavichord1.jpg" alt="Clavichord" width="400" align="right"></a>
 				 </td>
 				</tr>
 				<tr>
@@ -259,7 +286,7 @@ print head("de","program","program.php","Y");
 				<td  data-priority="1">Auswahl Stücke </td>
 				<td rowspan='2' data-priority="3">
 					<a href="#" title="Spinnet">
-						<img src="img/m.spinett.jpg" alt="Spinnet" width="240"></a>
+						<img align="right" src="img/m.spinett.jpg" alt="Spinnet" width="400"></a>
 					</td>
 				</tr>
 				<tr>

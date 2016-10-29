@@ -41,6 +41,10 @@ function addSp($x)
  {
 	return str_replace (" ","%20",$x);
  }
+ function removeSp20($x)
+ {
+	return str_replace ("%20"," ",$x);
+ }
  function greyout($f1,$f2)
 {
 	return  ($f1==$f2 ? '<span class="gr">'.$f1.'</span>' : '<span class="notgr">'.$f1.'</span>' );
@@ -150,8 +154,10 @@ switch($lan)
  	print $ret;   
 	return;
 }
+
+
 function head($lan="de",$scrn="",$url="")
-{
+{ 
 $ret= '<!DOCTYPE html>';
    switch ($lan)
 	{
@@ -175,9 +181,8 @@ $ret.='<meta charset="utf-8" />
    	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
    	<link rel="icon" href="favicon.ico" type="image/x-icon" />
    <link rel="stylesheet" href="css/simple-sidebar.css"/>';
- 
- if ((strlen($url)>0)&&($lan !="ch"))$ret.='<link rel="alternate" media="only screen and (max-width: 640px)" href="http://cuthbertson.de/m.'.$url.'" />';
-
+  if ((strlen($url)>0)&&($lan !="ch"))$ret.='<link rel="alternate" media="only screen and (max-width: 640px)" href="http://cuthbertson.de/m.'.$url.'" />';
+  $ret.='<meta name="author" content="Guy Lancaster">';
  switch ($lan)
 	{
 	   case "de":
@@ -195,11 +200,15 @@ $ret.='<meta charset="utf-8" />
 		$ret.='<meta name="keywords" content="'.$scrn.',Piano, Chopin, Beethoven, William, Cuthbertson, Waldkirch, Concerts " />';
 		$ret.='<meta name="description" content="'.$scrn.' - William Cuthbertson - Pianist, Accompanyist, Composer, Teacher " />';
     }	$ret.="<link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,700' rel='stylesheet' type='text/css'/>";
-	$ret.="<script> 
-			$(document).ready(function(){
-				$('#topButton').animate({left: '550px'},'slow');
-			})
-		</script> ";
+		$ret.="<script> 
+			$(document).ready(function(){refoot('slow');})
+			$(window).resize(function(){refoot('fast');})
+			function refoot(spd)
+			{
+				toPos=($(document).width()/2)+'px';
+				$('#topButton').animate({left: toPos},spd);
+			}
+		</script>";
 	$ret.='</head>';
     return  $ret;
  }	 
@@ -211,14 +220,15 @@ function  linkedPhoto($txt,$pic,$album,$fromUrl,$lan)
    $ret.='&amp;photoTtl='.removeSp($txt);
    $ret.='&amp;fromUrl='.$fromUrl;
    $ret.='&amp;photoFile='.$pic;
-   $ret.='">';
+   $ret.='"';
+   $ret.=' title="'. removeSp20($txt).'" >';
    $ret.= $txt;
    $ret.='</a>';
   print $ret;
 }
 function exp_title($ttl,$lan="en")
 {
-	$ret=' title="'.$ttl.' - ';
+	$ret=' title="'.removeSp20($ttl).' - ';
     switch ($lan)
    	{
 		case "de":
@@ -244,16 +254,19 @@ function displayPic($i,$fromUrl,$lan)
 	$picLarge	= $y["picLarge"];
 	$picTtl		= removeSp($y["picTtl"]);
 	$grpTtl		= removeSp($y["grpTtl"]);
+	$copy="";
+	if (isset($y["copy"]))	$copy		= removeSp($y["copy"]);
 	$photoTtl	= removeSp($photoTtl);
     $ret		 ='<a href="fotoLarge.php';
     $ret		.='?lan='.$lan;
     $ret		.='&amp;album='.removeSp($grpTtl);
     $ret		.='&amp;photoPtr='.$i ;
     $ret		.='&amp;fromUrl='. $fromUrl;
+    $ret		.='&amp;copy='. $copy;
     $ret		.='" ';
     $ret.=exp_title($picTtl,$lan);
     $ret.='>';
-    $ret.= '<img src="img/'.$picSmall.'" alt="'.$picTtl.'" class="img-responsive img-rounded" />';
+    $ret.= '<img src="img/'.$picSmall.'" alt="'.$picTtl.'" class="img-responsive img-rounded bordered " />';
     $ret.='</a>';
     print $ret;
 	return;
@@ -276,7 +289,7 @@ function  photo($pic,$pic_tn,$album,$photoTtl,$fromUrl,$lan,$cls="")
 }
 function  photorightlinked($pic,$ttl,$url)
 {
-     $ttl=removeSp($ttl);
+     $ttl=removeSp20($ttl);
      $ret.= '<a href="'.$url.'" ';
 	 $ret.=' title="'.$ttl.'" ';
      $ret.='>';
@@ -284,9 +297,35 @@ function  photorightlinked($pic,$ttl,$url)
      $ret.= '</a>';
 	 print $ret;
 }
+function  photolinked($pic,$ttl,$url)
+{
+     $ttl=removeSp20($ttl);
+     $ret.= '<a href="'.$url.'" ';
+	 $ret.=' title="'.$ttl.'" ';
+     $ret.='>';
+	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" class="img-responsive img-rounded" />';
+     $ret.= '</a>';
+	 print $ret;
+}
+function photocenterfs($pic,$pic_tn, $album, $photoTtl, $fromUrl, $lan)
+{
+  $ttl=removeSp($photoTtl);
+  $ret ='<a href="foto_large.php';
+  $ret.='?lan='.$lan;
+  $ret.='&amp;album='.$album;
+  $ret.='&amp;photoTtl='.$ttl;
+  $ret.='&amp;fromUrl='.$fromUrl;
+  $ret.='&amp;photoFile='.$pic;
+  $ret.='" ';
+  $ret.=exp_title($photoTtl,$lan);
+  $ret.= '>';
+  $ret.= '<img src="img/'.$pic_tn.'" alt="'.$ttl.'" class="img-responsive img-rounded picturecenter" />';
+  $ret.= '</a>';
+  print $ret;
+}
 function  photocenter($pic,$ttl)
 {
-	 $ttl=removeSp($ttl);
+	 $ttl=removeSp20($ttl);
      $ret.= '<a href="#" title="'.$ttl.'" >';
 	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" class="img-responsive img-rounded picturecenter" />';
      $ret.= '</a>';
@@ -294,7 +333,7 @@ function  photocenter($pic,$ttl)
 }
 function  photorightnolink($pic,$ttl)
 {
-	 $ttl=removeSp($ttl);
+	 $ttl=removeSp20($ttl);
      $ret.= '<a href="#" title="'.$ttl.'" >';
 	 $ret.= '<img src="img/'.$pic.'" alt="'.$ttl.'" class="picturerightfs img-responsive img-rounded " />';
      $ret.= '</a>';
@@ -302,7 +341,7 @@ function  photorightnolink($pic,$ttl)
 }
 function  photonolink($pic,$ttl)
 {
-     $ttl=removeSp($ttl);
+    $ttl=removeSp20($ttl);
      $ret.='<a href="#" ';
 	 $ret.=' title="'.$ttl.'" ';
      $ret.=' >';
@@ -313,7 +352,7 @@ function  photonolink($pic,$ttl)
 function  photorightfs($pic,$pic_tn,$album, $photoTtl, $fromUrl, $lan)
 {
   $photoTtl=removeSp($photoTtl);
-   $ret ='<a href="foto_large.php';
+  $ret ='<a href="foto_large.php';
   $ret.='?lan='.$lan;
   $ret.='&amp;album='.$album;
   $ret.='&amp;photoTtl='.$photoTtl;
@@ -345,6 +384,8 @@ function  photoright($pic,$pic_tn,$album, $photoTtl, $fromUrl, $lan)
 function foot()
 {
 	$ret='<br class="brclear"/>
+	<hr/>
+	<br class="brclear"/>
 	<div id="topButton" style="position:absolute;">
 		<a href="#top" title="top of page">
 			<img src="img/top.jpeg" alt="top of page" />
@@ -353,7 +394,6 @@ function foot()
 <br/>';
 return $ret;
 }
- 
 function blank_line()
 {
 	print '<div class="row">
@@ -386,5 +426,22 @@ $ret='<script src="js/jquery.js"></script>
  </script>';
  
  return $ret;
-return;
+}
+function alink($img, $ttl, $lnk)
+{
+print	'<div class="row rowBorder">
+                 <div class="col-lg-3">'.photolinked($img,$ttl,$lnk).'  </div>
+			  <div class="col-lg-1">
+			  &nbsp;
+			  </div>
+			 <div class="col-lg-8">         
+				  <a href="'.$lnk.'">'.$ttl.'</a> 
+				</div>
+		</div>
+		<div class="row rowBorder">
+				<div class="col-lg-12">
+					&nbsp;
+					</div>
+		</div>';
+		return;
 }

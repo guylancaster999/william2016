@@ -8,7 +8,7 @@ print head("de","Konzerte","concert.php","Y");
 		<?php print  menu("de","Konzerte","Konzerte");?>
 	</div>
 	<div data-role="main" class="ui-content">
-		<table  title="Konzerte">
+		<table  title="Konzerte" cellpadding="6">
  	<tr> 		
 	<th colspan="2" class="year">2017</th>
 			</tr>
@@ -64,7 +64,7 @@ print head("de","Konzerte","concert.php","Y");
 					 </td>
 				</tr>
 				<tr>
-				<td><b>Sonntag 3.Juli<br/>11 Uhr</b></td>
+				<td><b>Sonntag 3.Juli<br/>11.00 Uhr</b></td>
 				<td><?php photorightnolink("etzal_240.jpg","Etzal Museum");?>
 				<b>Konzert im <a href="http://www.elztalmuseum.de/">Elztal Museum</a></b><br/>
 				Kirchplatz 14, D-79183 Waldkirch.
@@ -77,7 +77,7 @@ print head("de","Konzerte","concert.php","Y");
 			</tr>	
 			<tr>
 			<td><b>Sonntag 10. Juli&nbsp;<br/> 
-			11 Uhr</b></td>
+			11.00 Uhr</b></td>
 			<td><?php photorightnolink("duo.jpg","William Cuthbertson, Carina Kaltenbach");?>
 			<b>Duo-Konzert  Klavier und Violine</B> <br/>
 			Im <a href="http://www.friedrich-husemann-klinik.de/"><b>Friedrich-Husemann Klinik</b></a><br/>
@@ -94,7 +94,7 @@ print head("de","Konzerte","concert.php","Y");
 			</td>
 			</tr>
 		<tr>
-		<td>August 31st <br/>17.30 uhr</td>
+		<td><b>August 31st <br/>17.30 uhr</b></td>
 			  <td>
 			  <?php photorightlinked("pianos.png","pianos","http://www.lepthien.de/");?>
 			  <b>G.Rossini's "Semiramide" Overture, arr. Czerny, für 16 Pianisten auf 8 Klaviere
@@ -105,43 +105,44 @@ print head("de","Konzerte","concert.php","Y");
 		</td>
  		</tr>
 		<tr>
-		<td>August 31st <br/>19.30 uhr</td>
+		<td><b>August 31st <br/>19.30 uhr</b></td>
 		<td><?php photorightnolink("Peter_Feuchtwanger_250.jpg","Peter_Feuchtwanger");?>
 		<b>Ein Gedenkkonzert für Peter Feuchtwanger</b>.
 		<br/>Es spielen etwa 20 ehemalige Studenten von Peter Feuchtwanger. 
 		Unter anderen werden Werke von Feuchtwanger gespielt. 
-		<ul>
+
+<ul>
 			<li>Joseph Haydn, Adagio F-Dur Hob. XII/9 - <a href="http://susanne-von-laun.de">Susanne von Laun</a></li> 
-			<li>Franz Xaver Mozart, Andantino A-Dur FXWM:41</li>
+			<li>Franz Xaver Mozart, Andantino A-Dur FXWM:41 - <a href="http://susanne-von-laun.de">Susanne von Laun</a></li>
+			<li>Joseph Haydn, Sauschneidercappriccio - Robert Bärwald </li>
 			<li>Peter Feuchtwanger, Variationen - <a href="https://www.facebook.com/lennart.speer">Lennart Speer</a></li>
 			<li>Franz Schubert, Walzer D 779 Nr.1 (1823), Nr.2 Ländler D 366 Nr.3,4 - Agnes Joshi</li>
-			<li>Jean Sibelius, Die Tanne Op.75 Nr.5</LI>
+			<li>Jean Sibelius, Die Tanne Op.75 Nr.5  - Agnes Joshi</LI>
 			<LI>Peter Feuchtwanger, Tariqa Nr.2 - <a href="https://www.youtube.com/watch?v=-OONZvd7X6k">Christian Löschke</a></LI>
 			<LI>J.S. Bach, Andante aus dem Klavierkonzert in f-Moll BWV 1056 - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></LI>
-			<li>Friedrich Kuhlau, Rondo C-Dur über Motive aus Mozart's "Don Giovanni"</li>
+			<li>Friedrich Kuhlau, Rondo C-Dur über Motive aus Mozart's "Don Giovanni" - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></li>
 			<li>Peter Feuchtwanger, Study in the Eastern Idiom  Op.3 (Macedonian and Bosnian)- <a href="http://www.masako-kamikawa.com/">Masako Kamikawa</a>.</li>
-			<li>Elisabeth Jaquet de La Guerre Prelude-Allemande-Menuet-Gavotte aus der Suite A-Moll - Anna Roth</LI>
+			<li>Elisabeth Jaquet de La Guerre Prelude-Allemande-Menuet-Gavotte aus der Suite A-Moll - Anna Roth </LI>
 			<LI>Felix Mendelssohn Bartholdy Fantasie fis-Moll Op.28 Con motto Agitato, Allegro con Moto, Presto - Manfred Seewann </LI>
 			<LI>Ina Birk, Soniyage - <a href="http://www.ina-birk-klavier.de/">Ina Birk</a></LI>
 			<LI>Giacinto Scelsi, Rotativa - <A href="https://en.wikipedia.org/wiki/Marianne_Schroeder">Marianne Schroeder </a>.</LI>
 			<LI>Frederik Chopin, Nocturne cis-Moll, Op.post - Nina Attorf </LI>
 			<LI>Louis Moreau Gottschalk, La Gallina Op.53, Ojos Criollos, Dance Cubaine	Op.37 - <a href="http://www.blido.de/">Stefan und Fedra Blido</a> </LI>
-			<LI>Laura Netzel, Konzertetüde - <a href="https://femalecomposers.wordpress.com/">Claudia Meinardus-Brehm</a>.</LI>
+			<li>Serge Bortkiewicz, Etüde Des-dur Op. 15, Nr. 8 - Klaus Cutik </li>
 			<LI>Franz Liszt, Freudvoll und Leidvoll - <a href="http://www.mezzo-soprano-sophia-grech.co.uk/">Sophia Grech</a>, mezzosoprano und <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic</a>, Klavier </LI>
 			<LI>Benjamin Vanden Heuvel, Aus 4 Short Piano Pieces Nr.3,4 Dirge and American Suite, mit eigener Improvisation - <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic </a></LI>
 			<LI>César Cui, "Causerie" - William Cuthbertson</LI>
 			<LI>Franz Liszt, Consolation Nr.3 in Des Dur - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
-			<LI>L. M. Gottschalk, Souvenirs d'Andalousie</LI>
-			<LI>Manuel de Falla, Feuertanz aus Der Liebeszauber - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
-			<LI>Shura Cherkassky, Prelude Pathétique</LI>
-			<LI>Ludwig van Beethoven, 6 Bagatellen Op.126, Nr.1,2,3 - <a href="https://de.wikipedia.org/wiki/Jean-Jacques_D%C3%BCnki">Jean Jaques Dünki</a></LI>
-		 	<LI>Robert Schumann, Des Abends</LI>
-			<LI>Adolph von Henselt, Wiegenlied</LI>
-			<LI>Franz Schubert, arr. Leopold Godowsky, Wiegenlied</LI>
-			<LI>David Saperton, Zephyr</LI>
-			<LI>Harry Burleigh arr. Dr. Calvin Taylor, Deep River...</LI>
+			<LI>L. M. Gottschalk, Souvenirs d'Andalousie - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
 			<li>Franz Schubert, Polonaisen D599 Nr. 1,2 - <a href="https://de.wikipedia.org/wiki/Paul_Cibis">Paul Cibis</a> und <a href="https://de.wikipedia.org/wiki/Sophie-Mayuko_Vetter">Mayuko Vetter</a>  </li> 
-			</ul>	
+    		<LI>Manuel de Falla, Feuertanz aus Der Liebeszauber - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
+			<LI>Shura Cherkassky, Prelude Pathétique  - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
+			<LI>Ludwig van Beethoven, 6 Bagatellen Op.126, Nr.1,2,3 - <a href="https://de.wikipedia.org/wiki/Jean-Jacques_D%C3%BCnki">Jean Jaques Dünki</a></LI>
+		 	<LI>Robert Schumann, Des Abends - Andrew Kraus</LI>
+			<LI>Adolph von Henselt, Wiegenlied  - Andrew Kraus</LI>
+			<LI>Franz Schubert, arr. Leopold Godowsky, Wiegenlied - Andrew Kraus</LI>
+			<LI>David Saperton, Zephyr - Andrew Kraus</LI>
+			</ul>		
 			Eintritt: 12&euro; / 10&euro; ermässigt / 9&euro; Kinder.	
 			Barocksaal des Elztalmuseums in Waldkirch. 
 			</td>
@@ -161,7 +162,7 @@ print head("de","Konzerte","concert.php","Y");
 				Eintritt:  €5.50. Am Kommunales Kino, Fabrikstrasse 16, 79183 Waldkirch </td>
 			</tr>
 			<tr>
-				<td valign="top"><strong>Samstag 28 </strong>/<strong>Sontag 29 März 17 Uhr</strong></td>
+				<td valign="top"><strong>Samstag 28 / Sontag 29 März<br/>17.00 Uhr</strong></td>
 				<td><ul>
 				 <li>Beethoven Sonate Es-Dur &quot;Les Adieux&quot; Op.81a</li>
 				 <li>Chopin Tarantella As-Dur Op.43</li>
@@ -173,7 +174,7 @@ print head("de","Konzerte","concert.php","Y");
 				  Konzertsaal Wohnark Elfenau, Elfenauweg 68, 3006 Bern, Schweiz. Eintritt frei, Spenden erbeten.</td>
 			</tr>
 			<tr>
-				<td valign="top"><strong>Sontag April&nbsp;19<br/>11&nbsp;Uhr</strong></td>
+				<td valign="top"><strong>Sontag April&nbsp;19<br/>11.00 Uhr</strong></td>
 				<td ><?php  photorightlinked("orgelbauersaal_240.jpg","orgelbauersaal","http://bz-ticket.de/orgelbauersaal-waldkirch-waldkirch");?>
 				<ul>
 				<li>Chopin 24 Preludes Op.28</li>
@@ -182,7 +183,7 @@ print head("de","Konzerte","concert.php","Y");
 				Orgelbauersaal, Gewerbekanal 1, Waldkirch Baden-Württemberg, Deutschland</td>
 			</tr>
 			<tr>
-				<td valign="top"><strong>Sontag 19th September <br/>19.30</strong></td>
+				<td valign="top"><strong>Sontag 19th September <br/>19.30 Uhr</strong></td>
 				<td>
 				<?php  photorightlinked("m.KatholischesGemeindezentrumWaldkirch.jpg","Katholisches Gemeindezentrum Waldkirch",
 				"");?>
@@ -263,7 +264,7 @@ print head("de","Konzerte","concert.php","Y");
 			<th colspan="2" class="year">2014</th>
 				</tr>
 				<tr>
-				<td valign="top"><strong>Donnerstag 30. Januar 20:00</strong></td>
+				<td valign="top"><strong>Donnerstag 30. Januar<br/>20:00 Uhr</strong></td>
 				<td valign="top"><strong>Gao Weimo+William Cuthbertson Eurythmie Saal  Konzert
 				</strong><br/>
 				C.Cui: &quot;Causerie&quot;    (Klavier)
@@ -302,13 +303,13 @@ print head("de","Konzerte","concert.php","Y");
 				</tr>
 				<tr>
 				<td valign="top"><strong>Sontag 6 April
-				 11:00</strong></td>
+				 11:00 Uhr</strong></td>
 				<td valign="top"><?php photoright("cello_900.jpg","cello_240.jpg","Konzerte","Antoine%20Billet","concert.php","de");?>
 				Trio-Rezital &quot;Spätromantische Naturstimmungen&quot; mit Gesang, Cello und Klavier; Elztalmuseum Waldkirch; <br/>
 				Eintritt: &euro;17 / &euro;15 / Kinder &euro;9
 				<ul class="ulsquare">
-				<li><?php linkedPhoto("Margriet%20van%20Reisen","margrietvanreisen.jpg","Konzerte", "concert.php","de");?>, Mezzo-sopran</li>
-				<li><?php linkedPhoto("Antoine%20Billet","cello_900.jpg","Konzerte", "concert.php","de");?>, Violoncello</li>
+				<li><?php linkedPhoto("Margriet van Reisen","margrietvanreisen.jpg","Konzerte", "concert.php","de");?>, Mezzo-sopran</li>
+				<li><?php linkedPhoto("Antoine Billet","cello_900.jpg","Konzerte", "concert.php","de");?>, Violoncello</li>
 				<li> William Cuthbertson, Klavier</li>
 				</ul>
 				<ul><li>Joseph Glaeser - Vier Lieder </li>
@@ -327,7 +328,7 @@ print head("de","Konzerte","concert.php","Y");
 				</td>
 				</tr>
 				<tr>
-				<td valign="top"><strong>Dienstag 24 Juni  20:00</strong> <strong> Uhr </strong></td>
+				<td valign="top"><strong>Dienstag 24 Juni  20:00 Uhr</strong></td>
 				<td valign="top"><?php photorightlinked("m.benefitconcert.jpg","Mozart%20bis%20Bob%20Dylan","https://www.facebook.com/#!/events/532745816825705/");?>
 				<strong>Mozart bis Bob Dylan</strong>
 				<br/>
@@ -335,7 +336,7 @@ print head("de","Konzerte","concert.php","Y");
 				<br/>Am Stadtkapelle,  Lange Strasse,  Waldkirch  </td>
 				</tr>
 				<tr> 
-				<td valign="top"><strong>Sontag</strong> <strong>1 Juni 15:00 Uhr</strong></td>
+				<td valign="top"><strong>Sontag 1 Juni 15:00 Uhr</strong></td>
 				<td valign="top"><?php photoright("CorinaKaltenbach.jpeg","CorinaKaltenbach_240.jpg","Konzerte","Carina%20Kaltenbach","concert.php","de");?>
 				<strong>Lesung mit Musik: Bulgarische Impressionen &ndash; abenteuerliche Reise durch ein unbekanntes Land</a>  &ndash; Helmut Matt</strong>
 				<br/> 
@@ -346,7 +347,7 @@ print head("de","Konzerte","concert.php","Y");
 				Eintritt frei, Spenden für die Musiker sind willkommen.</td>
 				</tr>
 				<tr>
-				<td valign="top"><strong>Sonntag 13 Juli 11.00  Uhr   </strong></td>
+				<td valign="top"><strong>Sonntag 13 Juli 11.00  Uhr</strong></td>
 				<td valign="top"><?php photoright("williamatpiano.jpg","williamatpiano_240.jpg","Konzerte","William%20at%29piano","concert.php","de");?><strong>Klavier Matin&eacute; mit William Cuthbertson</strong><br/>
 				<ul>
 				  <li>L.van Beethoven,	Sonate Es-Dur Op.81a <em>"Les Adieux"</em>	</li>
@@ -378,8 +379,7 @@ print head("de","Konzerte","concert.php","Y");
 				</tr>
 				<tr>
 				<td valign="top"><strong>Montag 4. August 
-				<br/>
-				20.30  Uhr</strong></td>
+				<br/>				20.30  Uhr</strong></td>
 				<td valign="top"><strong>Weitere Konzerte</strong>
 				<?php photorightlinked("islayhotel.jpg","islay%20hotel","http://theislayhotel.com/");?> <br/>
 				im <a href="http://theislayhotel.com/" title="Islay Hotel">Islay Hotel </a>
@@ -418,7 +418,7 @@ print head("de","Konzerte","concert.php","Y");
 				</tr>
 				<tr>
 				<td valign="top"><strong>Donnerstag 16&nbsp;October<br/>
-				20 Uhr</strong></td>
+				20.00 Uhr</strong></td>
 				<td><?php photoright("WilhelmBuschAbend.jpg","WilhelmBuschAbend_240.jpg","Konzerte","Wilhelm%20Busch%20Abend","concert.php","de");?>
 				<strong>Poesie und Piano</strong> 
 				<br/>
@@ -437,7 +437,7 @@ print head("de","Konzerte","concert.php","Y");
 				</tr>
 				<tr>
 				<td><strong>28. und 29. September <br/>
-				17 Uhr</strong></td>
+				17.00 Uhr</strong></td>
 				<td>Klavierkonzert : Schubert Sonate B-Dur D 960 <br/>
 				Brahms 6 Klavierstücke Op.118 <br/>
 				Eintritt frei, Kollekte. <br/>
@@ -445,7 +445,7 @@ print head("de","Konzerte","concert.php","Y");
 				</tr>
 				<tr>
 				<td><strong>10.October <br/>
-				20 Uhr </strong></td>
+				20.00 Uhr </strong></td>
 				<td valign="top"><?php photorightlinked("poemsandpiano_200.jpg","Poems%20und%20Piano",				"");?>
 				 Poesie und piano  <br/>
 				Gedichte von Wilhelm Busch, Musik von William Cuthbertson Eintritt frei, Kollekte.

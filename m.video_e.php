@@ -7,7 +7,7 @@ print head("en","video","video.php","Y");
   <div data-role="header">
        <?php print top("en","Video","Video");?>
    </div>
-  <div data-role="main" class="ui-content">
+  <div data-role="main" class="ui-content" style="text-align: center;">
       	      	William Cuthbertson in Balakhna, Nizhny Novgorod, Russia (TV News 31/5/16)  
 <br/>
 <br/>

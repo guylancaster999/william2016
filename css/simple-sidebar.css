@@ -1,14 +1,17 @@
-#wrapper {
+#wrapper 
+{
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-#wrapper.toggled {
+#wrapper.toggled 
+{
   padding-left: 120px;
 }
-#sidebar-wrapper {
+#sidebar-wrapper 
+{
   z-index: 1000;
   position: fixed;
   left: 120px;
@@ -294,12 +297,22 @@ img {
 	font-weight:bold;
 	font-size:16pt;
  }
- .boldTxt,.boldtxt
+.boldTxt,.boldtxt
+{
+ font-weight:bolder;
+} 
+ .bordered
  {
-	 font-weight:bolder;
- } 
+	 margin:   8px;
+ }
  .rowBorder
  {
-	 padding-top:6px;
- 	 padding-bottom:6px;
+	 padding-top:   8px;
+ 	 padding-bottom:8px;
 }
+.square
+{
+	list-style-type:square;
+}
+
+

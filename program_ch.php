@@ -21,20 +21,34 @@ print head("ch","节目");
 			</div>
 			    <div class="row">
                  <div class="col-lg-8 col-8 col-sm-8">
-				       <table class="tbl">
-						<tr>
-							<td>Johann Sebastian Bach &nbsp;&nbsp;</td>
-						   <td>Goldberg Variations</td>
-						   </tr>
-						   </table>
-						   <br/><br/>
-						   More to follow...
+				    				 <table  class="tbl">
+				 <tr>
+				 <td rowspan="2">Johann Sebastian Bach&nbsp;&nbsp;</td>
+				<td>Goldberg Variationen</td>
+				</tr>
+			   <tr>
+			   <td> Partita c-Moll BWV 826</td>
+			   </tr>
+					<tr>
+					<td>Franz Schubert	</td>
+					<td>Sonate A-Dur D 664</td>
+					</tr>
+				<tr>
+					<td rowspan="3">Maurice Ravel</td>
+					<td>Pavane pur une infante défunte</td></tr>
+					<tr>
+					<td>Valses nobles et sentimentales</td>
+				</tr>
+				<tr>
+					<td>Albordo del Gracioso</td>
+					</tr>
+				</table>
+					   
 			   </div>
 			   <div class="col-lg-4 col-4 col-sm-4">
 					<?php photorightlinked("klavier.jpg","Bechstein Piano Repair","http://bechstein.com/");?>
-					</div>
+				</div>
 			</div>
-			 
 			  <div class="row">
                  <div class="col-lg-12 col-12 col-sm-12 year">2016</div>
 			</div>	 
@@ -43,7 +57,7 @@ print head("ch","节目");
                      <table class="tbl">
 						<tr>
 							<td>Ludwig Van Beethoven&nbsp;&nbsp;&nbsp;</td>
-							<td>Sonata E-Sharp Opus 31 No.3</td>
+							<td>Sonata E-Sharp Op.31 No.3</td>
 						</tr>
 						<tr>
 							<td>&nbsp;</td>
@@ -88,10 +102,11 @@ print head("ch","节目");
 						<tr>
 							<td>Sergei Rachmaninoff&nbsp;&nbsp;</td>
 							<td>Prelude in D major Op.23 No.4</td>
-						</tr>						<tr>
-						<td>Gioachino Rossini</td>
+						</tr>						
+						<tr>
+							<td>Gioachino Rossini</td>
 							<td>Semiramide Overture, arr. Czerny, for 16 pianists on 8 pianos</td>
-							</tr>
+						</tr>
 						<tr>
 						<tr>
 							<td>Alexander Scriabin</td>
@@ -102,7 +117,7 @@ print head("ch","节目");
 							<td>Impromptu G flat major Op.90 No.3</td>
 						</tr>
 						<tr>
-							<td></td>
+							<td>&nbsp;</td>
 							<td>Impromptu B flat major Op.142 No.3</td>
 						</tr>
 						<tr>
@@ -112,7 +127,7 @@ print head("ch","节目");
  				</table>
 				</div>
 				 <div class="col-lg-4 col-4 col-sm-4">
-						<?php photorightnolink ("m.spinett.jpg","Spinnet");?>
+						<?php photorightlinked("piano6.jpg","Klavier Neumeyer","http://www.lepthien.de/");?>x
 					</div>
 	</div>			
 			<div class="row">
@@ -190,16 +205,16 @@ print head("ch","节目");
 							<td>Etude B flat minor Op.8 Nr.11</td>
 						</tr>
 						<tr>
-							<td  > </td>
-							<td  >Etude D sharp minor Op.8 Nr.12</td>
+							<td></td>
+							<td>Etude D sharp minor Op.8 Nr.12</td>
 						</tr> 
 						<tr>
-							<td  > </td>
-							<td  >Etude F sharp major Op.42 Nr.4</td>
+							<td> </td>
+							<td>Etude F sharp major Op.42 Nr.4</td>
 						</tr>
 						<tr>
-							<td  > </td>
-							<td  >Etude C sharp minor Op.42 Nr.5</td>
+							<td> </td>
+							<td>Etude C sharp minor Op.42 Nr.5</td>
 						</tr>
 						<tr>
 							<td  > </td>
@@ -210,8 +225,8 @@ print head("ch","节目");
 							<td  > 24 Preludes Op.11 </td>
 						</tr>
 						<tr>
-							<td  > </td>
-							<td  >Piano Concerto in F sharp minor, Op. 20</td>
+							<td> </td>
+							<td>Piano Concerto in F sharp minor Op. 20</td>
 						</tr>
 						<tr>
 						<td > </td>
@@ -219,7 +234,7 @@ print head("ch","节目");
 						</tr>
 						<tr>
 							<td>&nbsp;</td>
-							<td>Sonata No.4, No 6</td>
+							<td>Sonata No.4, No.6</td>
 						</tr>
 					</table>
 				</div>
@@ -233,15 +248,15 @@ print head("ch","节目");
 					<div class="col-lg-8 col-8 col-sm-8">
 						<table class="tbl">
 							<tr>
-								 <td  >Ludwig van Beethoven&nbsp;</td>
-								 <td  >Sonata in E-flat major   Op.81a &quot;Les Adieux&quot;  </td>
+								 <td>Ludwig van Beethoven&nbsp;</td>
+								 <td>Sonata in E-flat major   Op.81a &quot;Les Adieux&quot;  </td>
 							  </tr>
 							  <tr>
-								  <td  >Frederic Chopin</td>
-								  <td  >Berceuse in D-flat major   Op.57</td>
+								  <td>Frederic Chopin</td>
+								  <td>Berceuse in D-flat major   Op.57</td>
 							 </tr>
 							 <tr>
-								 <td >&nbsp;</td>
+								 <td>&nbsp;</td>
 								  <td>Tarantella in A-flat major   Op.43  </td>
 							 </tr>
 							 <tr>
@@ -249,12 +264,12 @@ print head("ch","节目");
 								  <td>Verdi Rigoletto  Paraphrase   </td>
 							 </tr>
 							 <tr>
-								  <td  >Mikhail Glinka</td>
-								  <td  >&quot;The Lark&quot;   , arr. by   M.Balakirew  </td>
+								  <td>Mikhail Glinka</td>
+								  <td>&quot;The Lark&quot;   , arr. by   M.Balakirew  </td>
 							 </tr>
 							 <tr>
-								  <td  >Enrique Granados  </td>
-								  <td  >&quot;The Maiden and  the Nightingale&quot; (Goyescas)</td>
+								  <td>Enrique Granados  </td>
+								  <td>&quot;The Maiden and  the Nightingale&quot; (Goyescas)</td>
 							 </tr>
 							 <tr>
 								  <td>Johannes Brahms&nbsp;</td>
@@ -315,6 +330,67 @@ print head("ch","节目");
 			</div>
 		</div>
 	</div>
+		<div class="row">
+             <div class="col-lg-12 col-12 col-sm-12 year">2011</div>
+		</div>	 
+        <div class="row">
+             <div class="col-lg-8 col-8 col-sm-8">
+                <table class="tbl">
+					<tr>
+						<td>Robert&nbsp;Schumann&nbsp;</td>
+						<td>Fantasie in C</td>
+					</tr>
+					<tr>
+						<td rowspan="6">Franz Liszt</td>
+						<td>Sonata in B Minor</td>
+					</tr>
+					<tr>
+						<td>Hungarian Rhapsody No.4</td>
+					</tr>
+					<tr>
+						<td>Liebesträume - Three Nocturnes: No.1 A flat major, No.2 in E major, No.3 A flat major</td>
+					</tr>
+					<tr>
+						<td>Sonetto del Petrarca from Anne de pelerinage, Deuxième Année - Italie</td>
+				 	</tr>
+					<tr>
+						<td>Vallée d'Obermann from Anne de pelerinage, Première Année - Suisse</td>
+					</tr>
+				</table>
+						</div>
+						 <div class="col-lg-4 col-4 col-sm-4">
+						<?php photorightnolink ("concert-grand.jpg","Concert Grand");?>
+					</div>
+	</div>
+	
+	<div class="row">
+             <div class="col-lg-12 col-12 col-sm-12 year">2010</div>
+		</div>	 
+        <div class="row">
+             <div class="col-lg-8 col-8 col-sm-8">
+                <table class="tbl">
+					<tr>
+						<td>Frederic Chopin&nbsp;&nbsp;&nbsp;</td>
+<td>4 Scherzos<br/>
+4 Ballades<br/>
+Etudes<br/>
+Impromptus<br/>
+Preludes<br/>
+14 Waltzes<br/>
+Barcarolle<br/>
+Fantasie<br/>
+Berceuse<br/>
+3 Sonatas<br/>
+Selected Polonaises,Mazurkas and Nocturnes</td>
+</tr>
+</table>
+	</div>
+	<div>
+	<div class="col-lg-4 col-4 col-sm-4">
+				<?php photorightnolink("BentsideSpinnet.jpg","Bentside Spinnet");?>
+			</div>
+ </div>
+	
 	<div class="row">
 		<div class="col-12">
 			<?php print foot(); ?>

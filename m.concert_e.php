@@ -104,41 +104,40 @@ print head("en","Concerts","concert_e.php","Y");
 		<br/>Es spielen etwa 20 ehemalige Studenten von Peter Feuchtwanger. 
 		Unter anderen werden Werke von Feuchtwanger gespielt. 
 
- <Ul>
-						<Li>Joseph Haydn, Adagio in F major Hob XII 9 -  <a href="http://susanne-von-laun.de">Susanne von Laun</a></li>
-						<Li>Franz Xaver Mozart, Andantino A Major FXWM 41</li>
-						<Li>Peter Feuchtwanger, variations - <a href="https://www.facebook.com/lennart.speer">Lennart Speer</a></li>
-						<Li>Franz Schubert, Waltz D 779 No.1 (1823), No.2 Ländler D366 No.3,4 - Agnes Joshi </li>
-						<Li>Jean Sibelius, The Fir, Op.75 No.5</LI>
-						<LI>Peter Feuchtwanger, Tariqa No.2 - <a href="https://www.youtube.com/watch?v=-OONZvd7X6k">Christian Löschke</a></LI>
-						<LI>J.S. Bach, Andante from Piano Concerto in F minor BWV 1056 - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></LI>
-						<Li>Friedrich Kuhlau, Rondo C Major on Themes from Mozart's "Don Giovanni" </li>
-						<Li>Peter Feuchtwanger, Study in the Eastern Idiom Op.3 (Macedonian and Bosnian) - <a href="http://www.masako-kamikawa.com/">Masako Kamikawa</a></li>
-						<Li>Elisabeth Jacquet de La Guerre Prelude-Allemande-Menuet-Gavotte from the Suite in A minor - Anna Roth</LI>
-						<LI>Felix Mendelssohn, Bartholdy Fantasia in F sharp minor Op.28 Con motto Agitato, Allegro con moto, Presto - Manfred Seewann</LI>
-						<LI>Ina Birk, Soniyage -  <a href="http://www.ina-birk-klavier.de/">Ina Birk</a></LI>
-						<LI>Giacinto Scelsi, Rotativa - <A href="https://en.wikipedia.org/wiki/Marianne_Schroeder">Marianne Schroeder</a> </LI>
-						<LI>Frederik Chopin, Nocturne in C sharp minor, Op.post - Nina Attorf</LI>
-						<LI>Louis Moreau Gottschalk, La Gallina Op.53, Ojos Criollos, Dance Cubaine Op.37 - <a href="http://www.blido.de/">Stefan &amp; Fedra Blido</a></LI>
-						<LI>Laura Netzel, Concert Etude - <a href="https://femalecomposers.wordpress.com/">Claudia Meinardus-Brehm</a></LI>
-						<LI>Franz Liszt, Joyful and Leidvoll - 
-						<LI>Franz Liszt, Freudvoll und Leidvoll - <a href="http://www.mezzo-soprano-sophia-grech.co.uk/">Sophia Grech</a>, mezzosoprano und <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic</a>,
- Klavier</LI>			<LI>Benjamin Vanden Heuvel from "4 Short Piano Pieces" No.3,4 "Dirge and American Suite", with its own improvisation - Sanja Stefanovic</LI>
-						<LI>César Cui, Causerie - William Cuthbertson </LI>
-						<LI>Franz Liszt, Consolation No.3 in  D-flat major  - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
-						<LI>L. M. Gottschalk, Souvenirs d'Andalousie </ LI>
-						<LI>Manuel de Falla, "Fire Dance" from "The Love Spell" - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
-						<LI>Shura Cherkassky, Prelude Pathétique</LI>
-						<LI>Ludwig van Beethoven, 6 Bagatelles Op.126, No.1,2,3 - <a href="https://de.wikipedia.org/wiki/Jean-Jacques_D%C3%BCnki">Jean 
-						Jaques Dünki</a></LI>
-						<LI>Robert Schumann, In the Evening</LI>
-						<LI>Adolph von Henselt, Lullaby</LI>
-						<LI>Franz Schubert, arr.Leopold Godowsky, Lullaby</LI>
-						<LI>David Saperton, Zephyr</LI>
-						<LI>Harry Burleigh, arr.Dr. Calvin Taylor, Deep River... </LI>
-						<li>Franz Schubert, Polonaise D599 No.1,2 - <a href="https://de.wikipedia.org/wiki/Paul_Cibis">Paul Cibis</a> und <a href="https://de.wikipedia.org/wiki/Sophie-Mayuko_Vetter">Mayuko Vetter</a>
- </li> 
-					</UL>		Eintritt: 12&euro; / 10&euro; ermässigt / 9&euro; Kinder.	
+
+<ul>
+			<li>Joseph Haydn, Adagio F-Dur Hob. XII/9 - <a href="http://susanne-von-laun.de">Susanne von Laun</a></li> 
+			<li>Franz Xaver Mozart, Andantino A-Dur FXWM:41 - <a href="http://susanne-von-laun.de">Susanne von Laun</a></li>
+			<li>Joseph Haydn, Sauschneidercappriccio - Robert Bärwald </li>
+			<li>Peter Feuchtwanger, Variationen - <a href="https://www.facebook.com/lennart.speer">Lennart Speer</a></li>
+			<li>Franz Schubert, Walzer D 779 Nr.1 (1823), Nr.2 Ländler D 366 Nr.3,4 - Agnes Joshi</li>
+			<li>Jean Sibelius, Die Tanne Op.75 Nr.5  - Agnes Joshi</LI>
+			<LI>Peter Feuchtwanger, Tariqa Nr.2 - <a href="https://www.youtube.com/watch?v=-OONZvd7X6k">Christian Löschke</a></LI>
+			<LI>J.S. Bach, Andante aus dem Klavierkonzert in f-Moll BWV 1056 - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></LI>
+			<li>Friedrich Kuhlau, Rondo C-Dur über Motive aus Mozart's "Don Giovanni" - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></li>
+			<li>Peter Feuchtwanger, Study in the Eastern Idiom  Op.3 (Macedonian and Bosnian)- <a href="http://www.masako-kamikawa.com/">Masako Kamikawa</a>.</li>
+			<li>Elisabeth Jaquet de La Guerre Prelude-Allemande-Menuet-Gavotte aus der Suite A-Moll - Anna Roth </LI>
+			<LI>Felix Mendelssohn Bartholdy Fantasie fis-Moll Op.28 Con motto Agitato, Allegro con Moto, Presto - Manfred Seewann </LI>
+			<LI>Ina Birk, Soniyage - <a href="http://www.ina-birk-klavier.de/">Ina Birk</a></LI>
+			<LI>Giacinto Scelsi, Rotativa - <A href="https://en.wikipedia.org/wiki/Marianne_Schroeder">Marianne Schroeder </a>.</LI>
+			<LI>Frederik Chopin, Nocturne cis-Moll, Op.post - Nina Attorf </LI>
+			<LI>Louis Moreau Gottschalk, La Gallina Op.53, Ojos Criollos, Dance Cubaine	Op.37 - <a href="http://www.blido.de/">Stefan und Fedra Blido</a> </LI>
+			<li>Serge Bortkiewicz, Etüde Des-dur Op. 15, Nr. 8 - Klaus Cutik </li>
+			<LI>Franz Liszt, Freudvoll und Leidvoll - <a href="http://www.mezzo-soprano-sophia-grech.co.uk/">Sophia Grech</a>, mezzosoprano und <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic</a>, Klavier </LI>
+			<LI>Benjamin Vanden Heuvel, Aus 4 Short Piano Pieces Nr.3,4 Dirge and American Suite, mit eigener Improvisation - <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic </a></LI>
+			<LI>César Cui, "Causerie" - William Cuthbertson</LI>
+			<LI>Franz Liszt, Consolation Nr.3 in Des Dur - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
+			<LI>L. M. Gottschalk, Souvenirs d'Andalousie - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
+			<li>Franz Schubert, Polonaisen D599 Nr. 1,2 - <a href="https://de.wikipedia.org/wiki/Paul_Cibis">Paul Cibis</a> und <a href="https://de.wikipedia.org/wiki/Sophie-Mayuko_Vetter">Mayuko Vetter</a>  </li> 
+    		<LI>Manuel de Falla, Feuertanz aus Der Liebeszauber - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
+			<LI>Shura Cherkassky, Prelude Pathétique  - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
+			<LI>Ludwig van Beethoven, 6 Bagatellen Op.126, Nr.1,2,3 - <a href="https://de.wikipedia.org/wiki/Jean-Jacques_D%C3%BCnki">Jean Jaques Dünki</a></LI>
+		 	<LI>Robert Schumann, Des Abends - Andrew Kraus</LI>
+			<LI>Adolph von Henselt, Wiegenlied  - Andrew Kraus</LI>
+			<LI>Franz Schubert, arr. Leopold Godowsky, Wiegenlied - Andrew Kraus</LI>
+			<LI>David Saperton, Zephyr - Andrew Kraus</LI>
+			</ul>		
+		Eintritt: 12&euro; / 10&euro; ermässigt / 9&euro; Kinder.	
 			Barocksaal des Elztalmuseums in Waldkirch. 
 			</td>
 		</tr>

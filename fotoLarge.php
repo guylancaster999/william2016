@@ -2,10 +2,21 @@
 require "funcz/functionz.php";
 session_start();
 $lan		= $_REQUEST["lan"];
+switch($lan)
+{case "en":
+  $back=" - Click to return";
+  break;
+  case "de":
+  $back=' - Klicken Sie zur Galerie zurückzukehren.';
+break;
+	default:
+  $back=" - 点击返回图库";
+ }
 $photoPtr	= $_REQUEST["photoPtr"];
 $fromUrl	= $_REQUEST["fromUrl"];
 $gpics		= $_SESSION["gpics"];
 $picCtr		= $_REQUEST["picCtr"];
+$copy		= $_REQUEST["copy"];
 $x 			= json_decode($gpics,true);
 $sz			= count($x["gallery"]);
 $y 			= $x["gallery"][$photoPtr]; 
@@ -21,15 +32,16 @@ while ($prevPtr>0 && $prevFlag=="T")
 	$prevPtr--;
 	$yPrev= $x["gallery"][$prevPtr]; 	
 	$prevFlag	= $yPrev["flag"];
+	$prevCopy	= $yPrev["copy"];
 }
 if($prevFlag=="P")
 {
   $prevArrow='<a href="fotoLarge.php';
   $prevArrow.='?lan='.$lan;
   $prevArrow.='&amp;photoPtr='.$prevPtr;
-  $prevArrow.='&amp;fromUrl='.$fromUrl.'" ';
- 
-switch ($lan)
+  $prevArrow.='&amp;fromUrl='.$fromUrl;
+  $prevArrow.='&amp;copy='.$prevCopy	.'" ';
+  switch ($lan)
   {
     case "de":$prevArrow.=' title="Zurück" ';
 	break;
@@ -50,13 +62,16 @@ while ($nextPtr<$sz && $nextFlag=="T")
 	$nextPtr++;
 	$yNext		= $x["gallery"][$nextPtr]; 	
 	$nextFlag	= $yNext["flag"];
+	$nextCopy	= $yNext["copy"];
+	
 }
 if($nextFlag=="P")
 {
   $nextArrow='<a href="fotoLarge.php';
   $nextArrow.='?lan='.$lan;
   $nextArrow.='&amp;photoPtr='.$nextPtr;
-  $nextArrow.='&amp;fromUrl='.$fromUrl.'" ';
+  $nextArrow.='&amp;fromUrl='.$fromUrl;
+  $nextArrow.='&amp;copy='.$nextCopy.'" ';
   switch ($lan)
   {case "de":$nextArrow.=' title="Weiter" ';
 	break;
@@ -65,7 +80,7 @@ if($nextFlag=="P")
 	default:$nextArrow.=' title="Next" ';
   }
   $nextArrow.='>';
-   $nextArrow.='<span class="glyphicon glyphicon-forward"></span>';
+  $nextArrow.='<span class="glyphicon glyphicon-forward"></span>';
   $nextArrow.='</a>';
 }
 print head("de","homepage");
@@ -80,23 +95,29 @@ print head("de","homepage");
           <div id="page-content-wrapper">
             <div class="container-fluid">
             <?php topRight();?>
-             <div class="row">
-			    <div class="col-1 col-md-1 col-lg-1"><?php print $prevArrow;?></div>
-                <div class="col-lg-10 col-md-10 col-10"> 
-                    <h2><?php print $grpTtl;?></h2>
-					<h3><?php print $picTtl;?></h3> 
-                </div>
+			 <div class="row">
+			    <div class="col-lg-12 col-md-12 col-sm-6"> 
+					<h2><?php print $grpTtl;?></h2>
+				</div>
+			</div>
+			<div class="row">
+                <div class="col-1 col-md-1 col-lg-1"><?php print $prevArrow;?></div>
+                <div class="col-lg-10 col-md-10 col-10"><h3><?php print $picTtl;?></h3></div>
 				<div class="col-1 col-md-1 col-lg-1"><?php print $nextArrow;?></div>
-             </div>
+              </div>
+			  <BR/>
               <div class="row">
                 <div class="col-lg-12">      				
-					<a href="<?php print $fromUrl;  ?>">
-						<img src="img/<?php print $picLarge;?>"   
-          class="img-responsive img-rounded picturecenter" alt="<?php print $picTtl;?>"/>
+					<a href="<?php print $fromUrl;  ?>" 
+					title="<?php print $picTtl.$back;?>">
+						<img src="img/<?php print $picLarge;?>" class="img-responsive img-rounded picturecenter" alt="<?php print $picTtl;?>"/>
 					</a>
-					 <br/>
-					<br />
-					<div class="alpha">
+				<br/>
+				 <?php print '<div style="font-weight:600;font-size:9pt;margin-top:-20px;padding-left:140px;">'.$copy.'</div>';?>
+				<br/>	
+			<div class="row">
+                <div class="col-1 col-md-1 col-lg-1"><?php print $prevArrow;?></div>
+                <div class="col-lg-10 col-md-10 col-sm-6"><h3>
 					<?php
 					switch($lan)
 					{case "de":
@@ -108,8 +129,11 @@ print head("de","homepage");
 					default:
 					  print "Click on the Photo to return to Gallery";
 					}
-					?></div> 
-						<?php print foot();?>
+				?>
+				</h3></div>
+				<div class="col-1 col-md-1 col-lg-1"><?php print $nextArrow;?></div>
+		      </div>
+				 	<?php print foot();?>
                     </div>
                 </div>
             </div>

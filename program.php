@@ -20,10 +20,36 @@
 			</div>	 
             <div class="row">
                  <div class="col-lg-8 col-8 col-sm-8">
-               Johann Sebastian Bach &nbsp;&nbsp;Goldberg Variationen
-			   <br/>
-			   <br/>
-			   Mehr zu folgen...
+				<b>Program 1</b>
+
+				<table  class="tbl">
+				 <tr>
+				 <td rowspan="2">Johann Sebastian Bach&nbsp;&nbsp;</td>
+				<td>Goldberg Variationen</td>
+				</tr>
+				</table>
+				<br/>
+				<b>Program 2</b>
+
+				<table  class="tbl">
+				 <tr>
+				 <td >Johann Sebastian Bach&nbsp;&nbsp;</td>
+				  <td> Partita C-Moll BWV 826</td>
+			   </tr>
+					<tr>
+					<td>Franz Schubert	</td>
+					<td>Sonate A-Dur D 664</td>
+					</tr>
+				<tr>
+					<td rowspan="3">Maurice Ravel</td>
+					<td>Pavane pur une infante défunte</td></tr>
+					<tr>
+					<td>Valses nobles et sentimentales</td>
+				</tr>
+				<tr>
+					<td>Albordo del Gracioso</td>
+					</tr>
+				</table>
 			   </div>
 			   <div class="col-lg-4 col-4 col-sm-4">
 				<?php photorightlinked("klavier.jpg","Bechstein Piano Repair","http://bechstein.com/");?>
@@ -72,7 +98,7 @@
 							<td>Sch&ouml;n Rosmarin</td>
 						</tr>
 						<tr>
-							<td rowspan="2">F Liszt</td>
+							<td rowspan="2">Franz Liszt</td>
 							<td>Sonnetto 104 del Petrarca</td>
 						</tr>
 						<tr>
@@ -86,8 +112,8 @@
 						<td>Gioachino Rossini</td>
 							<td>"Semiramide" Overture, arr. Czerny, für 16 Pianisten auf 8 Klaviere</td>
 							</tr>
-							<tr>
-						<td>FranzSchubert</td>
+						<tr>
+							<td>Franz Schubert</td>
 							<td>Impromptu Ges-Dur Op.90 Nr.3</td>
 						</tr>
 						<tr>
@@ -95,11 +121,11 @@
 							<td>Impromptu B flat major Op.142 No.3</td>
 						</tr>
 						<tr>
-							<td>R Schumann</td>
+							<td>Robert Schumann</td>
 							<TD>Etudes Symphoniques Op.13</td>
 						</tr>
 						<tr>
-							<td>A.Skrjabin</td>
+							<td>Alexander Skrjabin&nbsp;</td>
 							<td>Sonate Nr.2 Op.19</td>
 						</tr>
  						</table>
@@ -107,12 +133,12 @@
 					<div class="col-lg-4 col-4 col-sm-4">
 					<?php photorightnolink ("m.Grandpiano.jpg","GrandPiano");?>
 					</div>
-				</div>				
+				</div>	
+<br/>				
 				<div class="row">
 					<div class="col-lg-12 col-12 col-sm-12 year">2015</div>
 			</div>	 
-			
-            <div class="row">
+			<div class="row">
                  <div class="col-lg-8 col-8 col-sm-8">
                      <table class="tbl">
 						<tr>
@@ -204,11 +230,14 @@
 					</table>
 				</div>
 				<div class="col-lg-4 col-4 col-sm-4">
-					<?php photorightnolink ("piano2.jpg","Upright Piano");?>
+		<?php photorightlinked("piano6.jpg","Klavier Neumeyer","http://www.lepthien.de/");?>
+				
 				</div>
-				<div class="row">
+				<br class="brclear"/>
+	     	<div class="row">
                  <div class="col-lg-12 col-12 col-sm-12 year">2014</div>
 			</div>	 
+			<br/>
                 <div class="row">
                  <div class="col-lg-8 col-8 col-sm-8">
                      <table class="tbl">
@@ -231,7 +260,7 @@
 					  <td >&quot;Die Lerche&quot; , bearb.von M.Balakire</td>
 					 </tr>
 					 <tr>
-					  <td >Enrique Granados   </td>
+					  <td >Enrique Granados</td>
 					  <td >Das M&auml;dchen und die Nachtigall (aus Goyescas) </td>
 					 </tr> 
 					 <tr>
@@ -283,10 +312,68 @@
 						  </table>
 						</div>
 				  <div class="col-lg-4 col-4 col-sm-4">
-						<?php photorightnolink ("m.spinett.jpg","Spinnet");?>
+						<?php photorightnolink ("virginal.jpg","Virginal");?>
 					</div>
 				</div>
 			</div>
+			
+			 <div class="row">
+                 <div class="col-lg-12 col-12 col-sm-12 year">2011</div>
+			</div>	 
+                <div class="row">
+                 <div class="col-lg-8 col-8 col-sm-8">
+                     <table class="tbl">
+						<tr>
+						<td >Robert Schumann&nbsp;</td>
+						<td>Fantasie C-Dur</td>
+						</tr>
+						<tr>
+						<td rowspan="5">Franz Liszt</td>
+						<td>Sonate H–Moll</td>
+						</tr>
+						<tr>
+						<td>Ungarische Rhapsodie Nr.4</td>
+						</tr>
+						<tr>
+						<td>Liebesträume – Drei Notturnos: Nr.1 As-dur, Nr.2 E-dur, Nr.3 As-dur</td>
+						</tr>
+						
+						<tr>
+						<td>Sonetto del Petrarca aus Annés de pelerinage,Deuxième Année-Italie</td>
+						</tr>
+						<tr>
+						<td>Vallée d'Obermann aus Annés de pelerinage,Première Année-Suisse</td>
+						</tr>
+						
+						</table>
+					</div>
+ <div class="col-lg-4 col-4 col-sm-4">
+						<?php photorightlinked("concert-grand_400.jpg","Yamaha Concert Grand","http://www.gandrremovals.co.uk/");?>
+					</div>
+					</div>					
+			<div class="row">
+             <div class="col-lg-12 col-12 col-sm-12 year">2010</div>
+		</div>	 
+        <div class="row">
+             <div class="col-lg-8 col-8 col-sm-8">
+                <table class="tbl">
+					<tr>
+						<td>Frederic Chopin&nbsp;&nbsp;&nbsp;</td>
+<td>Die 4 Scherzi<br/> die 4 Balladen<br/>
+	Sämtliche Etuden<br/>
+	Die Impromptus<br/>Die Preludes<br/>
+	14 Walzer<br/>Die Barcarolle<br/>Die Fantasie<br/>Die Berceuse<br/>
+	Die 3 Sonaten<br/>
+	Ausgewählte Polonaisen,Mazurken und Nocturnes
+						</td>
+</tr>
+</table>
+	</div>
+	<div>
+	<div class="col-lg-4 col-4 col-sm-4">
+				<?php photorightnolink("BentsideSpinnet.jpg","Bentside Spinnet");?>
+			</div>
+ </div>
 			<div class="row">
 				<div class="col-12">
 					<?php print foot(); ?>
@@ -294,6 +381,9 @@
                </div> <!--row-->
 			</div> <!-- container -->
         </div>   <!-- /#page-content-wrapper -->
+		
+		</div> 
+		
 		<?php print endPage();?>
 		</body>
 </html>

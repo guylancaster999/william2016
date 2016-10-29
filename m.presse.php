@@ -57,7 +57,20 @@ print head("de","presse","presse.php","Y");
 				</ul>
 				 <a href="http://www.badische-zeitung.de/waldkirch/taenzerische-leichtigkeit-und-elegische-momente--80093094.php">Badische Zeitung  28/1/14</a> für mehr.
 				 <br class="brclear"/>
-				 <hr/>
+
+
+		<hr/>
+				<?php photoright("14thMasterclass.jpg","14thMasterclass_120.jpg","Presse", 
+				"14. Meisterkurs :Foto: Eberhard Weiss, Badische%20Zeitung","m.presse.php","de");?> 
+ 				<h3><strong>2013 Meisterkurs</strong></h3>
+						<BR/>
+						Der 14. Meisterkurs mit Professor Peter Feuchtwanger schloss mit einem herausragenden Konzert im Barocksaal des Elztalmuseums.
+						<BR/>
+						Die Japanerin Masako Kamikawa spielte Chopins Rondo in Es-Dur mit Brillanz und Ausdruck.
+						<br/>
+						<BR/>
+						<a href="http://www.badische-zeitung.de/waldkirch/meisterspiel-mit-eigenem-stil--72357409.html">Badische Zeitung 2013</a>
+						<hr/>
  						<h3>Spannende Klangwelten - Sun Yiqi (Violine) und William Cuthbertson (Klavier) im Torhaus. 2012.</h3>
 						<?php photoright("yikisun.jpg","yikisun_240.jpg","Press","William%20Cuthbertson und Sun Yiqi, Photo: Ilona Hüge,Badische-zeitung","presse_e.php","de" );?>
 						 <br/>

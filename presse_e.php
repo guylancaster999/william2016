@@ -98,6 +98,21 @@ print head("en","Press");
 					<br class="brclear" />
 					<br class="brclear" />
 				<HR/>
+				<hr/>
+				<?php photoright("14thMasterclass.jpg","14thMasterclass_120.jpg","Press", 
+				"14. Meisterkurs :Photo Eberhard Weiss, Badische%20Zeitung","presse_e.php","en");?> 
+ 				<h3><strong>2013 Masterclass</strong></h3>
+						<BR/>
+						The 14th Masterclass with Professor Peter Feuchtwanger concluded with an outstanding concert in the Baroque Hall of the Elztal museum,
+						where Japanese Masako Kamikawa played Chopin's Rondo in E flat major with brilliance and expression.
+						<BR/>
+						<BR/>
+						<a href="http://www.badische-zeitung.de/waldkirch/meisterspiel-mit-eigenem-stil--72357409.html">Badische Zeitung</a>
+						<hr/>
+
+				
+				
+				
 					<?php photoright("yikisun_240.jpg","yikisun_240.jpg","Press","William%20Cuthbertson und Sun Yiqi, Photo: Ilona Hüge,Badische-zeitung","presse_e.php","de" );?>
 					<h3>Exciting soundscapes - Concert with William Cuthbertson (piano) and Sun Yiqi (violin) 2012.</h3>
 					HERBOLZHEIM.  The evening in the gatehouse was sold out. No wonder, since the performers were Sun Yiqi (violin) and William Cuthbertson (piano).

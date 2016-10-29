@@ -33,7 +33,7 @@ print head("de","Konzerte");
 				</ul> 
 			</div>
 			<div class="col-md-2">
-				<img src="img/elfenau.jpg"  alt="Elfenau Park"/>
+				<?php photorightnolink("elfenau.jpg","Elfenau Park");?>
 			</div>
 		</div> 
 		<div class="row">
@@ -54,9 +54,7 @@ print head("de","Konzerte");
 			</ul>					
 			</div>
 				<div class="col-md-2">
-					<a href="#" title="Haus Sonneneck">
-					<img src="img/sonneneck.jpg" width="240" alt="Haus Sonneneck"/>
-				</a>
+				<?php photorightnolink("sonneneck.jpg","Haus Sonneneck");?>
 			</div>
 		</div>
 		<div class="row">
@@ -74,7 +72,7 @@ print head("de","Konzerte");
 			</ul>
 		</div>
 		<div class="col-md-2">
-		  <a href="http://www.stbeatus.ch/"><img src="img/stbeatus.jpg" alt="Stiftung St.Beatus"  /></a>
+	<?php photorightlinked("stbeatus.jpg" ,"Stiftung St.Beatus","http://www.stbeatus.ch/");?>
 		</div>
 	</div>
 	<div class="row rgp">
@@ -145,7 +143,7 @@ print head("de","Konzerte");
 				 <br/>
 					 G.Rossini's "Semiramide" Overture, arr. Czerny, für 16 Pianisten auf 8 Klaviere		</b>
 				 Eintritt free. 
-				  Dieser Konzertteil findet im <A href="http://www.lepthien.de/">Pianohaus Lepthien</a> statt (‪Schwarzwaldstraße 9A, 79117 Freiburg im Breisgau‬). 
+				  Dieser Konzertteil findet im Flügelsaal, <A href="http://www.lepthien.de/">Pianohaus Lepthien</a> statt (‪Schwarzwaldstraße 9A, 79117 Freiburg im Breisgau‬). 
 				Für alle Besucher, die beide Veranstaltungen besuchen möchten, wird ein direkter Bustransfer angeboten (von Freiburg nach Waldkirch und zurück, für jeweils ca. 6€). 
 				Voranmeldung dafür bitte per Email an: 
 				<A href="mailto:feuchtwanger-memorial@email.de">feuchtwanger-memorial@email.de</a>.
@@ -162,36 +160,36 @@ print head("de","Konzerte");
 			<br/>Es spielen eh em alige Studenten von Peter Feuchtwanger. 
 		<ul>
 			<li>Joseph Haydn, Adagio F-Dur Hob. XII/9 - <a href="http://susanne-von-laun.de">Susanne von Laun</a></li> 
-			<li>Franz Xaver Mozart, Andantino A-Dur FXWM:41</li>
+			<li>Franz Xaver Mozart, Andantino A-Dur FXWM:41 - <a href="http://susanne-von-laun.de">Susanne von Laun</a></li>
+			<li>Joseph Haydn, Sauschneidercappriccio - Robert Bärwald </li>
 			<li>Peter Feuchtwanger, Variationen - <a href="https://www.facebook.com/lennart.speer">Lennart Speer</a></li>
-			<li>Franz Schubert, Walzer D 779 Nr.1 (1823), Nr.2 Ländler D 366 Nr.3,4 - Agnes Joshi</li>
-			<li>Jean Sibelius, Die Tanne Op.75 Nr.5</LI>
+			<li>Franz Schubert, Walzer D 779 Nr.1 (1823), Nr.2 Ländler D 366 Nr.3,4 - <a href="http://cuthbertson.de/fotoLarge.php?lan=de&album=Konzerte:2016&photoPtr=10&fromUrl=foto.php">Agnes Joshi</a></li>
+			<li>Jean Sibelius, Die Tanne Op.75 Nr.5  - <a href="http://cuthbertson.de/fotoLarge.php?lan=de&album=Konzerte:2016&photoPtr=10&fromUrl=foto.php">Agnes Joshi</a></LI>
 			<LI>Peter Feuchtwanger, Tariqa Nr.2 - <a href="https://www.youtube.com/watch?v=-OONZvd7X6k">Christian Löschke</a></LI>
 			<LI>J.S. Bach, Andante aus dem Klavierkonzert in f-Moll BWV 1056 - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></LI>
-			<li>Friedrich Kuhlau, Rondo C-Dur über Motive aus Mozart's "Don Giovanni"</li>
+			<li>Friedrich Kuhlau, Rondo C-Dur über Motive aus Mozart's "Don Giovanni" - <a href="https://www.facebook.com/daniel.kasparian">Daniel Kasparian</a></li>
 			<li>Peter Feuchtwanger, Study in the Eastern Idiom  Op.3 (Macedonian and Bosnian)- <a href="http://www.masako-kamikawa.com/">Masako Kamikawa</a>.</li>
-			<li>Elisabeth Jaquet de La Guerre Prelude-Allemande-Menuet-Gavotte aus der Suite A-Moll - Anna Roth </LI>
-			<LI>Felix Mendelssohn Bartholdy Fantasie fis-Moll Op.28 Con motto Agitato, Allegro con Moto, Presto - Manfred Seewann </LI>
+			<li>Elisabeth Jaquet de La Guerre Prelude-Allemande-Menuet-Gavotte aus der Suite A-Moll - <a href="http://cuthbertson.de/fotoLarge.php?lan=de&photoPtr=13&fromUrl=foto.php">Anna Roth </a></LI>
+			<LI>Felix Mendelssohn Bartholdy Fantasie fis-Moll Op.28 Con motto Agitato, Allegro con Moto, Presto - <a href="http://cuthbertson.de/fotoLarge.php?lan=de&photoPtr=14&fromUrl=foto.php&copy=">Manfred Seewann</a></li>
 			<LI>Ina Birk, Soniyage - <a href="http://www.ina-birk-klavier.de/">Ina Birk</a></LI>
 			<LI>Giacinto Scelsi, Rotativa - <A href="https://en.wikipedia.org/wiki/Marianne_Schroeder">Marianne Schroeder </a>.</LI>
-			<LI>Frederik Chopin, Nocturne cis-Moll, Op.post - Nina Attorf </LI>
+			<LI>Frederik Chopin, Nocturne cis-Moll, Op.post - <a href="http://cuthbertson.de/fotoLarge.php?lan=de&photoPtr=17&fromUrl=foto.php&copy=">Nina Attorf</a> </LI>
 			<LI>Louis Moreau Gottschalk, La Gallina Op.53, Ojos Criollos, Dance Cubaine	Op.37 - <a href="http://www.blido.de/">Stefan und Fedra Blido</a> </LI>
-			<LI>Laura Netzel, Konzertetüde - <a href="https://femalecomposers.wordpress.com/">Claudia Meinardus-Brehm</a>.</LI>
+			<li>Serge Bortkiewicz, Etüde Des-dur Op. 15, Nr. 8 - <a href="http://cuthbertson.de/fotoLarge.php?lan=de&photoPtr=19&fromUrl=foto.php">Klaus Cutik</a></li>
 			<LI>Franz Liszt, Freudvoll und Leidvoll - <a href="http://www.mezzo-soprano-sophia-grech.co.uk/">Sophia Grech</a>, mezzosoprano und <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic</a>, Klavier </LI>
 			<LI>Benjamin Vanden Heuvel, Aus 4 Short Piano Pieces Nr.3,4 Dirge and American Suite, mit eigener Improvisation - <a href="http://sanjastefanovic.instantencore.com/">Sanja Stefanovic </a></LI>
 			<LI>César Cui, "Causerie" - William Cuthbertson</LI>
 			<LI>Franz Liszt, Consolation Nr.3 in Des Dur - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
-			<LI>L. M. Gottschalk, Souvenirs d'Andalousie</LI>
-			<LI>Manuel de Falla, Feuertanz aus Der Liebeszauber - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
-			<LI>Shura Cherkassky, Prelude Pathétique</LI>
+			<LI>L. M. Gottschalk, Souvenirs d'Andalousie - <a href="https://www.facebook.com/jorritvdham">Jorrit van den Ham</a></LI>
+			<li>Franz Schubert, Polonaisen D599 Nr. 1,2 - <a href="https://de.wikipedia.org/wiki/Paul_Cibis">Paul Cibis</a> und <a href="https://de.wikipedia.org/wiki/Sophie-Mayuko_Vetter">Mayuko Vetter</a>  </li> 
+    		<LI>Manuel de Falla, Feuertanz aus Der Liebeszauber - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
+			<LI>Shura Cherkassky, Prelude Pathétique  - <a href="http://www.achimclemens.de/">Achim Clemens</a></LI>
 			<LI>Ludwig van Beethoven, 6 Bagatellen Op.126, Nr.1,2,3 - <a href="https://de.wikipedia.org/wiki/Jean-Jacques_D%C3%BCnki">Jean Jaques Dünki</a></LI>
-		 	<LI>Robert Schumann, Des Abends</LI>
-			<LI>Adolph von Henselt, Wiegenlied </LI>
-			<LI>Franz Schubert, arr. Leopold Godowsky, Wiegenlied</LI>
-			<LI>David Saperton, Zephyr</LI>
-			<LI>Harry Burleigh arr. Dr. Calvin Taylor, Deep River...</LI>
-			<li>Franz Schubert, Polonaisen D599 Nr. 1,2 - 
-			<a href="https://de.wikipedia.org/wiki/Paul_Cibis">Paul Cibis</a> und <a href="https://de.wikipedia.org/wiki/Sophie-Mayuko_Vetter">Mayuko Vetter</a>  </li> 
+		 	<LI>Robert Schumann, Des Abends - <a href="http://www.andrewkraus.com/">Andrew Kraus</a></LI>
+			<LI>Adolph von Henselt, Wiegenlied  - <a href="http://www.andrewkraus.com/">Andrew Kraus</a></LI>
+			<LI>Franz Schubert, arr. Leopold Godowsky, Wiegenlied - <a href="http://www.andrewkraus.com/">Andrew Kraus</a></LI>
+			<LI>David Saperton, Zephyr - <a href="http://www.andrewkraus.com/">Andrew Kraus</a></LI>
+			<LI>E.Granados - Andaluza and Allegro de Concerto - <a href="https://www.facebook.com/emma.stratton.39"> Emma Stratton</a></LI>
 			</ul>		
 			Eintritt: 12&euro; / 10&euro; ermässigt / 9&euro; Kinder.	
 			Barocksaal des Elztalmuseums in Waldkirch. 
@@ -203,7 +201,6 @@ print head("de","Konzerte");
 	  	<div class="row rgp">
               <div class="col-lg-12 box">2015</div>
 		</div>
-
 		<div class="row rgp">
      		<div class="col-md-2 boldTxt">13. märz<br/>20.30 Uhr </div>
 		    <div class="col-md-8">
@@ -357,7 +354,7 @@ print head("de","Konzerte");
 						<div class="col-md-12 box"> 
 						   2014</div>
 						</div>
-	<div class="row rowBorder">	
+                     <div class="row rowBorder">	
 						<div class="col-md-2 boldTxt"> 
 							Donnerstag 30. Januar<br/> 20.00 Uhr
 						</div>
@@ -381,8 +378,7 @@ print head("de","Konzerte");
 						<a href="https://www.lahnhoehe.de/start/">Klinic lahnhohe</a>,Am Kurpark 1, 56112 Lahnstein, Deutschland. Eintritt frei, Spenden willkommen
 								</div>
 						</div>
-						
-					<div class="row rowBorder">	
+										<div class="row rowBorder">	
 					<div class="col-md-2 boldTxt"> 
 						26. Januar<br/> 10.30 Uhr
 					</div>
@@ -746,9 +742,20 @@ print head("de","Konzerte");
 						<div class="col-md-8">
 							<div class="boldTxt">
 								<a href="doc/FlyerLiszt2011992_William.pdf">Liszt Konzerte</a>
+							</div>
+						<ul>
+						<li>Robert Schumann, Fantasie C-Dur</li>
+						<li>Franz Liszt, Sonate h–Moll</li>
+						<li>Franz Liszt, Ungarische Rhapsodie Nr.4</li>
+						<li>Franz Liszt, Liebesträume – Drei Notturnos: Nr.1 As-dur, Nr.2 E-dur, Nr.3 As-dur</li>
+						<li>Franz Liszt,  Sonetto del Petrarca aus Annés de pelerinage, Deuxième Année - Italie</li>
+						<li>Franz Liszt, Vallée d'Obermann aus Annés de pelerinage, Première Année - Suisse</li>
+				</ul>
+				</div>
+						<div class="col-md-2">
 						</div>
-						Elztalmuseum, Orgelstiung. Gemeindezentrum St.Margarethen, Waldkirch. 
-						</div>
+
+
 						</div>
 						<div class="row rowBorder">	
      					<div class="col-md-12 box"> 2010</div>
@@ -761,8 +768,20 @@ print head("de","Konzerte");
 						<div class="boldTxt">
 							<a href="doc/FlyerChopin.pdf">Chopin Konzerte</a>
 						</div>	
-						Orgelstiftung, Elztalmuseum, Gemeindezentrum St. Margarethen, Waldkirch
-						</div>	
+						Orgelstiftung, Elztalmuseum, Gemeindezentrum St. Margarethen, Waldkirch.
+						<ul>
+						<li>Die 4 Scherzi, die 4 Balladen</li>
+						<li>Sämtliche Etuden</li>
+						<li>Die Impromptus, die Preludes</li>
+						<li>14 Walzer, die Barcarolle,die Fantasie, die Berceuse</li>
+						<li>Die 3 Sonaten</li>
+						<li>Ausgewählte Polonaisen,Mazurken und Nocturnes</li>
+						
+						</ul>
+						</div>
+						<div class="col-md-2">
+					</div>
+						
 						</div>	
 						
 						<?php print foot();?>
